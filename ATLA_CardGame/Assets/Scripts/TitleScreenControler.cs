@@ -10,23 +10,26 @@ public class TitleScreenController : MonoBehaviour
     [SerializeField] public Image avatarLogo;
     [SerializeField] public TextMeshProUGUI cardGameText;
     [SerializeField] public TextMeshProUGUI clickToBeginText;
+    [SerializeField] public Image backgroundImage;
 
-    private bool animationsCompleted = false;
+    private bool isClickable = true;
 
     private void Start()
     {
-        StartCoroutine(Animations());
+        backgroundImage.color = Color.black;
+        StartCoroutine(StartAnimations());
     }
 
     private void Update()
     {
-        if (animationsCompleted && (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)))
+        if (isClickable && (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)))
         {
-            SceneManager.LoadScene("MenuScene");
+            isClickable = false;
+            MainScreenAnimation();
         }
     }
 
-    private IEnumerator Animations()
+    private IEnumerator StartAnimations()
     {
         LeanTween.alpha(avatarLogo.GetComponent<RectTransform>(), 1f, 1f);
         LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(1f, 1f, 1f), 1.5f)
@@ -48,7 +51,33 @@ public class TitleScreenController : MonoBehaviour
             .setLoopPingPong();
 
         yield return new WaitForSeconds(2.5f);
-        animationsCompleted = true;
+        isClickable = true;
+    }
+
+    private void MainScreenAnimation()
+    {
+        LeanTween.cancel(clickToBeginText.gameObject);
+        LeanTween.alphaText(clickToBeginText.rectTransform, 0f, 0.2f).setOnComplete(() =>
+        { 
+            clickToBeginText.gameObject.SetActive(false);
+        });
+
+
+        LeanTween.moveLocal(avatarLogo.gameObject, new Vector3(0.0118469996f, 180f, 0f), 1f);
+        LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(0.6f, 0.6f, 0.6f), 1f);
+
+        LeanTween.moveLocal(cardGameText.gameObject, new Vector3(-63f, 88f, 0f), 1f);
+        LeanTween.scale(cardGameText.GetComponent<RectTransform>(), new Vector3(0.6f, 0.6f, 0.6f), 1f);
+
+        LeanTween.color(avatarLogo.rectTransform, Color.black, 1f);
+        LeanTween.value(gameObject, cardGameText.color, Color.black, 1f)
+            .setOnUpdate((Color color) =>
+            {
+                cardGameText.color = color;
+            });
+
+
+        LeanTween.color(backgroundImage.rectTransform, Color.white, 1f).setEase(LeanTweenType.easeInCirc);
     }
 
     private Color SetAlpha(Color color, float alpha)

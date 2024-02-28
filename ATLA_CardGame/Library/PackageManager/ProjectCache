@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638443249645576421
-    m_Hash: 1511143955
+      ticks: 638444058969242697
+    m_Hash: 2707892163
   m_LockFileStatus:
     m_FilePath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638443249645636421
-    m_Hash: 377505042
+      ticks: 638444058969312666
+    m_Hash: 2407121057
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
