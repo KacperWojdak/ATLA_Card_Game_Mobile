@@ -92,53 +92,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/MenuScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 18016}
-    - Class: 114
-      Script: {instanceID: 18290}
-    - Class: 114
-      Script: {instanceID: 21352}
-    - Class: 114
-      Script: {instanceID: 22104}
-    - Class: 114
-      Script: {instanceID: 22338}
-    - Class: 114
-      Script: {instanceID: 22772}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/TitleScreen.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -159,27 +112,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16682}
+      Script: {instanceID: 16680}
     - Class: 114
-      Script: {instanceID: 17446}
+      Script: {instanceID: 17444}
     - Class: 114
-      Script: {instanceID: 17928}
+      Script: {instanceID: 17926}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 18014}
     - Class: 114
-      Script: {instanceID: 18290}
+      Script: {instanceID: 18288}
     - Class: 114
-      Script: {instanceID: 20054}
+      Script: {instanceID: 20052}
     - Class: 114
-      Script: {instanceID: 20388}
+      Script: {instanceID: 20386}
     - Class: 114
-      Script: {instanceID: 21352}
+      Script: {instanceID: 21350}
     - Class: 114
-      Script: {instanceID: 22104}
+      Script: {instanceID: 22102}
     - Class: 114
-      Script: {instanceID: 22338}
+      Script: {instanceID: 22336}
     - Class: 114
-      Script: {instanceID: 22772}
+      Script: {instanceID: 22770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -187,8 +140,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -369,7 +320,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 942bc68f342a34084d3227b5cf4e7262
+      Hash: b5371e3eca3668255e11b96f00ebec39
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TitleScreenController
@@ -1438,5 +1389,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
-  - Assets/Scenes/MenuScene.unity
-  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Atla 0.1.apk
+  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Atla 0.2.apk
