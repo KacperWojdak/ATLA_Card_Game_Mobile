@@ -61,9 +61,11 @@ public class TitleScreenController : MonoBehaviour
         { 
             clickToBeginText.gameObject.SetActive(false);
         });
+          
+        SetTopCenterAnchors(avatarLogo.rectTransform, new Vector2(0f, 180f));
+        SetTopCenterAnchors(cardGameText.rectTransform, new Vector2(-63f, 88f));
 
-
-        LeanTween.moveLocal(avatarLogo.gameObject, new Vector3(0.0118469996f, 180f, 0f), 1f);
+        LeanTween.moveLocal(avatarLogo.gameObject, new Vector3(0f, 180f, 0f), 1f);
         LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(0.6f, 0.6f, 0.6f), 1f);
 
         LeanTween.moveLocal(cardGameText.gameObject, new Vector3(-63f, 88f, 0f), 1f);
@@ -76,13 +78,22 @@ public class TitleScreenController : MonoBehaviour
                 cardGameText.color = color;
             });
 
-
         LeanTween.color(backgroundImage.rectTransform, Color.white, 1f).setEase(LeanTweenType.easeInCirc);
+
+        LeanTween.delayedCall(1f, () =>
+        {
+        });
     }
 
     private Color SetAlpha(Color color, float alpha)
     {
         color.a = alpha;
         return color;
+    }
+
+    private void SetTopCenterAnchors(RectTransform rectTransform, Vector2 endPosition)
+    {
+        rectTransform.anchorMin = new Vector2(0.5f, 1f);
+        rectTransform.anchorMax = new Vector2(0.5f, 1f);
     }
 }
