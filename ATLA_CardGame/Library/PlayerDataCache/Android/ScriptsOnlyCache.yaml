@@ -1386,4 +1386,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
-  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Atla 0.2.apk
+  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Builds/Atla 0.2.apk
