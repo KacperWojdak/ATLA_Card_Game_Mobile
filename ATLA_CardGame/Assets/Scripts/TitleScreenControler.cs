@@ -7,10 +7,13 @@ using UnityEngine.UI;
 
 public class TitleScreenController : MonoBehaviour
 {
-    [SerializeField] public Image avatarLogo;
-    [SerializeField] public TextMeshProUGUI cardGameText;
-    [SerializeField] public TextMeshProUGUI clickToBeginText;
-    [SerializeField] public Image backgroundImage;
+    [SerializeField] private Image avatarLogo;
+    [SerializeField] private TextMeshProUGUI cardGameText;
+    [SerializeField] private TextMeshProUGUI clickToBeginText;
+    [SerializeField] private Image backgroundImage;
+                      
+    [SerializeField] private GameObject menuPanel;
+    private bool menuAnimated = false;
 
     private bool isClickable = true;
 
@@ -18,40 +21,16 @@ public class TitleScreenController : MonoBehaviour
     {
         backgroundImage.color = Color.black;
         StartCoroutine(StartAnimations());
+        menuPanel.SetActive(false);
+        isClickable = false;
     }
 
     private void Update()
     {
         if (isClickable && (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)))
         {
-            isClickable = false;
             MainScreenAnimation();
         }
-    }
-
-    private IEnumerator StartAnimations()
-    {
-        LeanTween.alpha(avatarLogo.GetComponent<RectTransform>(), 1f, 1f);
-        LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(1f, 1f, 1f), 1.5f)
-            .setEase(LeanTweenType.easeOutBack);
-
-        LeanTween.value(gameObject, 0f, 1f, 1f)
-            .setDelay(1.5f)
-            .setOnUpdate((float alpha) =>
-            {
-                cardGameText.color = SetAlpha(cardGameText.color, alpha);
-            });
-
-        LeanTween.value(gameObject, 0f, 1f, .7f)
-            .setDelay(2.2f)
-            .setOnUpdate((float alpha) =>
-            {
-                clickToBeginText.color = SetAlpha(clickToBeginText.color, alpha);
-            })
-            .setLoopPingPong();
-
-        yield return new WaitForSeconds(2.5f);
-        isClickable = true;
     }
 
     private void MainScreenAnimation()
@@ -80,20 +59,66 @@ public class TitleScreenController : MonoBehaviour
 
         LeanTween.color(backgroundImage.rectTransform, Color.white, 1f).setEase(LeanTweenType.easeInCirc);
 
-        LeanTween.delayedCall(1f, () =>
+        LeanTween.delayedCall(gameObject, 1f, () =>
         {
+            MenuAnimation();
         });
-    }
-
-    private Color SetAlpha(Color color, float alpha)
-    {
-        color.a = alpha;
-        return color;
     }
 
     private void SetTopCenterAnchors(RectTransform rectTransform, Vector2 endPosition)
     {
         rectTransform.anchorMin = new Vector2(0.5f, 1f);
         rectTransform.anchorMax = new Vector2(0.5f, 1f);
+    }
+
+    private IEnumerator StartAnimations()
+    {
+        LeanTween.alpha(avatarLogo.GetComponent<RectTransform>(), 1f, 1f);
+        LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(1f, 1f, 1f), 1.5f)
+            .setEase(LeanTweenType.easeOutBack);
+
+        LeanTween.value(gameObject, 0f, 1f, 1f)
+            .setDelay(1.5f)
+            .setOnUpdate((float alpha) =>
+            {
+                cardGameText.color = SetAlpha(cardGameText.color, alpha);
+            });
+
+        LeanTween.value(gameObject, 0f, 1f, .7f)
+            .setDelay(2.2f)
+            .setOnUpdate((float alpha) =>
+            {
+                clickToBeginText.color = SetAlpha(clickToBeginText.color, alpha);
+                isClickable = true;
+            })
+            .setLoopPingPong();
+
+        yield return new WaitForSeconds(2.5f);
+    }
+
+    private void MenuAnimation()
+    {
+        if (!menuAnimated)
+        {
+            menuPanel.SetActive(true);
+            CanvasGroup canvasGroup = menuPanel.GetComponent<CanvasGroup>();
+
+            if (canvasGroup == null)
+                {
+                    canvasGroup = menuPanel.AddComponent<CanvasGroup>();
+                }
+
+            canvasGroup.alpha = 0;
+
+            LeanTween.alphaCanvas(canvasGroup, 1f, 1f).setEase(LeanTweenType.easeInOutQuad);
+        }
+
+        menuAnimated = true;
+    }
+
+    private Color SetAlpha(Color color, float alpha)
+    {
+        color.a = alpha;
+        return color;
     }
 }
