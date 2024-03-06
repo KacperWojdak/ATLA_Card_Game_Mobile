@@ -29,14 +29,12 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.RandomBrush
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
-    Unity.AdaptivePerformance.Samsung.Android.Editor.dll:
-    - UnityEditor.AdaptivePerformance.Samsung.Android.Editor.SamsungAndroidProviderSettingsEditor
+    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceManagerSettingsEditor
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
     Unity.AdaptivePerformance.Simulator.Editor.dll:
     - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
-    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettingsEditor
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -68,7 +66,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.Toggle
   serializedClasses:
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
@@ -111,10 +111,14 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: AuthManager
     methodName: ShowRegisterPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: TitleScreenController
+    methodName: ToggleBackground
   - assembly: Assembly-CSharp
     fullTypeName: AuthManager
     methodName: ShowLoginPanel
@@ -136,6 +140,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -144,6 +150,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16828}
     - Class: 114
       Script: {instanceID: 17444}
+    - Class: 114
+      Script: {instanceID: 17622}
     - Class: 114
       Script: {instanceID: 17926}
     - Class: 114
@@ -161,6 +169,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21092}
     - Class: 114
+      Script: {instanceID: 21172}
+    - Class: 114
       Script: {instanceID: 21350}
     - Class: 114
       Script: {instanceID: 22102}
@@ -169,7 +179,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22770}
     - Class: 114
-      Script: {instanceID: 26708}
+      Script: {instanceID: 24526}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,6 +195,10 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -357,7 +371,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 77edc25ff56a2a2615983144e2cf7585
+      Hash: d371ecb7f82b4320fe282ca15edd5494
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TitleScreenController
@@ -1329,6 +1343,12 @@ ScriptsOnlyBuild:
     className: SpriteLibraryAsset
   - hash:
       serializedVersion: 2
+      Hash: 115c6414f6cd865265d6cf740f94891d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AuthManager
+  - hash:
+      serializedVersion: 2
       Hash: 3324a70611b197df9927d1019ae24ce4
     assemblyName: Unity.2D.PixelPerfect
     namespaceName: UnityEngine.U2D
@@ -1423,13 +1443,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 115c6414f6cd865265d6cf740f94891d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AuthManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
-  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Builds/Atla 0.2.apk
+  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Builds/Atla 0.3.apk
