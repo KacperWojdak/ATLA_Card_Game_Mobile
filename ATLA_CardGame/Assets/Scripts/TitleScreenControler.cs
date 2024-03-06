@@ -1,81 +1,57 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class TitleScreenController : MonoBehaviour
 {
     [SerializeField] private Image avatarLogo;
+    [SerializeField] private Image backgroundImage;
+
     [SerializeField] private TextMeshProUGUI cardGameText;
     [SerializeField] private TextMeshProUGUI clickToBeginText;
-    [SerializeField] private Image backgroundImage;
-                      
-    [SerializeField] private GameObject menuPanel;
-    private bool menuAnimated = false;
 
+    [SerializeField] private GameObject menuPanel;
+    [SerializeField] private GameObject avatarMainScreenBlack;
+    [SerializeField] private GameObject avatarMainScreenWhite;
+    [SerializeField] private GameObject toggleBackground;
+
+    [SerializeField] private VideoPlayer avatarVideo;
+
+    private bool menuAnimated = false;
     private bool isClickable = true;
+    private bool mainAnimationCompleted = false;
+    private RectTransform avatarLogoRect;
 
     private void Start()
     {
-        backgroundImage.color = Color.black;
+        InitiateUI();
         StartCoroutine(StartAnimations());
-        menuPanel.SetActive(false);
-        isClickable = false;
     }
 
     private void Update()
     {
-        if (isClickable && (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)))
+        if (!mainAnimationCompleted && isClickable && (Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)))
         {
-            MainScreenAnimation();
+            StartMainScreenAnimation();
         }
     }
 
-    private void MainScreenAnimation()
+    private void InitiateUI()
     {
-        LeanTween.cancel(clickToBeginText.gameObject);
-        LeanTween.alphaText(clickToBeginText.rectTransform, 0f, 0.2f).setOnComplete(() =>
-        { 
-            clickToBeginText.gameObject.SetActive(false);
-        });
-          
-        SetTopCenterAnchors(avatarLogo.rectTransform, new Vector2(0f, 180f));
-        SetTopCenterAnchors(cardGameText.rectTransform, new Vector2(-63f, 88f));
-
-        LeanTween.moveLocal(avatarLogo.gameObject, new Vector3(0f, 180f, 0f), 1f);
-        LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(0.6f, 0.6f, 0.6f), 1f);
-
-        LeanTween.moveLocal(cardGameText.gameObject, new Vector3(-63f, 88f, 0f), 1f);
-        LeanTween.scale(cardGameText.GetComponent<RectTransform>(), new Vector3(0.6f, 0.6f, 0.6f), 1f);
-
-        LeanTween.color(avatarLogo.rectTransform, Color.black, 1f);
-        LeanTween.value(gameObject, cardGameText.color, Color.black, 1f)
-            .setOnUpdate((Color color) =>
-            {
-                cardGameText.color = color;
-            });
-
-        LeanTween.color(backgroundImage.rectTransform, Color.white, 1f).setEase(LeanTweenType.easeInCirc);
-
-        LeanTween.delayedCall(gameObject, 1f, () =>
-        {
-            MenuAnimation();
-        });
-    }
-
-    private void SetTopCenterAnchors(RectTransform rectTransform, Vector2 endPosition)
-    {
-        rectTransform.anchorMin = new Vector2(0.5f, 1f);
-        rectTransform.anchorMax = new Vector2(0.5f, 1f);
+        backgroundImage.color = Color.black;
+        menuPanel.SetActive(false);
+        isClickable = false;
+        avatarMainScreenBlack.SetActive(false);
+        avatarLogoRect = avatarLogo.GetComponent<RectTransform>();
+        toggleBackground.SetActive(false);
     }
 
     private IEnumerator StartAnimations()
     {
-        LeanTween.alpha(avatarLogo.GetComponent<RectTransform>(), 1f, 1f);
-        LeanTween.scale(avatarLogo.GetComponent<RectTransform>(), new Vector3(1f, 1f, 1f), 1.5f)
-            .setEase(LeanTweenType.easeOutBack);
+        LeanTween.alpha(avatarLogoRect, 1f, 1f);
+        LeanTween.scale(avatarLogoRect, Vector3.one, 1.5f).setEase(LeanTweenType.easeOutBack);
 
         LeanTween.value(gameObject, 0f, 1f, 1f)
             .setDelay(1.5f)
@@ -96,7 +72,26 @@ public class TitleScreenController : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
     }
 
-    private void MenuAnimation()
+    private void StartMainScreenAnimation()
+    {
+        SetActiveElements(false);
+
+        toggleBackground.SetActive(true);
+        avatarMainScreenWhite.SetActive(true);
+        avatarVideo.gameObject.SetActive(true);
+        avatarVideo.Play();
+
+        LeanTween.color(backgroundImage.rectTransform, Color.white, 1f).setEase(LeanTweenType.easeInCirc);
+
+        LeanTween.delayedCall(gameObject, 1f, () =>
+        {
+            StartMenuAnimation();
+        });
+
+        mainAnimationCompleted = true;
+    }
+
+    private void StartMenuAnimation()
     {
         if (!menuAnimated)
         {
@@ -109,16 +104,53 @@ public class TitleScreenController : MonoBehaviour
                 }
 
             canvasGroup.alpha = 0;
-
             LeanTween.alphaCanvas(canvasGroup, 1f, 1f).setEase(LeanTweenType.easeInOutQuad);
         }
-
         menuAnimated = true;
+    }
+
+    private void SetActiveElements(bool isActive)
+    {
+        avatarLogo.gameObject.SetActive(isActive);
+        cardGameText.gameObject.SetActive(isActive);
+        clickToBeginText.gameObject.SetActive(isActive);
+        avatarMainScreenBlack.SetActive(isActive);
+
+        if (!isActive) CancelTweens(avatarLogo.gameObject, cardGameText.gameObject, clickToBeginText.gameObject);
+    }
+
+    public void ToggleBackground()
+    {
+        if (avatarVideo.gameObject.activeSelf)
+        {
+            avatarVideo.Stop();
+            avatarVideo.gameObject.SetActive(false);
+
+            avatarMainScreenWhite.SetActive(false);
+            avatarMainScreenBlack.SetActive(true);
+        }
+        else
+        {
+            avatarVideo.gameObject.SetActive(true);
+            avatarVideo.Play();
+
+            avatarMainScreenWhite.SetActive(true);
+            avatarMainScreenBlack.SetActive(false);
+        }
+        mainAnimationCompleted = true;
     }
 
     private Color SetAlpha(Color color, float alpha)
     {
         color.a = alpha;
         return color;
+    }
+
+    private void CancelTweens(params GameObject[] objects)
+    {
+        foreach (var obj in objects)
+        {
+            LeanTween.cancel(obj);
+        }
     }
 }
