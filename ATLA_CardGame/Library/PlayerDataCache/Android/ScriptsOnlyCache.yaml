@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AuthManager
     - TitleScreenController
-    - VideoController
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
@@ -30,12 +29,17 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.RandomBrush
     Unity.AdaptivePerformance.Editor.dll:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceGeneralSettingsPerBuildTarget
+    - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceManagerSettingsEditor
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -57,7 +61,6 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.AspectRatioFitter
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -172,15 +175,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22102}
     - Class: 114
-      Script: {instanceID: 22232}
-    - Class: 114
       Script: {instanceID: 22336}
     - Class: 114
       Script: {instanceID: 22770}
     - Class: 114
-      Script: {instanceID: 25284}
-    - Class: 114
-      Script: {instanceID: 66374}
+      Script: {instanceID: 24526}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1344,6 +1343,12 @@ ScriptsOnlyBuild:
     className: SpriteLibraryAsset
   - hash:
       serializedVersion: 2
+      Hash: 115c6414f6cd865265d6cf740f94891d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AuthManager
+  - hash:
+      serializedVersion: 2
       Hash: 3324a70611b197df9927d1019ae24ce4
     assemblyName: Unity.2D.PixelPerfect
     namespaceName: UnityEngine.U2D
@@ -1438,18 +1443,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 115c6414f6cd865265d6cf740f94891d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AuthManager
-  - hash:
-      serializedVersion: 2
-      Hash: 265663894d1d73a1b2e2143d251c2035
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: VideoController
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity

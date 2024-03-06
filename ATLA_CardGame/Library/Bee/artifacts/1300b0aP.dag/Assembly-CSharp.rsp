@@ -348,7 +348,6 @@
 "Assets/LeanTween/Testing/TestingSequencer.cs"
 "Assets/Scripts/AuthManager.cs"
 "Assets/Scripts/TitleScreenControler.cs"
-"Assets/Scripts/VideoController.cs"
 -langversion:9.0
 
 /deterministic
