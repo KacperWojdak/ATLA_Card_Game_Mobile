@@ -119,6 +119,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
@@ -330,6 +331,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
@@ -361,6 +363,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Burst.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Collections.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ForUI.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InternalAPIEditorBridge.005.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
@@ -372,7 +376,17 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Notifications.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Profiling.Core.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipeline.Universal.ShaderLibrary.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.Core.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.Core.ShaderLibrary.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.Universal.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.RenderPipelines.Universal.Shaders.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Searcher.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.ShaderGraph.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Timeline.Editor.ref.dll"
