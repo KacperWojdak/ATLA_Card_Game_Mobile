@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class AuthManager : MonoBehaviour
 {
@@ -38,5 +39,10 @@ public class AuthManager : MonoBehaviour
 
         usernameInput.text = "Username:";
         passwordInput.text = "Password:";
+    }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("MenuScene");
     }
 }

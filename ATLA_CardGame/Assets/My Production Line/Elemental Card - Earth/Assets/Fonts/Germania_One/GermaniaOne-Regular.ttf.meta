@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ec4ce33984b69744680671dc5479bfd8
+timeCreated: 1510140794
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Germania One
+  fontNames:
+  - Germania One
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a3adb032420f731408e28c55359463ec, type: 3}
+  - {fileID: 12800000, guid: d9bcd0bb9edabe64ebc04052f0999e5c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
