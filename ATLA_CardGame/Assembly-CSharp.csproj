@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingDescr.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingSequencer.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
