@@ -17,8 +17,20 @@ public class AuthManager : MonoBehaviour
     [SerializeField] private TMP_InputField registerusernameInput;
     [SerializeField] private TMP_InputField registerPasswordInput;
 
+    [SerializeField] private LoadingScreenControler loadingScreenControler;
+
     private void Start()
     {
+        if (!loadingScreenControler)
+        {
+            loadingScreenControler = FindObjectOfType<LoadingScreenControler>();
+
+            if (!loadingScreenControler)
+            {
+                Debug.LogWarning("LoadingScreenControler not found.");
+            }
+        }
+
         ShowLoginPanel();
     }
 
@@ -43,6 +55,13 @@ public class AuthManager : MonoBehaviour
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene("MenuScene");
+        if (loadingScreenControler)
+        {
+            loadingScreenControler.StartLoadingSequence();
+        }
+        else
+        {
+            Debug.LogWarning("LoadingScreenControler not assigned.");
+        }
     }
 }
