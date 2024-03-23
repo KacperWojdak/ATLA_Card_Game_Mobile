@@ -15,7 +15,7 @@ C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55881
+52081
 Successfully changed project path to: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
 C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2959839893 [EditorId] 2959839893 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [272] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2437191430 [EditorId] 2437191430 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22332] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2959839893 [EditorId] 2959839893 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [272] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2437191430 [EditorId] 2437191430 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 28.42 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 31.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.3f1 (7cdc2969a641)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.020529 seconds.
-- Loaded All Assemblies, in  0.505 seconds
+Registered in 0.020670 seconds.
+- Loaded All Assemblies, in  0.700 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 288 ms
+Android Extension - Scanning For ADB Devices 767 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.631 seconds
-Domain Reload Profiling: 1132ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  1.518 seconds
+Domain Reload Profiling: 2214ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (92ms)
-	LoadAllAssembliesAndSetupDomain (189ms)
-		LoadAssemblies (150ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (247ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (177ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (217ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (631ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (1519ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (1416ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (419ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (945ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (97ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (314ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,10 @@ Domain Reload Profiling: 1132ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.266 seconds
-Refreshing native plugins compatible for Editor in 12.29 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.016 seconds
+Refreshing native plugins compatible for Editor in 10.73 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -132,171 +134,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.068 seconds
-Domain Reload Profiling: 2324ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 1964ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (937ms)
-		LoadAssemblies (486ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (759ms)
+		LoadAssemblies (396ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (528ms)
-			TypeCache.Refresh (468ms)
-				TypeCache.ScanAssembly (442ms)
-			ScanForSourceGeneratedMonoScriptInfo (47ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1069ms)
+		AnalyzeDomain (424ms)
+			TypeCache.Refresh (377ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (36ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (957ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (798ms)
+		SetupLoadedEditorAssemblies (736ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (484ms)
-			ProcessInitializeOnLoadMethodAttributes (113ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 19.96 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6270 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 112 unused Assets / (0.8 MB). Loaded Objects now: 6721.
-Memory consumption went from 224.3 MB to 223.5 MB.
-Total: 8.245400 ms (FindLiveObjects: 0.657600 ms CreateObjectMapping: 0.808400 ms MarkObjects: 6.138300 ms  DeleteObjects: 0.639500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 5891.636581 seconds.
-  path: Assets/Fonts/Herculanum-Regular SDF.asset
-  artifactKey: Guid(ced350915d934ca4d95401a5d05fb9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Herculanum-Regular SDF.asset using Guid(ced350915d934ca4d95401a5d05fb9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feee283337b6595456169ed60900e909') in 0.455734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.067212 seconds.
-  path: Assets/Images/ATLA_LogoBlack.png
-  artifactKey: Guid(05859c7eb72ce3c4fa1488300ddd4257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/ATLA_LogoBlack.png using Guid(05859c7eb72ce3c4fa1488300ddd4257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94be183da256eb1b392c5e7fcc1214c4') in 0.071959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Images/ATLA_LogoWhite.png
-  artifactKey: Guid(c4b9e58533a2b0f48855ec9193db4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/ATLA_LogoWhite.png using Guid(c4b9e58533a2b0f48855ec9193db4e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01472c4214591210ba2c501bc39d5804') in 0.045077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Images/paper_scroll2.png
-  artifactKey: Guid(3f22d08b598f33e46ae9bffbf7eb2b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/paper_scroll2.png using Guid(3f22d08b598f33e46ae9bffbf7eb2b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e57bd4eba35d42d1c527903b8837ab9') in 0.044513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Images/map.jpg
-  artifactKey: Guid(808681b3d17211841a314964a0221205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/map.jpg using Guid(808681b3d17211841a314964a0221205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41c857959925ec0667dc5176453b88b') in 0.076077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Images/wallpaper.jpg
-  artifactKey: Guid(d6bec5c8a7ef022428d80fd43ccd822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/wallpaper.jpg using Guid(d6bec5c8a7ef022428d80fd43ccd822f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61836316c1291609656ad0f8d40d9a4') in 0.073346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.981187 seconds.
-  path: Assets/Video/VideoRender.renderTexture
-  artifactKey: Guid(a85da201ad1bfcf43bf38348ac03a49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Video/VideoRender.renderTexture using Guid(a85da201ad1bfcf43bf38348ac03a49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4129d201f8dd4e30d2cfa0edbd8a3af') in 0.036739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.341 seconds
-Refreshing native plugins compatible for Editor in 46.76 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in 16.594 seconds
-Domain Reload Profiling: 18921ms
-	BeginReloadAssembly (278ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (30ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (74ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (1937ms)
-		LoadAssemblies (1015ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (995ms)
-			TypeCache.Refresh (959ms)
-				TypeCache.ScanAssembly (924ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (16595ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (850ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
+			InitializePlatformSupportModulesInManaged (27ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (151ms)
-			ProcessInitializeOnLoadAttributes (530ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 19.08 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 11.79 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6288 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6899.
-Memory consumption went from 207.2 MB to 206.4 MB.
-Total: 7.936500 ms (FindLiveObjects: 0.624100 ms CreateObjectMapping: 1.171300 ms MarkObjects: 5.552300 ms  DeleteObjects: 0.587400 ms)
+Unloading 6272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 112 unused Assets / (0.8 MB). Loaded Objects now: 6724.
+Memory consumption went from 225.1 MB to 224.3 MB.
+Total: 4.721300 ms (FindLiveObjects: 0.557500 ms CreateObjectMapping: 0.615900 ms MarkObjects: 3.159100 ms  DeleteObjects: 0.387900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -308,11 +187,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 5cbfef94068c135d924510ee83bf661f -> 1e0584f55cfd8619f5d245f2c6452f38
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.487 seconds
-Refreshing native plugins compatible for Editor in 16.84 ms, found 4 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.176 seconds
+Refreshing native plugins compatible for Editor in 19.47 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -322,875 +204,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.258 seconds
-Domain Reload Profiling: 3732ms
-	BeginReloadAssembly (273ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (1069ms)
-		LoadAssemblies (565ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (579ms)
-			TypeCache.Refresh (558ms)
-				TypeCache.ScanAssembly (536ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (2259ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (870ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (46ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (167ms)
-			ProcessInitializeOnLoadAttributes (512ms)
-			ProcessInitializeOnLoadMethodAttributes (121ms)
-			AfterProcessingInitializeOnLoad (17ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 18.33 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6288 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6903.
-Memory consumption went from 207.3 MB to 206.5 MB.
-Total: 8.488700 ms (FindLiveObjects: 0.772900 ms CreateObjectMapping: 0.780600 ms MarkObjects: 6.502700 ms  DeleteObjects: 0.431800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 247.702314 seconds.
-  path: Assets/EasyCardGame/Scenes/Game
-  artifactKey: Guid(97eeab0cd0e336044b5dfcae4119133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scenes/Game using Guid(97eeab0cd0e336044b5dfcae4119133f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e11b6538310df39d1a4c1defd63c63e') in 0.007041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.038657 seconds.
-  path: Assets/EasyCardGame/Scenes/Game/LightingData.asset
-  artifactKey: Guid(a33ec637f991a964aaf6d6cc0f67601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scenes/Game/LightingData.asset using Guid(a33ec637f991a964aaf6d6cc0f67601d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1267511ec57430c6554402cfe5a7d1') in 0.024794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/EasyCardGame/Scenes/Game/ReflectionProbe-0.exr
-  artifactKey: Guid(778e5f39c006c1c43b3380c20abfc213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scenes/Game/ReflectionProbe-0.exr using Guid(778e5f39c006c1c43b3380c20abfc213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcbacc8f7978d5a373b005b6b2b622a') in 0.095809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.954097 seconds.
-  path: Assets/EasyCardGame/Scenes/GameSettings.lighting
-  artifactKey: Guid(8f6b730a95834654b934b1a243501b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scenes/GameSettings.lighting using Guid(8f6b730a95834654b934b1a243501b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 2.
- -> (artifact id: '26db20435219e5e748eff1ac36c2e580') in 0.001463 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.223716 seconds.
-  path: Assets/EasyCardGame/AnimationDatas/CardColorAnimationData.asset
-  artifactKey: Guid(b5cd917a9ec4f614a9056aa475bd40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/AnimationDatas/CardColorAnimationData.asset using Guid(b5cd917a9ec4f614a9056aa475bd40fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033674078de232319958a469dd745880') in 0.001878 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EasyCardGame/AnimationDatas/PlacementAnimationData.asset
-  artifactKey: Guid(d7977eb1a0c940e4685875fa06188237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/AnimationDatas/PlacementAnimationData.asset using Guid(d7977eb1a0c940e4685875fa06188237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f18ae5aa9eacd78ce636cdbbc99ee46') in 0.001764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.734623 seconds.
-  path: Assets/EasyCardGame/AnimationDatas/Layouts
-  artifactKey: Guid(d26f3d591e3c0de4ba75c65aacd3bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/AnimationDatas/Layouts using Guid(d26f3d591e3c0de4ba75c65aacd3bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7434be2fe0eaca5b361ad18a511812c6') in 0.000530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.071911 seconds.
-  path: Assets/EasyCardGame/AnimationDatas/Layouts/DeckDefaultLayoutAnimationData.asset
-  artifactKey: Guid(d9b789396be0b12419221bdd69f7d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/AnimationDatas/Layouts/DeckDefaultLayoutAnimationData.asset using Guid(d9b789396be0b12419221bdd69f7d23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a967619d91b0ac04085557395aa7db5') in 0.001982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/EasyCardGame/AnimationDatas/Layouts/TableDefaultLayoutAnimationData.asset
-  artifactKey: Guid(1b7b10ab209be8d4fafc2f721ca52c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/AnimationDatas/Layouts/TableDefaultLayoutAnimationData.asset using Guid(1b7b10ab209be8d4fafc2f721ca52c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e0ba55e955baa85190796cfdc83344') in 0.001166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 3.551512 seconds.
-  path: Assets/EasyCardGame/Arts/Animations
-  artifactKey: Guid(c352d32a1c74f814fad4abb30cdf2279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations using Guid(c352d32a1c74f814fad4abb30cdf2279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ca587232e24964932a22e196d76310') in 0.000700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.565730 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/OnlineWaitingPanel
-  artifactKey: Guid(a10345ed342bf76478d65d7cf746afd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/OnlineWaitingPanel using Guid(a10345ed342bf76478d65d7cf746afd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fbea73382368e33fa767b4205c2e7d') in 0.000741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.053237 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/StartGamePanel
-  artifactKey: Guid(d08e11a48c0da104187ee721ba12f63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/StartGamePanel using Guid(d08e11a48c0da104187ee721ba12f63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd263295a80d27056f4f3888ec282f4') in 0.000503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.867456 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/TouchHelpPanel
-  artifactKey: Guid(3e9bf18a08fe9754abec0e2d9e7d5443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/TouchHelpPanel using Guid(3e9bf18a08fe9754abec0e2d9e7d5443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36fb40cf929ca2a25572ec257427c56') in 0.000560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.078709 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/StartGamePanel/StartGamePanelAnimator.controller
-  artifactKey: Guid(3dabc8e5156eed042911d1477f560c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/StartGamePanel/StartGamePanelAnimator.controller using Guid(3dabc8e5156eed042911d1477f560c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe2d51c8b439207dcaf678dca89df9d') in 0.003570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.521710 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/StartGamePanel/StartGamePanelClose.anim
-  artifactKey: Guid(4e92c047f886f584e99d4848f3a555ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/StartGamePanel/StartGamePanelClose.anim using Guid(4e92c047f886f584e99d4848f3a555ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611ef61a3e90c0e94c10176e46e7a621') in 0.001959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.258319 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/StartGamePanel/StartGamePanelOpen.anim
-  artifactKey: Guid(86b0c84ea6388c14fa6e5d11834cbfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/StartGamePanel/StartGamePanelOpen.anim using Guid(86b0c84ea6388c14fa6e5d11834cbfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a568d6cbd1b4937b6c0c05a65c77d58') in 0.001742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 6.072163 seconds.
-  path: Assets/EasyCardGame/Arts/Materials/EffectMaterials
-  artifactKey: Guid(2b9e478f41f962d47b05bc996bf9af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Materials/EffectMaterials using Guid(2b9e478f41f962d47b05bc996bf9af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90188fcfa6e410b5a14e99fa48bcd22') in 0.000678 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.669169 seconds.
-  path: Assets/EasyCardGame/Arts/Materials/GameplayMaterials
-  artifactKey: Guid(c460fc74a8842c244872a9236b60f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Materials/GameplayMaterials using Guid(c460fc74a8842c244872a9236b60f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a737d3e432ffd63deec6d244572b1e') in 0.000645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.046244 seconds.
-  path: Assets/EasyCardGame/Arts/Materials/GameplayMaterials/Apex.mat
-  artifactKey: Guid(96a40a113aa5e56429aec75a002e9d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Materials/GameplayMaterials/Apex.mat using Guid(96a40a113aa5e56429aec75a002e9d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1e58281f0ae004ba1c8d1cda97a18a') in 0.052466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/EasyCardGame/Arts/Materials/GameplayMaterials/TableLayoutInteracted.mat
-  artifactKey: Guid(8a02adac64433f346b9bc11fe0743a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Materials/GameplayMaterials/TableLayoutInteracted.mat using Guid(8a02adac64433f346b9bc11fe0743a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e9fb7d790d1f1bc50ddb75a78d2535') in 0.017277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EasyCardGame/Arts/Materials/GameplayMaterials/TableLayoutSelectionGuide.mat
-  artifactKey: Guid(1faae9ff66ebe5241a89d357637517fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Materials/GameplayMaterials/TableLayoutSelectionGuide.mat using Guid(1faae9ff66ebe5241a89d357637517fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee26c6e253a0c7fdb785e370344f69d') in 0.016938 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/EasyCardGame/Arts/Materials/GameplayMaterials/UICard.mat
-  artifactKey: Guid(6af1599b264b5464db25610ec5cdf97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Materials/GameplayMaterials/UICard.mat using Guid(6af1599b264b5464db25610ec5cdf97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae713cca0ac760476e9c72e652fb0d3e') in 0.107202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 6.380774 seconds.
-  path: Assets/EasyCardGame/Prefabs/Cursor.prefab
-  artifactKey: Guid(01da54d40e0e1584c8f99fd5f6b293c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/Cursor.prefab using Guid(01da54d40e0e1584c8f99fd5f6b293c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bc5d03cbe8fc4d1fe64da9de4e7308') in 0.382583 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4169
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/EasyCardGame/Prefabs/Game.prefab
-  artifactKey: Guid(68913b0d0c2cc1d4389c6048f9c12f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/Game.prefab using Guid(68913b0d0c2cc1d4389c6048f9c12f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23dd840021962300f7a6c47a693aabf5') in 0.356704 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5272
-========================================================================
-Received Import Request.
-  Time since last request: 2.889477 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI
-  artifactKey: Guid(5637bc13a53a27745bd7b9e136c4e0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI using Guid(5637bc13a53a27745bd7b9e136c4e0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46f542bfbded23ef22d620347ca59e7') in 0.001397 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.075812 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/AIModes.prefab
-  artifactKey: Guid(68746f24a278944408029db92c8a68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/AIModes.prefab using Guid(68746f24a278944408029db92c8a68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d887c576f4dc96ceb960a9272c0dfd3') in 0.012814 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 117
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/panelUserPass.prefab
-  artifactKey: Guid(d33d54300dc4a7843a1a8246f83adfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/panelUserPass.prefab using Guid(d33d54300dc4a7843a1a8246f83adfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9133cf189d7d93bd22621e5d9d9ea6') in 0.003959 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/TouchPanel.prefab
-  artifactKey: Guid(681d85ed2ec46094fb4a5c613deb3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/TouchPanel.prefab using Guid(681d85ed2ec46094fb4a5c613deb3f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9c1fcf523e8840aedea664260dabb3') in 0.004929 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/Turns.prefab
-  artifactKey: Guid(ddf904c82ef88354c98f9af6978d92bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/Turns.prefab using Guid(ddf904c82ef88354c98f9af6978d92bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8988abb3c80d5a58c193a847924f68f') in 0.004590 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/inGameScorePanel.prefab
-  artifactKey: Guid(771bbe1d0ba9eb34784d1f990dac0163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/inGameScorePanel.prefab using Guid(771bbe1d0ba9eb34784d1f990dac0163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deee5a7dd7f9c5b1206fa4928d6b498d') in 0.004756 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/Passes.prefab
-  artifactKey: Guid(aa4c2fec9545d0343b6c07b3aa62ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/Passes.prefab using Guid(aa4c2fec9545d0343b6c07b3aa62ba89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cf39cd767838085607c6792af63e65') in 0.005383 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/panelUserTurn.prefab
-  artifactKey: Guid(a33851ed77b448f4dac49d67d0ad1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/panelUserTurn.prefab using Guid(a33851ed77b448f4dac49d67d0ad1885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d44b9ce6e14e33326522f607732d74') in 0.004029 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/UI.prefab
-  artifactKey: Guid(55aa72fa0cf2b4d40b464791238890a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/UI.prefab using Guid(55aa72fa0cf2b4d40b464791238890a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73a566f0ac046eeb9a3066d5c1f6ac2') in 0.052586 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1040
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/MenuButton.prefab
-  artifactKey: Guid(dd90f1ae4cd1b1e43bd677ce4c7b00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/MenuButton.prefab using Guid(dd90f1ae4cd1b1e43bd677ce4c7b00d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a83f9f74c7ea5a2b782e7cce3e3508') in 0.004083 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/UIMessages.prefab
-  artifactKey: Guid(ed32f8ad133796845b4f7eb4151e2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/UIMessages.prefab using Guid(ed32f8ad133796845b4f7eb4151e2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1093b02936183d01b2cb5f555793e09') in 0.009440 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 269
-========================================================================
-Received Import Request.
-  Time since last request: 1.211387 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/Decks
-  artifactKey: Guid(85a693297c79dcd4e84a4fe94792ba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/Decks using Guid(85a693297c79dcd4e84a4fe94792ba10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e176d07c193de8908a35387864fc05c8') in 0.000935 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.074474 seconds.
-  path: Assets/EasyCardGame/Prefabs/UI/Decks/DeckButton.prefab
-  artifactKey: Guid(d5b3f30dae6650a4189c4091db3143c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/UI/Decks/DeckButton.prefab using Guid(d5b3f30dae6650a4189c4091db3143c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2475465a195b2f8df77511b4fcee99') in 0.085890 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 6.451266 seconds.
-  path: Assets/EasyCardGame/Prefabs/Input
-  artifactKey: Guid(5ae928efcea5596498d6dc3d04e77303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/Input using Guid(5ae928efcea5596498d6dc3d04e77303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab0928f5552668ff77c7cd4a1e27841') in 0.000669 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.059592 seconds.
-  path: Assets/EasyCardGame/Prefabs/Input/CancelKeyHolder.prefab
-  artifactKey: Guid(cfc6686695d44354e8920f03f61a2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Prefabs/Input/CancelKeyHolder.prefab using Guid(cfc6686695d44354e8920f03f61a2f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53f32195681e5e778bf918b7463415a') in 0.004807 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 25
-========================================================================
-Received Import Request.
-  Time since last request: 10.558846 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions
-  artifactKey: Guid(fb3435982783f7949bc7a7b9d6e1abf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions using Guid(fb3435982783f7949bc7a7b9d6e1abf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f194fa463ce82b9f1a682b34fd7e8') in 0.001843 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.845637 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions/UserTargetedCard.cs
-  artifactKey: Guid(a66c71af1807eee42beb3c5f66dce813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions/UserTargetedCard.cs using Guid(a66c71af1807eee42beb3c5f66dce813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558952f52586c9147b97bd52ca626234') in 0.000655 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.900109 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions/UserPlacedCard.cs
-  artifactKey: Guid(ccb3e7e83fedb004f9e7cd0ad22d636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions/UserPlacedCard.cs using Guid(ccb3e7e83fedb004f9e7cd0ad22d636d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187f2b92b23f929d81cac281c5e588ec') in 0.000681 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.639652 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions/UserPass.cs
-  artifactKey: Guid(b1afa90377ac9f4489b80b86128a808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions/UserPass.cs using Guid(b1afa90377ac9f4489b80b86128a808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addd319c5a802b9f8fe4ffb401993f74') in 0.000655 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.417852 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions/UserNoExtraMove.cs
-  artifactKey: Guid(c336d43b72e913b489d0c641212cdc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions/UserNoExtraMove.cs using Guid(c336d43b72e913b489d0c641212cdc8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e77cc89805b50389d51eb768fd35d3b') in 0.000872 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.380129 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions/GameFunctionQuery.cs
-  artifactKey: Guid(d0d6cf5548983e44691971a1120d6543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions/GameFunctionQuery.cs using Guid(d0d6cf5548983e44691971a1120d6543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9e91b0292fc00df31e012eeee5c453') in 0.000764 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.992645 seconds.
-  path: Assets/EasyCardGame/Scripts/GameFunctions/BaseFunction.cs
-  artifactKey: Guid(45eef407c73cb4d4ab100017c3922ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameFunctions/BaseFunction.cs using Guid(45eef407c73cb4d4ab100017c3922ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc3f5db244a1ec0823acb5aabdc0d09') in 0.000648 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.703505 seconds.
-  path: Assets/EasyCardGame/Scripts/Game.cs
-  artifactKey: Guid(6a1d962aa95fb1743846581164952515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/Game.cs using Guid(6a1d962aa95fb1743846581164952515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143c1119b6848de1436a8973e815c7cf') in 0.000614 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 22.491749 seconds.
-  path: Assets/EasyCardGame/Scripts/Card.cs
-  artifactKey: Guid(0b1e0f79354ceff43b916dd1b0d4a50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/Card.cs using Guid(0b1e0f79354ceff43b916dd1b0d4a50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21416711fc11511b27fa11f474bbc241') in 0.000827 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.477692 seconds.
-  path: Assets/EasyCardGame/Scripts/GameEvents
-  artifactKey: Guid(92137bb57e67fed489047dce460a129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameEvents using Guid(92137bb57e67fed489047dce460a129c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9d3882ea0eea8aa39c0e8ef503a8a6') in 0.000691 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.471326 seconds.
-  path: Assets/EasyCardGame/Scripts/GameEvents/EventGameReady.cs
-  artifactKey: Guid(81c23441b8527504a95f5be3704b7f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameEvents/EventGameReady.cs using Guid(81c23441b8527504a95f5be3704b7f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba3b2db2c148c5a44a1bf862806012') in 0.000741 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.881852 seconds.
-  path: Assets/EasyCardGame/Scripts/GameEvents/EventGameStart.cs
-  artifactKey: Guid(5f3b99e95f200eb459bcaa57d5dd97d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameEvents/EventGameStart.cs using Guid(5f3b99e95f200eb459bcaa57d5dd97d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb307d53d5500a5a1991a0d66b846e9') in 0.000585 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.403186 seconds.
-  path: Assets/EasyCardGame/Scripts/GameEvents/EventLocalUserScoreSimulation.cs
-  artifactKey: Guid(86a291b318a15fd4e8e1cb9c1deb4852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameEvents/EventLocalUserScoreSimulation.cs using Guid(86a291b318a15fd4e8e1cb9c1deb4852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a939a5fe66b4a8c125226f2c6706e6') in 0.000627 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.307757 seconds.
-  path: Assets/EasyCardGame/Scripts/GameEvents/EventUserPlaced.cs
-  artifactKey: Guid(46f4d584fed596d4bbd0c28e2e9526d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Scripts/GameEvents/EventUserPlaced.cs using Guid(46f4d584fed596d4bbd0c28e2e9526d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd888f4308e67452c012b3cd8dd12acb8') in 0.000623 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
-0x00007ff787922fdd (Unity) StackWalker::GetCurrentCallstack
-0x00007ff787927f89 (Unity) StackWalker::ShowCallstack
-0x00007ff7888f2fd1 (Unity) GetStacktrace
-0x00007ff788fb4a12 (Unity) DebugStringToFile
-0x00007ff78714c5cc (Unity) ThreadsafeLinearAllocator<0>::Deallocate
-0x00007ff787146861 (Unity) ThreadsafeLinearAllocator<1>::TryDeallocate
-0x00007ff787135f5a (Unity) MemoryManager::Deallocate
-0x00007ff78713ecea (Unity) free_alloc_internal
-0x00007ff7877c04eb (Unity) FlushGraphCommands
-0x00007ff7877c2c3c (Unity) DirectorManager::ProcessPlayStateChanges
-0x00007ff7877bd6fe (Unity) DirectorManager::BeforeLoadAllAssemblies
-0x00007ff7877c0e2b (Unity) `DirectorManager::InitializeClass'::`2'::onBeforeAssemblyReloadRegistrator::Forward
-0x00007ff786a23469 (Unity) CallbackArray::Invoke
-0x00007ff787806ce2 (Unity) MonoManager::BeginReloadAssembly
-0x00007ff787812078 (Unity) MonoManager::ReloadAssembly
-0x00007ff78879caa2 (Unity) LoadDomainAndUserAssemblies
-0x00007ff78879d054 (Unity) LoadUserAssemblies
-0x00007ff788c9cc55 (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
-0x00007ff788cd65d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff788cc257e (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff788cc41e4 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff788cd497c (Unity) IOService::Run
-0x00007ff788ca913f (Unity) AssetImportWorkerClient::Run
-0x00007ff788c73e47 (Unity) RunAssetImportWorkerClientV2
-0x00007ff788c73ecb (Unity) RunAssetImporterV2
-0x00007ff78847a291 (Unity) Application::InitializeProject
-0x00007ff7888fe415 (Unity) WinMain
-0x00007ff789ce313e (Unity) __scrt_common_main_seh
-0x00007fffc8757344 (KERNEL32) BaseThreadInitThunk
-0x00007fffca7626b1 (ntdll) RtlUserThreadStart
-
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 14)
-0x00007ff787922fdd (Unity) StackWalker::GetCurrentCallstack
-0x00007ff787927f89 (Unity) StackWalker::ShowCallstack
-0x00007ff7888f2fd1 (Unity) GetStacktrace
-0x00007ff788fb4a12 (Unity) DebugStringToFile
-0x00007ff78714c5cc (Unity) ThreadsafeLinearAllocator<0>::Deallocate
-0x00007ff787146861 (Unity) ThreadsafeLinearAllocator<1>::TryDeallocate
-0x00007ff787135f5a (Unity) MemoryManager::Deallocate
-0x00007ff78713ecea (Unity) free_alloc_internal
-0x00007ff7877c04eb (Unity) FlushGraphCommands
-0x00007ff7877c2c3c (Unity) DirectorManager::ProcessPlayStateChanges
-0x00007ff7877bd6fe (Unity) DirectorManager::BeforeLoadAllAssemblies
-0x00007ff7877c0e2b (Unity) `DirectorManager::InitializeClass'::`2'::onBeforeAssemblyReloadRegistrator::Forward
-0x00007ff786a23469 (Unity) CallbackArray::Invoke
-0x00007ff787806ce2 (Unity) MonoManager::BeginReloadAssembly
-0x00007ff787812078 (Unity) MonoManager::ReloadAssembly
-0x00007ff78879caa2 (Unity) LoadDomainAndUserAssemblies
-0x00007ff78879d054 (Unity) LoadUserAssemblies
-0x00007ff788c9cc55 (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
-0x00007ff788cd65d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff788cc257e (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff788cc41e4 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff788cd497c (Unity) IOService::Run
-0x00007ff788ca913f (Unity) AssetImportWorkerClient::Run
-0x00007ff788c73e47 (Unity) RunAssetImportWorkerClientV2
-0x00007ff788c73ecb (Unity) RunAssetImporterV2
-0x00007ff78847a291 (Unity) Application::InitializeProject
-0x00007ff7888fe415 (Unity) WinMain
-0x00007ff789ce313e (Unity) __scrt_common_main_seh
-0x00007fffc8757344 (KERNEL32) BaseThreadInitThunk
-0x00007fffca7626b1 (ntdll) RtlUserThreadStart
-
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
-0x00007ff787922fdd (Unity) StackWalker::GetCurrentCallstack
-0x00007ff787927f89 (Unity) StackWalker::ShowCallstack
-0x00007ff7888f2fd1 (Unity) GetStacktrace
-0x00007ff788fb4a12 (Unity) DebugStringToFile
-0x00007ff78714c5cc (Unity) ThreadsafeLinearAllocator<0>::Deallocate
-0x00007ff787146861 (Unity) ThreadsafeLinearAllocator<1>::TryDeallocate
-0x00007ff787135f5a (Unity) MemoryManager::Deallocate
-0x00007ff78713ecea (Unity) free_alloc_internal
-0x00007ff7877c04eb (Unity) FlushGraphCommands
-0x00007ff7877c2c3c (Unity) DirectorManager::ProcessPlayStateChanges
-0x00007ff7877bd6fe (Unity) DirectorManager::BeforeLoadAllAssemblies
-0x00007ff7877c0e2b (Unity) `DirectorManager::InitializeClass'::`2'::onBeforeAssemblyReloadRegistrator::Forward
-0x00007ff786a23469 (Unity) CallbackArray::Invoke
-0x00007ff787806ce2 (Unity) MonoManager::BeginReloadAssembly
-0x00007ff787812078 (Unity) MonoManager::ReloadAssembly
-0x00007ff78879caa2 (Unity) LoadDomainAndUserAssemblies
-0x00007ff78879d054 (Unity) LoadUserAssemblies
-0x00007ff788c9cc55 (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
-0x00007ff788cd65d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff788cc257e (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff788cc41e4 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff788cd497c (Unity) IOService::Run
-0x00007ff788ca913f (Unity) AssetImportWorkerClient::Run
-0x00007ff788c73e47 (Unity) RunAssetImportWorkerClientV2
-0x00007ff788c73ecb (Unity) RunAssetImporterV2
-0x00007ff78847a291 (Unity) Application::InitializeProject
-0x00007ff7888fe415 (Unity) WinMain
-0x00007ff789ce313e (Unity) __scrt_common_main_seh
-0x00007fffc8757344 (KERNEL32) BaseThreadInitThunk
-0x00007fffca7626b1 (ntdll) RtlUserThreadStart
-
-Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 15)
-0x00007ff787922fdd (Unity) StackWalker::GetCurrentCallstack
-0x00007ff787927f89 (Unity) StackWalker::ShowCallstack
-0x00007ff7888f2fd1 (Unity) GetStacktrace
-0x00007ff788fb4a12 (Unity) DebugStringToFile
-0x00007ff78714c5cc (Unity) ThreadsafeLinearAllocator<0>::Deallocate
-0x00007ff787146861 (Unity) ThreadsafeLinearAllocator<1>::TryDeallocate
-0x00007ff787135f5a (Unity) MemoryManager::Deallocate
-0x00007ff78713ecea (Unity) free_alloc_internal
-0x00007ff7877c04eb (Unity) FlushGraphCommands
-0x00007ff7877c2c3c (Unity) DirectorManager::ProcessPlayStateChanges
-0x00007ff7877bd6fe (Unity) DirectorManager::BeforeLoadAllAssemblies
-0x00007ff7877c0e2b (Unity) `DirectorManager::InitializeClass'::`2'::onBeforeAssemblyReloadRegistrator::Forward
-0x00007ff786a23469 (Unity) CallbackArray::Invoke
-0x00007ff787806ce2 (Unity) MonoManager::BeginReloadAssembly
-0x00007ff787812078 (Unity) MonoManager::ReloadAssembly
-0x00007ff78879caa2 (Unity) LoadDomainAndUserAssemblies
-0x00007ff78879d054 (Unity) LoadUserAssemblies
-0x00007ff788c9cc55 (Unity) <lambda_b37b41f03089e3cb3f55061bbc93253d>::operator()
-0x00007ff788cd65d2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ff788cc257e (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ff788cc41e4 (Unity) asio::detail::win_iocp_io_context::run
-0x00007ff788cd497c (Unity) IOService::Run
-0x00007ff788ca913f (Unity) AssetImportWorkerClient::Run
-0x00007ff788c73e47 (Unity) RunAssetImportWorkerClientV2
-0x00007ff788c73ecb (Unity) RunAssetImporterV2
-0x00007ff78847a291 (Unity) Application::InitializeProject
-0x00007ff7888fe415 (Unity) WinMain
-0x00007ff789ce313e (Unity) __scrt_common_main_seh
-0x00007fffc8757344 (KERNEL32) BaseThreadInitThunk
-0x00007fffca7626b1 (ntdll) RtlUserThreadStart
-
-- Loaded All Assemblies, in  1.199 seconds
-Refreshing native plugins compatible for Editor in 11.50 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.993 seconds
-Domain Reload Profiling: 3184ms
-	BeginReloadAssembly (394ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (699ms)
-		LoadAssemblies (397ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (365ms)
-			TypeCache.Refresh (350ms)
-				TypeCache.ScanAssembly (333ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1994ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (796ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (154ms)
-			ProcessInitializeOnLoadAttributes (488ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 16.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6288 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (0.8 MB). Loaded Objects now: 6914.
-Memory consumption went from 210.1 MB to 209.3 MB.
-Total: 6.953400 ms (FindLiveObjects: 0.707400 ms CreateObjectMapping: 1.437400 ms MarkObjects: 4.307700 ms  DeleteObjects: 0.499600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 144.544758 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/CamDefault.anim
-  artifactKey: Guid(86017408b17022446b689cfc5741173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/CamDefault.anim using Guid(86017408b17022446b689cfc5741173d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85ee0ae1e55cab49ec7291280d6dde0') in 0.014233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.441494 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/HeroSelectedActiveAnim.anim
-  artifactKey: Guid(9bde839351b09a24a8090ea263ef52c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/HeroSelectedActiveAnim.anim using Guid(9bde839351b09a24a8090ea263ef52c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4fe7eacd2e6c874ff5246804e86cb6') in 0.001608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.409165 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/HitEffect.controller
-  artifactKey: Guid(c4edee4e628b52f46882d516d4ce44a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/HitEffect.controller using Guid(c4edee4e628b52f46882d516d4ce44a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe547bc17c4cbf26007a74a9af06e2e0') in 0.002493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.453174 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/HitEffectRaise.anim
-  artifactKey: Guid(2613b0df5fe445c41a835cab022b5ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/HitEffectRaise.anim using Guid(2613b0df5fe445c41a835cab022b5ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36e7eee2ef89cfddc59db86d3168db2') in 0.001595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.417691 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/isActive.controller
-  artifactKey: Guid(4c0db39f04591724b8425f13e3c1f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/isActive.controller using Guid(4c0db39f04591724b8425f13e3c1f6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2388627e674c4d9828335b278260553') in 0.001649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1.113635 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/UserTurn.anim
-  artifactKey: Guid(4151c482fb632944d9175622223d46ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/UserTurn.anim using Guid(4151c482fb632944d9175622223d46ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1155b1c06df151a430b58b00f07a86') in 0.001687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.270444 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/UserScoreAnim.anim
-  artifactKey: Guid(5c47db5d7124e9e4698d2e2c41202c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/UserScoreAnim.anim using Guid(5c47db5d7124e9e4698d2e2c41202c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c152eecfec9ce1ac67f5fd62ae8868ff') in 0.001743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.281847 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/userScore.controller
-  artifactKey: Guid(ffd48625d8df3b64cba1669cdb042027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/userScore.controller using Guid(ffd48625d8df3b64cba1669cdb042027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad80bc620d92e05d6eddc1a80646ce9') in 0.001668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.300748 seconds.
-  path: Assets/EasyCardGame/Arts/Animations/UIPanelTooltip.controller
-  artifactKey: Guid(104223607d14fed4b9d50b26f5c21c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/Arts/Animations/UIPanelTooltip.controller using Guid(104223607d14fed4b9d50b26f5c21c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaf3d7d6f4c42213c708636c47c003a') in 0.002762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 23.216878 seconds.
-  path: Assets/EasyCardGame/GameSettings.asset
-  artifactKey: Guid(dbac02bafeff5484396e3fa53af9dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EasyCardGame/GameSettings.asset using Guid(dbac02bafeff5484396e3fa53af9dde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2df243be9700e5d397e8fd145832eed') in 0.001393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.061 seconds
-Refreshing native plugins compatible for Editor in 11.09 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.732 seconds
-Domain Reload Profiling: 2785ms
-	BeginReloadAssembly (203ms)
+- Finished resetting the current domain, in  3.197 seconds
+Domain Reload Profiling: 4365ms
+	BeginReloadAssembly (181ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (756ms)
-		LoadAssemblies (414ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (887ms)
+		LoadAssemblies (481ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (414ms)
-			TypeCache.Refresh (394ms)
-				TypeCache.ScanAssembly (379ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1732ms)
+		AnalyzeDomain (473ms)
+			TypeCache.Refresh (452ms)
+				TypeCache.ScanAssembly (430ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (3197ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (691ms)
+		SetupLoadedEditorAssemblies (1868ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (158ms)
-			ProcessInitializeOnLoadAttributes (392ms)
-			ProcessInitializeOnLoadMethodAttributes (80ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (302ms)
+			ProcessInitializeOnLoadAttributes (1189ms)
+			ProcessInitializeOnLoadMethodAttributes (288ms)
+			AfterProcessingInitializeOnLoad (47ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 13.37 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (63ms)
+Refreshing native plugins compatible for Editor in 52.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6168 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 175 unused Assets / (0.8 MB). Loaded Objects now: 6812.
-Memory consumption went from 203.9 MB to 203.1 MB.
-Total: 5.257900 ms (FindLiveObjects: 0.825700 ms CreateObjectMapping: 0.645000 ms MarkObjects: 3.121700 ms  DeleteObjects: 0.664700 ms)
+Unloading 6170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6729.
+Memory consumption went from 200.4 MB to 199.6 MB.
+Total: 15.737100 ms (FindLiveObjects: 1.806200 ms CreateObjectMapping: 2.238300 ms MarkObjects: 11.120700 ms  DeleteObjects: 0.570200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1206,177 +259,699 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 331.618542 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets
-  artifactKey: Guid(49dc8eca4b71b6d4ab883044f5406741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets using Guid(49dc8eca4b71b6d4ab883044f5406741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f73fbc242390d643d9880cb9d07cdd') in 0.006394 seconds
+  Time since last request: 42426.850808 seconds.
+  path: Assets/Scripts/LoadingScreenControler.cs
+  artifactKey: Guid(6b53e55af19b74d468c94d1bca5a65bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadingScreenControler.cs using Guid(6b53e55af19b74d468c94d1bca5a65bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1837f7a587f40f067c14585f1f5685b') in 0.007070 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.381 seconds
+Refreshing native plugins compatible for Editor in 30.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.780 seconds
+Domain Reload Profiling: 4152ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (1008ms)
+		LoadAssemblies (526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (573ms)
+			TypeCache.Refresh (540ms)
+				TypeCache.ScanAssembly (506ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1133ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (232ms)
+			ProcessInitializeOnLoadAttributes (681ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 25.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6733.
+Memory consumption went from 200.4 MB to 199.7 MB.
+Total: 8.375500 ms (FindLiveObjects: 0.703700 ms CreateObjectMapping: 0.918000 ms MarkObjects: 6.094500 ms  DeleteObjects: 0.658000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.353 seconds
+Refreshing native plugins compatible for Editor in 22.53 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.901 seconds
+Domain Reload Profiling: 4243ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (972ms)
+		LoadAssemblies (525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (549ms)
+			TypeCache.Refresh (520ms)
+				TypeCache.ScanAssembly (493ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2902ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1148ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (700ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 15.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6737.
+Memory consumption went from 200.4 MB to 199.7 MB.
+Total: 8.529900 ms (FindLiveObjects: 0.874900 ms CreateObjectMapping: 1.196000 ms MarkObjects: 5.625000 ms  DeleteObjects: 0.832600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 0.859882 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/Fonts
-  artifactKey: Guid(7fec73d8fdc4c3a4b855472179364681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/Fonts using Guid(7fec73d8fdc4c3a4b855472179364681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793f505c2bb8de221488ad6e5f82cf6e') in 0.000965 seconds
+  Time since last request: 997.173576 seconds.
+  path: Assets/Scripts/LoadingScreenControler.cs
+  artifactKey: Guid(6b53e55af19b74d468c94d1bca5a65bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadingScreenControler.cs using Guid(6b53e55af19b74d468c94d1bca5a65bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac5dcb8672c34cd860c5e47b873680') in 0.002269 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.973 seconds
+Refreshing native plugins compatible for Editor in 11.95 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.508 seconds
+Domain Reload Profiling: 2474ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (309ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1509ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 12.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6170 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6741.
+Memory consumption went from 200.4 MB to 199.7 MB.
+Total: 6.794500 ms (FindLiveObjects: 0.697600 ms CreateObjectMapping: 0.843100 ms MarkObjects: 4.824900 ms  DeleteObjects: 0.427700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 0.704584 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/Fonts/Germania_One
-  artifactKey: Guid(9851e2c01908ad847bbc4d2109b007e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/Fonts/Germania_One using Guid(9851e2c01908ad847bbc4d2109b007e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075eeb695e7aeee0e4a9911efda852a0') in 0.001077 seconds
+  Time since last request: 12.796639 seconds.
+  path: Assets/Prefabs/LoadingScreen.prefab
+  artifactKey: Guid(47f71c22d7071304aa2a2f5bd5c330d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LoadingScreen.prefab using Guid(47f71c22d7071304aa2a2f5bd5c330d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c749da69953715edcf3f5fb4762d13e') in 0.035230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 81.992720 seconds.
+  path: Assets/Scripts/LoadingScreenOut.cs
+  artifactKey: Guid(37647c32ac2dc7a449e8043bf4041f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadingScreenOut.cs using Guid(37647c32ac2dc7a449e8043bf4041f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c17fd514ea478959b432bfd9524aba1') in 0.000978 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.070869 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/Fonts/Germania_One/GermaniaOne-Regular.ttf
-  artifactKey: Guid(0b9c6b31d05d40546ab880ef580d96f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/Fonts/Germania_One/GermaniaOne-Regular.ttf using Guid(0b9c6b31d05d40546ab880ef580d96f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74e25d25d5ec81a1abfe1fd5787b3d8') in 0.084441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.348 seconds
+Refreshing native plugins compatible for Editor in 14.57 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.013 seconds
+Domain Reload Profiling: 3352ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (1011ms)
+		LoadAssemblies (560ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (522ms)
+			TypeCache.Refresh (497ms)
+				TypeCache.ScanAssembly (475ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2013ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (824ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (517ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 15.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6747.
+Memory consumption went from 200.4 MB to 199.6 MB.
+Total: 6.502700 ms (FindLiveObjects: 1.191300 ms CreateObjectMapping: 0.893400 ms MarkObjects: 3.908400 ms  DeleteObjects: 0.508700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.133 seconds
+Refreshing native plugins compatible for Editor in 10.94 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.537 seconds
+Domain Reload Profiling: 2660ms
+	BeginReloadAssembly (190ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (839ms)
+		LoadAssemblies (526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (357ms)
+				TypeCache.ScanAssembly (341ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1538ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (581ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 12.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6751.
+Memory consumption went from 200.5 MB to 199.7 MB.
+Total: 4.560200 ms (FindLiveObjects: 0.540500 ms CreateObjectMapping: 0.650700 ms MarkObjects: 2.923900 ms  DeleteObjects: 0.444400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.136954 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/Fonts/Ropa_Sans
-  artifactKey: Guid(f7e7aea9f12f5e244a1c4846135d46a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/Fonts/Ropa_Sans using Guid(f7e7aea9f12f5e244a1c4846135d46a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a63a8ab2d0f79f5396ba75217b4c5b0') in 0.000778 seconds
+  Time since last request: 439.530162 seconds.
+  path: Assets/Scenes/TitleScreen.unity
+  artifactKey: Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TitleScreen.unity using Guid(3fc8acdd13e6c734bafef6554d6fdbcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9571d25df7f61136aae63b8a17bb9582') in 0.009732 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.200 seconds
+Refreshing native plugins compatible for Editor in 20.51 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.788 seconds
+Domain Reload Profiling: 3979ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (884ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (533ms)
+			TypeCache.Refresh (514ms)
+				TypeCache.ScanAssembly (490ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2788ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1079ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (632ms)
+			ProcessInitializeOnLoadMethodAttributes (131ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 20.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6755.
+Memory consumption went from 200.5 MB to 199.7 MB.
+Total: 10.271200 ms (FindLiveObjects: 0.806300 ms CreateObjectMapping: 1.358000 ms MarkObjects: 7.358300 ms  DeleteObjects: 0.747200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 1.236348 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Scene
-  artifactKey: Guid(cdd75f93d6a665141ac6b07f5b249a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Scene using Guid(cdd75f93d6a665141ac6b07f5b249a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288b4c8b8b4781191b3f1b804d638a93') in 0.000774 seconds
+  Time since last request: 22.376814 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(abd5ef98bc2b93c46a5b8e67445f366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(abd5ef98bc2b93c46a5b8e67445f366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4449593e56d575b9cb67dc18f78d82') in 0.002144 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.049 seconds
+Refreshing native plugins compatible for Editor in 11.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.662 seconds
+Domain Reload Profiling: 2702ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (329ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1663ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (664ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (429ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 13.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6759.
+Memory consumption went from 200.5 MB to 199.7 MB.
+Total: 8.826400 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.638400 ms MarkObjects: 5.813900 ms  DeleteObjects: 1.879900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.490 seconds
+Refreshing native plugins compatible for Editor in 17.47 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.871 seconds
+Domain Reload Profiling: 3346ms
+	BeginReloadAssembly (315ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (150ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (902ms)
+		LoadAssemblies (552ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (541ms)
+			TypeCache.Refresh (511ms)
+				TypeCache.ScanAssembly (485ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (696ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 10.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6763.
+Memory consumption went from 200.5 MB to 199.7 MB.
+Total: 4.469900 ms (FindLiveObjects: 0.644600 ms CreateObjectMapping: 0.589200 ms MarkObjects: 2.728000 ms  DeleteObjects: 0.507100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 0.740873 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Scene/air_card_scene.unity
-  artifactKey: Guid(a27bfd8e7b4e74d439e6ddb9b13587d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Scene/air_card_scene.unity using Guid(a27bfd8e7b4e74d439e6ddb9b13587d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b5b2d3fd7a2adcdac60306d91354db') in 0.000764 seconds
+  Time since last request: 375.544113 seconds.
+  path: Assets/Scenes/MenuScene.unity
+  artifactKey: Guid(abd5ef98bc2b93c46a5b8e67445f366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuScene.unity using Guid(abd5ef98bc2b93c46a5b8e67445f366e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02914e9d7d53d8cb08cdf0b769a8add7') in 0.002502 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 22.825943 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Background Wallpaper
-  artifactKey: Guid(23913c0c69357474eb81092dcd80ac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Background Wallpaper using Guid(23913c0c69357474eb81092dcd80ac17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b580a6f5309929186e522e418753eca') in 0.000616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.047 seconds
+Refreshing native plugins compatible for Editor in 19.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.084 seconds
+Domain Reload Profiling: 3123ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (748ms)
+		LoadAssemblies (413ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (395ms)
+				TypeCache.ScanAssembly (372ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2085ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (788ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (477ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 14.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6767.
+Memory consumption went from 200.4 MB to 199.6 MB.
+Total: 8.113900 ms (FindLiveObjects: 0.785300 ms CreateObjectMapping: 0.908600 ms MarkObjects: 5.860900 ms  DeleteObjects: 0.557400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.070395 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Background Wallpaper/air_wallpaper.png
-  artifactKey: Guid(1082d3daddabb6a4e895be5802e50c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Background Wallpaper/air_wallpaper.png using Guid(1082d3daddabb6a4e895be5802e50c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2ca5a6b72f04e2b6456893c618f869') in 0.075898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.168463 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/artwork_air_big.png
-  artifactKey: Guid(c748e3e23cf051344b29a6e518b2f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/artwork_air_big.png using Guid(c748e3e23cf051344b29a6e518b2f736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da047c771deca9706e871c636f7ce9d') in 0.049838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_art_mask.png
-  artifactKey: Guid(380cd6cbb001c594180a36c0ecaff69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_art_mask.png using Guid(380cd6cbb001c594180a36c0ecaff69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e186f368d1e260ac679a0a747365ff5') in 0.033457 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/power_symbol_air.png
-  artifactKey: Guid(584350642a10fcb4f9ed5c331fcdabe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/power_symbol_air.png using Guid(584350642a10fcb4f9ed5c331fcdabe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8020afaaaa1b5429407df7781028e01') in 0.037454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_back_shadowed.png
-  artifactKey: Guid(2a6312121ac7c7a4ebee047d1de80006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_back_shadowed.png using Guid(2a6312121ac7c7a4ebee047d1de80006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a458cb165e0508792a627a68bd14b1') in 0.048579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/health_symbol_air.png
-  artifactKey: Guid(e09b0252195d3ee4ab4ae25726e245ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/health_symbol_air.png using Guid(e09b0252195d3ee4ab4ae25726e245ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ab26641f16c48a1031e8a071726254') in 0.040922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/rarity_rank3_big.png
-  artifactKey: Guid(3f6bd42d185fdcd47a590c7da06020ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/rarity_rank3_big.png using Guid(3f6bd42d185fdcd47a590c7da06020ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d9d719a112880c34a87860c9e469f3') in 0.048293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_art_frame.png
-  artifactKey: Guid(bdf04699c0f52e9499e5d21cf17952da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_art_frame.png using Guid(bdf04699c0f52e9499e5d21cf17952da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c43057fada8b74d8158e5a613c4c1f') in 0.048444 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/rarity_rank5_big.png
-  artifactKey: Guid(5926d2c99b36dfc449eab45a5e564881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/rarity_rank5_big.png using Guid(5926d2c99b36dfc449eab45a5e564881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4832d434f436df62d6020dfb870dd07a') in 0.047716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_front.png
-  artifactKey: Guid(fb14f37997d5eb6408a0318928746b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/elemental_air_card_front.png using Guid(fb14f37997d5eb6408a0318928746b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2af7e6dbf9f089198cf5b298cccd2d6') in 0.093583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/el_air_card_body_front.png
-  artifactKey: Guid(e733cc4d062712343989c903459d65ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/el_air_card_body_front.png using Guid(e733cc4d062712343989c903459d65ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab29e6c9929ad29d0b74ef818a1e8f7') in 0.073521 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/el_air_heading_separate.png
-  artifactKey: Guid(056e84d521c67b3419627ed9587ef663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PNG Slices/Big Size Slice/el_air_heading_separate.png using Guid(056e84d521c67b3419627ed9587ef663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1fbcc3ccd7af04f4b801bf202b9ab5') in 0.034242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 14.029761 seconds.
-  path: Assets/My Production Line/Elemental Card - Air/Assets/PSD/Elemental Card - Air.psd
-  artifactKey: Guid(97ebc6f92a4701744b9f920e30f569a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Air/Assets/PSD/Elemental Card - Air.psd using Guid(97ebc6f92a4701744b9f920e30f569a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53cd2f0f793d8e876111c2c5275e371') in 0.062359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 10.787617 seconds.
-  path: Assets/My Production Line/Elemental Card - Earth/Documentation.docx
-  artifactKey: Guid(8f20d1610284986489dcedd08a5edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/My Production Line/Elemental Card - Earth/Documentation.docx using Guid(8f20d1610284986489dcedd08a5edd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceda9febb6d054ebbf6e545cf2e021c1') in 0.001154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6 unused Assets / (0.7 MB). Loaded Objects now: 6767.
+Memory consumption went from 105.8 MB to 105.1 MB.
+Total: 6.912800 ms (FindLiveObjects: 0.654000 ms CreateObjectMapping: 1.292900 ms MarkObjects: 4.396100 ms  DeleteObjects: 0.568800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

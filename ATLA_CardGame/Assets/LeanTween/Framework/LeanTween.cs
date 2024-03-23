@@ -2885,7 +2885,10 @@ public class LeanTween : MonoBehaviour {
         }
     }
 
-
+    internal static void alphaCanvas(GameObject loadingScreen, float v1, float v2)
+    {
+        throw new NotImplementedException();
+    }
 } // End LeanTween class
 
 public class LTUtility {
