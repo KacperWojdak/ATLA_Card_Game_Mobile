@@ -430,6 +430,7 @@
 "Assets/LeanTween/Testing/TestingSceneSwitching.cs"
 "Assets/LeanTween/Testing/TestingSequencer.cs"
 "Assets/Scripts/AuthManager.cs"
+"Assets/Scripts/Card.cs"
 "Assets/Scripts/LoadingScreenControler.cs"
 "Assets/Scripts/LoadingScreenOut.cs"
 "Assets/Scripts/MainMenu.cs"
