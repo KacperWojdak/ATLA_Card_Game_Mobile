@@ -35,6 +35,8 @@ public class DefenseCard : Card
 [CreateAssetMenu(fileName = "New Hero Card", menuName = "Cards/Hero")]
 public class HeroCard : Card
 {
+    public int healthPoints;
     public int talentCooldown;
     public int talentCost;
+    public string talentDescription;
 }
