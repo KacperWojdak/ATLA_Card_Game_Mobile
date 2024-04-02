@@ -660,6 +660,9 @@ GameObject:
   - component: {fileID: 7062384428399939467}
   - component: {fileID: 2637711306166318606}
   - component: {fileID: 6703980369440179154}
+  - component: {fileID: 2337635110098324705}
+  - component: {fileID: 2163732312768172604}
+  - component: {fileID: 1205794707812047225}
   m_Layer: 0
   m_Name: AirAttackCard
   m_TagString: Untagged
@@ -688,10 +691,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 150, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2637711306166318606
 CanvasRenderer:
@@ -731,6 +734,103 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!61 &2337635110098324705
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6682310791505488069}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &2163732312768172604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6682310791505488069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191481ddf3a021d4db16029f7526eecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRectTransform: {fileID: 0}
+  zoomScale: 2
+  moveSpeed: 15
+--- !u!114 &1205794707812047225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6682310791505488069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64fb7ed72c9812a4c9cfa872e7062932, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardData:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+  cardNameText: {fileID: 0}
+  descriptionText: {fileID: 0}
+  goldenDescriptionText: {fileID: 0}
+  chiCostText: {fileID: 0}
+  cardImage: {fileID: 0}
+  elementImage: {fileID: 0}
+  attackCardUI: {fileID: 0}
+  attackDamageText: {fileID: 0}
+  goldenAttackDamageText: {fileID: 0}
+  defenseCardUI: {fileID: 0}
+  defensePointsText: {fileID: 0}
+  goldenDefensePointsText: {fileID: 0}
+  healPointsText: {fileID: 0}
+  goldenHealPointsText: {fileID: 0}
+  heroCardUI: {fileID: 0}
+  healthPointsText: {fileID: 0}
+  talentCooldownText: {fileID: 0}
+  talentDescriptionText: {fileID: 0}
 --- !u!1 &6686216614486569329
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,8 +906,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279151816
-  m_fontColor: {r: 0.78431374, g: 0.6745098, b: 0.05490196, a: 1}
+    rgba: 4280521904
+  m_fontColor: {r: 0.6901961, g: 0.5803922, b: 0.13725491, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

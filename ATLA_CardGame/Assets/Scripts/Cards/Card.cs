@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public enum CardType { Attack, Defense, Hero};
+public enum CardType { Attack, Defense, Hero };
 
 [System.Serializable]
 public class Card

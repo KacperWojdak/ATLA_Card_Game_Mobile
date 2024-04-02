@@ -16,7 +16,7 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private Coroutine zoomCoroutine;
     private int originalUIIndex;
 
-    public void Start()
+    void Start()
     {
         originalScale = transform.localScale;
     }

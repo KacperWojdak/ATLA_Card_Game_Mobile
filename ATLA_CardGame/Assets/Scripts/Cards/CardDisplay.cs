@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class CardDisplay : MonoBehaviour
 {
+    public ScriptableObject card;
+
     [Header("Common Card UI Elements")]
     public TextMeshProUGUI cardNameText;
     public TextMeshProUGUI descriptionText;
@@ -36,44 +38,76 @@ public class CardDisplay : MonoBehaviour
     public TextMeshProUGUI talentCooldownText;
     public TextMeshProUGUI talentDescriptionText;
 
-    public void SetupCard(Card card)
+    void Start()
+    {
+        if (card != null)
+        {
+            SetupCard();
+        }
+    }
+
+    public void SetupCard()
+    {
+        if (card is AttackCardData attackCardData)
+        {
+            SetupAttackCard(attackCardData.card);
+        }
+        else if (card is DefenseCardData defenseCardData)
+        {
+            SetupDefenseCard(defenseCardData.card);
+        }
+        else if (card is HeroCardData heroCardData)
+        {
+            SetupHeroCard(heroCardData.card);
+        }
+    }
+
+    private void SetupAttackCard(AttackCard card)
     {
         cardNameText.text = card.cardName;
         descriptionText.text = card.description;
         goldenDescriptionText.text = card.goldenDescription;
         chiCostText.text = card.chiCost.ToString();
-
         cardImage.sprite = card.cardImage;
         elementImage.sprite = card.elementImage;
+        attackDamageText.text = card.attackDamage.ToString();
+        goldenAttackDamageText.text = card.goldenAttackDamage.ToString();
 
-        attackCardUI.SetActive(false);
+        attackCardUI.SetActive(true);
         defenseCardUI.SetActive(false);
         heroCardUI.SetActive(false);
+    }
 
-        if (card is AttackCard attackCard)
-        {
-            attackCardUI.SetActive(true);
+    private void SetupDefenseCard(DefenseCard card)
+    {
+        cardNameText.text = card.cardName;
+        descriptionText.text = card.description;
+        goldenDescriptionText.text = card.goldenDescription;
+        chiCostText.text = card.chiCost.ToString();
+        cardImage.sprite = card.cardImage;
+        elementImage.sprite = card.elementImage;
+        defensePointsText.text = card.defensePoints.ToString();
+        goldenDefensePointsText.text = card.goldenDefensePoints.ToString();
+        healPointsText.text = card.healPoints.ToString();
+        goldenHealPointsText.text = card.goldenHealPoints.ToString();
 
-            attackDamageText.text = attackCard.attackDamage.ToString();
-            goldenAttackDamageText.text = attackCard.goldenAttackDamage.ToString();
-        }
-        else if (card is DefenseCard defenseCard)
-        {
-            defenseCardUI.SetActive(true);
+        attackCardUI.SetActive(false);
+        defenseCardUI.SetActive(true);
+        heroCardUI.SetActive(false);
+    }
 
-            chiCostText.text = defenseCard.chiCost.ToString();
-            defensePointsText.text = defenseCard.defensePoints.ToString();
-            goldenDefensePointsText.text = defenseCard.goldenDefensePoints.ToString();
-            healPointsText.text = defenseCard.healPoints.ToString();
-            goldenHealPointsText.text = defenseCard.goldenHealPoints.ToString();
-        }
-        else if (card is HeroCard heroCard)
-        {
-            heroCardUI.SetActive(true);
+    private void SetupHeroCard(HeroCard card)
+    {
+        cardNameText.text = card.cardName;
+        cardImage.sprite = card.cardImage;
+        elementImage.sprite = card.elementImage;
+        healthPointsText.text = card.healthPoints.ToString();
+        talentCooldownText.text = card.talentCooldown.ToString();
+        talentDescriptionText.text = card.talentDescription;
 
-            healthPointsText.text = heroCard.healthPoints.ToString();
-            talentCooldownText.text = heroCard.talentCooldown.ToString();
-            talentDescriptionText.text = heroCard.talentDescription;
-        }
+        
+        attackCardUI.SetActive(false);
+        defenseCardUI.SetActive(false);
+        heroCardUI.SetActive(true);
     }
 }
