@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AuthManager
+    - CardZoom
     - LoadingScreenControler
     - LoadingScreenOut
     - MainMenu
@@ -261,6 +262,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
@@ -276,29 +279,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16822}
     - Class: 114
-      Script: {instanceID: 17602}
+      Script: {instanceID: 16824}
     - Class: 114
-      Script: {instanceID: 19952}
+      Script: {instanceID: 17604}
     - Class: 114
-      Script: {instanceID: 20954}
+      Script: {instanceID: 19954}
     - Class: 114
-      Script: {instanceID: 21620}
+      Script: {instanceID: 20956}
     - Class: 114
-      Script: {instanceID: 23758}
+      Script: {instanceID: 21622}
     - Class: 114
-      Script: {instanceID: 23986}
+      Script: {instanceID: 23762}
     - Class: 114
-      Script: {instanceID: 24170}
+      Script: {instanceID: 23990}
     - Class: 114
-      Script: {instanceID: 25094}
+      Script: {instanceID: 24174}
     - Class: 114
-      Script: {instanceID: 25236}
+      Script: {instanceID: 25096}
     - Class: 114
-      Script: {instanceID: 26428}
+      Script: {instanceID: 26426}
     - Class: 114
-      Script: {instanceID: 28456}
+      Script: {instanceID: 28454}
     - Class: 114
-      Script: {instanceID: 29834}
+      Script: {instanceID: 29766}
+    - Class: 114
+      Script: {instanceID: 31530}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -351,71 +356,71 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16822}
     - Class: 114
-      Script: {instanceID: 16832}
+      Script: {instanceID: 16824}
     - Class: 114
-      Script: {instanceID: 16986}
+      Script: {instanceID: 16834}
     - Class: 114
-      Script: {instanceID: 17380}
+      Script: {instanceID: 16988}
     - Class: 114
-      Script: {instanceID: 17618}
+      Script: {instanceID: 17382}
     - Class: 114
-      Script: {instanceID: 17840}
+      Script: {instanceID: 17620}
     - Class: 114
-      Script: {instanceID: 18010}
+      Script: {instanceID: 17842}
     - Class: 114
-      Script: {instanceID: 18490}
+      Script: {instanceID: 18012}
     - Class: 114
-      Script: {instanceID: 18566}
+      Script: {instanceID: 18492}
     - Class: 114
-      Script: {instanceID: 18718}
+      Script: {instanceID: 18568}
     - Class: 114
-      Script: {instanceID: 19312}
+      Script: {instanceID: 18720}
     - Class: 114
-      Script: {instanceID: 20104}
+      Script: {instanceID: 19314}
     - Class: 114
-      Script: {instanceID: 20148}
+      Script: {instanceID: 20106}
     - Class: 114
-      Script: {instanceID: 20214}
+      Script: {instanceID: 20150}
     - Class: 114
-      Script: {instanceID: 20280}
+      Script: {instanceID: 20216}
     - Class: 114
-      Script: {instanceID: 20446}
+      Script: {instanceID: 20282}
     - Class: 114
-      Script: {instanceID: 20462}
+      Script: {instanceID: 20448}
     - Class: 114
-      Script: {instanceID: 20948}
+      Script: {instanceID: 20464}
     - Class: 114
-      Script: {instanceID: 20954}
+      Script: {instanceID: 20950}
     - Class: 114
-      Script: {instanceID: 21032}
+      Script: {instanceID: 20956}
     - Class: 114
-      Script: {instanceID: 21134}
+      Script: {instanceID: 21034}
     - Class: 114
-      Script: {instanceID: 21222}
+      Script: {instanceID: 21136}
     - Class: 114
-      Script: {instanceID: 21608}
+      Script: {instanceID: 21224}
     - Class: 114
-      Script: {instanceID: 21676}
+      Script: {instanceID: 21610}
     - Class: 114
-      Script: {instanceID: 22582}
+      Script: {instanceID: 21678}
     - Class: 114
-      Script: {instanceID: 23566}
+      Script: {instanceID: 22584}
     - Class: 114
-      Script: {instanceID: 23632}
+      Script: {instanceID: 23570}
     - Class: 114
-      Script: {instanceID: 23686}
+      Script: {instanceID: 23636}
     - Class: 114
-      Script: {instanceID: 23778}
+      Script: {instanceID: 23690}
     - Class: 114
-      Script: {instanceID: 23986}
+      Script: {instanceID: 23782}
     - Class: 114
-      Script: {instanceID: 24170}
+      Script: {instanceID: 23990}
     - Class: 114
-      Script: {instanceID: 24900}
+      Script: {instanceID: 24174}
     - Class: 114
-      Script: {instanceID: 24970}
+      Script: {instanceID: 24902}
     - Class: 114
-      Script: {instanceID: 25236}
+      Script: {instanceID: 24972}
     - Class: 114
       Script: {instanceID: 25352}
     - Class: 114
@@ -429,33 +434,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 26372}
     - Class: 114
-      Script: {instanceID: 26428}
+      Script: {instanceID: 26426}
     - Class: 114
-      Script: {instanceID: 26634}
+      Script: {instanceID: 26632}
     - Class: 114
-      Script: {instanceID: 26912}
+      Script: {instanceID: 26910}
     - Class: 114
-      Script: {instanceID: 27236}
+      Script: {instanceID: 27234}
     - Class: 114
-      Script: {instanceID: 27380}
+      Script: {instanceID: 27378}
     - Class: 114
-      Script: {instanceID: 27466}
+      Script: {instanceID: 27464}
     - Class: 114
-      Script: {instanceID: 27476}
+      Script: {instanceID: 27474}
     - Class: 114
-      Script: {instanceID: 27560}
+      Script: {instanceID: 27558}
     - Class: 114
-      Script: {instanceID: 27688}
+      Script: {instanceID: 27686}
     - Class: 114
-      Script: {instanceID: 27846}
+      Script: {instanceID: 27844}
     - Class: 114
-      Script: {instanceID: 28138}
+      Script: {instanceID: 28136}
     - Class: 114
-      Script: {instanceID: 28174}
+      Script: {instanceID: 28172}
     - Class: 114
-      Script: {instanceID: 28698}
+      Script: {instanceID: 28696}
     - Class: 114
-      Script: {instanceID: 28962}
+      Script: {instanceID: 28960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -497,6 +502,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: b18151310f999106767addd7177d1a99
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
   - hash:
       serializedVersion: 2
       Hash: 6a356b04c25c0bb008c1b24bf8b0f996
@@ -1430,6 +1441,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CardCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: CinemachineUniversalPixelPerfect
@@ -1837,12 +1854,6 @@ ScriptsOnlyBuild:
     className: AdaptiveViewDistance
   - hash:
       serializedVersion: 2
-      Hash: b18151310f999106767addd7177d1a99
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: Mask
-  - hash:
-      serializedVersion: 2
       Hash: a14ae47ece79ba54bdc6af95456d6286
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -2081,12 +2092,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerExitMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: bcedb9e9bd21e0efebcde621ec5f2058
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CardDisplay
   - hash:
       serializedVersion: 2
       Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
@@ -2441,6 +2446,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 714b471f7c2854e06c55d812865c9fb8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CardDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 34f7b585a12cc67f4843f10c32ac9e18
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CardZoom
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity

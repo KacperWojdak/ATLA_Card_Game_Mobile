@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts\Cards\CardDisplay.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing246.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
+    <Compile Include="Assets\Scripts\Cards\CardZoom.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\Scripts\Controllers\MainMenu.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
