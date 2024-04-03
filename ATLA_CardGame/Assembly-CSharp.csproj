@@ -60,8 +60,11 @@
   <ItemGroup>
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingDescr.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenOut.cs" />
+    <Compile Include="Assets\Scripts\Controllers\TitleScreenControler.cs" />
+    <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenControler.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingSequencer.cs" />
+    <Compile Include="Assets\Scripts\Cards\Card.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
@@ -70,21 +73,21 @@
     <Compile Include="Assets\LeanTween\Testing\FollowingTests.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingOptionalCancel.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
-    <Compile Include="Assets\Scripts\TitleScreenControler.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingIssue2.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingColorTweening.cs" />
-    <Compile Include="Assets\Scripts\LoadingScreenControler.cs" />
-    <Compile Include="Assets\Scripts\LoadingScreenOut.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing243.cs" />
+    <Compile Include="Assets\Scripts\Controllers\AuthManager.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing240.cs" />
     <Compile Include="Assets\LeanTween\Testing\Scripts\LeanPool.cs" />
     <Compile Include="Assets\LeanTween\Testing\PerformanceTests.cs" />
+    <Compile Include="Assets\Scripts\Cards\CardDisplay.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing246.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
-    <Compile Include="Assets\Scripts\AuthManager.cs" />
+    <Compile Include="Assets\Scripts\Cards\CardZoom.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
+    <Compile Include="Assets\Scripts\Controllers\MainMenu.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingMaxTweens.cs" />
   </ItemGroup>
