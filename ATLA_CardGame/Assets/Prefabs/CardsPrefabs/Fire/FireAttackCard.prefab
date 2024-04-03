@@ -740,8 +740,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4293206625162964812}
   - {fileID: 266769601567309477}
+  - {fileID: 4293206625162964812}
   - {fileID: 7028079525153543544}
   - {fileID: 3163378302090226458}
   - {fileID: 3329907600033658208}
@@ -849,7 +849,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 191481ddf3a021d4db16029f7526eecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewRectTransform: {fileID: 0}
+  screenCardView: {fileID: 0}
+  scrollRect: {fileID: 0}
   zoomScale: 2
   moveSpeed: 15
 --- !u!114 &-9029203859656299760
@@ -864,28 +865,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64fb7ed72c9812a4c9cfa872e7062932, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardData:
-    cardName: 
-    description: 
-    goldenDescription: 
-    chiCost: 0
-    cardImage: {fileID: 0}
-    elementImage: {fileID: 0}
-  cardNameText: {fileID: 0}
-  descriptionText: {fileID: 0}
-  goldenDescriptionText: {fileID: 0}
-  chiCostText: {fileID: 0}
-  cardImage: {fileID: 0}
-  elementImage: {fileID: 0}
-  attackCardUI: {fileID: 0}
-  attackDamageText: {fileID: 0}
-  goldenAttackDamageText: {fileID: 0}
-  defenseCardUI: {fileID: 0}
-  defensePointsText: {fileID: 0}
-  goldenDefensePointsText: {fileID: 0}
-  healPointsText: {fileID: 0}
-  goldenHealPointsText: {fileID: 0}
-  heroCardUI: {fileID: 0}
+  card: {fileID: 0}
+  cardNameText: {fileID: 7565640709330208568}
+  descriptionText: {fileID: 8837601256087888749}
+  goldenDescriptionText: {fileID: 1659108100264442181}
+  chiCostText: {fileID: 1277675227454071963}
+  cardImage: {fileID: 3804012316246571656}
+  elementImage: {fileID: 4722710844010071833}
   healthPointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}

@@ -356,7 +356,6 @@
 "Assets/LeanTween/Testing/TestingSceneSwitching.cs"
 "Assets/LeanTween/Testing/TestingSequencer.cs"
 "Assets/Scripts/Cards/Card.cs"
-"Assets/Scripts/Cards/CardCreator.cs"
 "Assets/Scripts/Cards/CardDisplay.cs"
 "Assets/Scripts/Cards/CardZoom.cs"
 "Assets/Scripts/Controllers/AuthManager.cs"

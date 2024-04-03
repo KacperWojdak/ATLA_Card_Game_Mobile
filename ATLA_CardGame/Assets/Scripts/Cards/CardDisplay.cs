@@ -16,24 +16,7 @@ public class CardDisplay : MonoBehaviour
     public Image cardImage;
     public Image elementImage;
 
-    [Header("Attack Card UI Elements")]
-    public GameObject attackCardUI;
-    
-    public TextMeshProUGUI attackDamageText;
-    public TextMeshProUGUI goldenAttackDamageText;
-
-    [Header("Defense Card UI Elements")]
-    public GameObject defenseCardUI;
-
-    public TextMeshProUGUI defensePointsText;
-    public TextMeshProUGUI goldenDefensePointsText;
-
-    public TextMeshProUGUI healPointsText;
-    public TextMeshProUGUI goldenHealPointsText;
-
     [Header("Hero Card UI Elements")]
-    public GameObject heroCardUI;
-
     public TextMeshProUGUI healthPointsText;
     public TextMeshProUGUI talentCooldownText;
     public TextMeshProUGUI talentDescriptionText;
@@ -70,12 +53,6 @@ public class CardDisplay : MonoBehaviour
         chiCostText.text = card.chiCost.ToString();
         cardImage.sprite = card.cardImage;
         elementImage.sprite = card.elementImage;
-        attackDamageText.text = card.attackDamage.ToString();
-        goldenAttackDamageText.text = card.goldenAttackDamage.ToString();
-
-        attackCardUI.SetActive(true);
-        defenseCardUI.SetActive(false);
-        heroCardUI.SetActive(false);
     }
 
     private void SetupDefenseCard(DefenseCard card)
@@ -86,14 +63,6 @@ public class CardDisplay : MonoBehaviour
         chiCostText.text = card.chiCost.ToString();
         cardImage.sprite = card.cardImage;
         elementImage.sprite = card.elementImage;
-        defensePointsText.text = card.defensePoints.ToString();
-        goldenDefensePointsText.text = card.goldenDefensePoints.ToString();
-        healPointsText.text = card.healPoints.ToString();
-        goldenHealPointsText.text = card.goldenHealPoints.ToString();
-
-        attackCardUI.SetActive(false);
-        defenseCardUI.SetActive(true);
-        heroCardUI.SetActive(false);
     }
 
     private void SetupHeroCard(HeroCard card)
@@ -104,10 +73,5 @@ public class CardDisplay : MonoBehaviour
         healthPointsText.text = card.healthPoints.ToString();
         talentCooldownText.text = card.talentCooldown.ToString();
         talentDescriptionText.text = card.talentDescription;
-
-        
-        attackCardUI.SetActive(false);
-        defenseCardUI.SetActive(false);
-        heroCardUI.SetActive(true);
     }
 }

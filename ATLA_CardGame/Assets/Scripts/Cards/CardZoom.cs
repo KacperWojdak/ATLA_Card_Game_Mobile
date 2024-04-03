@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections;
+using UnityEngine.UI;
 
 public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
@@ -8,7 +9,9 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     private Vector3 originalPosition;
     private Transform originalParent;
 
-    public RectTransform viewRectTransform; 
+    public RectTransform screenCardView;
+    public ScrollRect scrollRect;
+
     public float zoomScale = 3f;
     public float moveSpeed = 15f; 
 
@@ -19,10 +22,13 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     void Start()
     {
         originalScale = transform.localScale;
+        scrollRect = GetComponentInParent<ScrollRect>();
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        scrollRect.enabled = false;
+
         zoomCoroutine = StartCoroutine(DelayedAction(0.5f, () =>
         {
             if (!isZoomed)
@@ -34,20 +40,8 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        if (zoomCoroutine != null)
-        {
-            StopCoroutine(zoomCoroutine);
-            zoomCoroutine = null;
-        }
+        scrollRect.enabled = true;
 
-        if (isZoomed)
-        {
-            UnzoomCard();
-        }
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
         if (zoomCoroutine != null)
         {
             StopCoroutine(zoomCoroutine);
@@ -67,10 +61,10 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         originalParent = transform.parent;
         originalUIIndex = transform.GetSiblingIndex();
 
-        transform.SetParent(viewRectTransform);
+        transform.SetParent(screenCardView);
         transform.SetAsLastSibling();
 
-        StartCoroutine(MoveToPosition(viewRectTransform.position));
+        StartCoroutine(MoveToPosition(screenCardView.position));
         transform.localScale = originalScale * zoomScale;
     }
 
