@@ -18,7 +18,7 @@ MonoBehaviour:
     goldenDescription: 
     chiCost: 0
     cardImage: {fileID: 21300000, guid: 65726c8c596d3f4488ec7af799731427, type: 3}
-    elementImage: {fileID: 21300000, guid: b79189259c40dcc48955537122ab51ec, type: 3}
+    elementImage: {fileID: 21300000, guid: c467af178d08b2d4ab2dca09cddd21e1, type: 3}
     healthPoints: 20
     talentCooldown: 5
     talentDescription: Deal 8 Damage and receive 4

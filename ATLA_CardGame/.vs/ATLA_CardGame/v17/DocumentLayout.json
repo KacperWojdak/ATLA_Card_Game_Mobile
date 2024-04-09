@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\cardzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\cardzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\atla_card_game_mobile\\atla_cardgame\\assets\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|c:\\users\\kacpe\\desktop\\atla_card_game_mobile\\atla_cardgame\\assets\\scripts\\cards\\cardzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\cardzoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\Card.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cards\\Card.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAtAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T11:40:01.211Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CardZoom.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\CardZoom.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\CardZoom.cs",
@@ -58,7 +59,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\CardDisplay.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\CardDisplay.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cards\\CardDisplay.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T12:05:18.738Z",
               "EditorCaption": ""

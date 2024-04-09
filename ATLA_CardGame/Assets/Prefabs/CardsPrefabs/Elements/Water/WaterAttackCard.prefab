@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a4d7c529034b8fe44815bda778c8c86d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9044fe00ff3b58e46bb391ad2b44ff0a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -489,7 +489,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8ec76cace83c6944ae99629f6c5c006, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b3bc096d62909e343a89ca8694da8871, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -870,6 +870,7 @@ MonoBehaviour:
   screenCardView: {fileID: 0}
   scrollRect: {fileID: 0}
   zoomScale: 2
+  zoomDelay: 1
   moveSpeed: 15
 --- !u!114 &7353595232282650891
 MonoBehaviour:

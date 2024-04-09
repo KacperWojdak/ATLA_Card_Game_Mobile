@@ -37,6 +37,8 @@ ScriptsOnlyBuild:
     Unity.AdaptivePerformance.Samsung.Android.dll:
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderLoader
     - UnityEngine.AdaptivePerformance.Samsung.Android.SamsungAndroidProviderSettings
+    Unity.AdaptivePerformance.Simulator.Editor.dll:
+    - UnityEditor.AdaptivePerformance.Simulator.Editor.SimulatorProviderSettings
     Unity.AdaptivePerformance.dll:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceGeneralSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceManagerSettings
@@ -47,6 +49,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -129,6 +133,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Toggle
   serializedClasses:
+    Assembly-CSharp:
+    - HeroCard
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
@@ -239,10 +245,10 @@ ScriptsOnlyBuild:
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayMenu
+    methodName: DisplayCards
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayCards
+    methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: QuitGame
@@ -2459,4 +2465,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity
   - Assets/Scenes/MenuScene.unity
-  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Builds/Atla 0.4.apk
+  playerPath: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/Builds/Atla 0.5.apk

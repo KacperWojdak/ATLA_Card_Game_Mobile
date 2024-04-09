@@ -850,7 +850,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1de838ee6fb4f4549ab226a46ca4bac4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f7621e7e28086044d934a29f106146a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1005,6 +1005,7 @@ MonoBehaviour:
   screenCardView: {fileID: 0}
   scrollRect: {fileID: 0}
   zoomScale: 2
+  zoomDelay: 1
   moveSpeed: 15
 --- !u!114 &-4341879749791063994
 MonoBehaviour:

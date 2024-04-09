@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 352.80005
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 592.65686, y: 280.1881, z: -2.4915802}
+    m_Target: {x: 584.3132, y: 286.60345, z: -0.3618405}
     speed: 2
-    m_Value: {x: 592.65686, y: 280.1881, z: -2.4915802}
+    m_Value: {x: 584.3132, y: 286.60345, z: -0.3618405}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -710,9 +710,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 349.43457
+    m_Target: 252.79156
     speed: 2
-    m_Value: 334.38715
+    m_Value: 252.79156
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -774,9 +774,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d80bffff
-      m_LastClickedID: -62504
-      m_ExpandedIDs: 180cffff4c4affff2251ffff7c55ffffc0f7ffff0afbffff80730000887300009e730000bc73000028c0000034c0000042c000005cc000007ac00000
+      m_SelectedIDs: 5e650100
+      m_LastClickedID: 91486
+      m_ExpandedIDs: aa65feffec65feff266dfeff726dfeff0af3feff6cf3feffaafafefffcfafeffc80affff240bffff5e12ffffaa12ffff4c67ffff2c6efffffe76ffff1677ffff3077ffff4477ffff0a78ffffd27effff3af8ffff74faffff8cfaffffa6faffffbafaffff0afbffff847300009073000094730000a6730000c8730000e6730000b2d50000c2d50000d4d50000f6d5000014d6000088db000098db0000aadb0000ccdb0000eadb0000340b0100f80b01003a0c01001c0d0100c60d01002e1c0100f21c0100341d0100161e01002e1e0100c01e0100081f0100f41f0100222001007420010084630100e46301000464010060640100aa640100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -943,7 +943,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/CardsPrefabs/Hero
+    - Assets/Cards
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -951,16 +951,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/CardsPrefabs/Hero
+  - Assets/Cards
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 145.40002}
-    m_SelectedIDs: 32910000
-    m_LastClickedID: 37170
-    m_ExpandedIDs: 000000002c7b00002e7b0000307b0000327b0000347b0000367b0000387b00003a7b00003c7b00003e7b0000407b0000467b00004a7b0000507b0000527b0000547b0000727b0000747b00001891000000ca9a3b
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: 3e7b0000
+    m_LastClickedID: 31550
+    m_ExpandedIDs: 00000000087b00000a7b00000c7b00000e7b0000107b0000127b0000147b0000167b0000187b00001a7b00001c7b00001e7b0000207b0000227b0000247b0000267b0000287b00002a7b00002c7b00003e7b00004a9f00004e9f0000a49f0000ecc700008c4b0100ae4b010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -988,7 +988,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002c7b00002e7b0000307b0000327b0000347b0000367b0000387b00003a7b00003c7b00003e7b0000407b0000427b0000447b0000467b0000487b00004a7b00004c7b00004e7b0000507b0000527b0000547b0000567b0000587b0000
+    m_ExpandedIDs: 00000000087b00000a7b00000c7b00000e7b0000107b0000127b0000147b0000167b0000187b00001a7b00001c7b00001e7b0000207b0000227b0000247b0000267b0000287b00002a7b00002c7b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1016,7 +1016,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000a0a00000226300005265000086660000de630000ae780000de760000ea760000c276000042760000c4750000327500001c8d00002c900000
+    m_ExpandedInstanceIDs: c6230000a0a00000226300005265000086660000de630000ae780000de760000ea760000c276000042760000c4750000327500001c8d00002c900000589f00005c9f0000fe4b0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

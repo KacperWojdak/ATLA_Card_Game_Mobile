@@ -18,7 +18,7 @@ MonoBehaviour:
     goldenDescription: 
     chiCost: 0
     cardImage: {fileID: 21300000, guid: a1a72a3d1b5c1354e8dbfdb56bf55c64, type: 3}
-    elementImage: {fileID: 21300000, guid: d0b48477279cb204c8770a8d37095e9d, type: 3}
+    elementImage: {fileID: 21300000, guid: 082918df0a9b71b409b702524b8fa4e7, type: 3}
     healthPoints: 20
     talentCooldown: 4
     talentDescription: Skip Opponents Turn
