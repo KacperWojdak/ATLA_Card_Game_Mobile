@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Iroh
+  m_EditorClassIdentifier: Assembly-CSharp::HeroCardData
+  card:
+    cardName: Iroh
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 21300000, guid: d313037793903fc498344134ae724782, type: 3}
+    elementImage: {fileID: 21300000, guid: c467af178d08b2d4ab2dca09cddd21e1, type: 3}
+    healthPoints: 20
+    talentCooldown: 4
+    talentDescription: Throw 2 cards this round
