@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: FireWall
+  m_EditorClassIdentifier: Assembly-CSharp::DefenseCardData
+  card:
+    cardName: Fire Wall
+    description: Block 7 damage
+    goldenDescription: Block 10 damage
+    chiCost: 7
+    cardImage: {fileID: 21300000, guid: a2b6e36ff10b7ce4b820563407b0d81d, type: 3}
+    elementImage: {fileID: 21300000, guid: c467af178d08b2d4ab2dca09cddd21e1, type: 3}
+    defensePoints: 7
+    goldenDefensePoints: 10
+    healPoints: 0
+    goldenHealPoints: 0

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: WaterShield
+  m_EditorClassIdentifier: Assembly-CSharp::DefenseCardData
+  card:
+    cardName: Water Shield
+    description: Block 5 damage and heal 5 hp
+    goldenDescription: Block 8 damage and heal 8 hp
+    chiCost: 8
+    cardImage: {fileID: 21300000, guid: d36ade8818762814fb3d937aa5ab7daa, type: 3}
+    elementImage: {fileID: 21300000, guid: 9044fe00ff3b58e46bb391ad2b44ff0a, type: 3}
+    defensePoints: 5
+    goldenDefensePoints: 8
+    healPoints: 5
+    goldenHealPoints: 8
