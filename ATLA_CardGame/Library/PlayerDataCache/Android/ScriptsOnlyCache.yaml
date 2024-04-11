@@ -130,7 +130,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
   serializedClasses:
     Assembly-CSharp:
-    - AttackCard
     - HeroCard
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
@@ -245,10 +244,10 @@ ScriptsOnlyBuild:
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayMenu
+    methodName: DisplayCards
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayCards
+    methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DisplayDecks
