@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AttackCardData
   card:
     cardName: Stone Throw
-    description: Deal 2 Damage
-    goldenDescription: Deal 3 Damage
+    description: Deal 2 damage
+    goldenDescription: Deal 3 damage
     chiCost: 3
     cardImage: {fileID: 21300000, guid: b9a2705f2d1a05144948d1ad1e943e6f, type: 3}
     elementImage: {fileID: 21300000, guid: f7621e7e28086044d934a29f106146a4, type: 3}
