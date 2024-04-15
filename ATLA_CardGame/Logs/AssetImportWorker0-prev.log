@@ -15,7 +15,7 @@ C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50403
+57189
 Successfully changed project path to: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
 C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11704] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1545140951 [EditorId] 1545140951 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5096] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3186022027 [EditorId] 3186022027 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11704] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1545140951 [EditorId] 1545140951 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5096] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3186022027 [EditorId] 3186022027 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9IKQ49R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 25.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 35.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.3f1 (7cdc2969a641)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +69,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015745 seconds.
-- Loaded All Assemblies, in  0.473 seconds
+Registered in 0.041587 seconds.
+- Loaded All Assemblies, in  0.701 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 361 ms
+Android Extension - Scanning For ADB Devices 521 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.783 seconds
-Domain Reload Profiling: 1252ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  1.075 seconds
+Domain Reload Profiling: 1773ms
+	BeginReloadAssembly (182ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (223ms)
-		LoadAssemblies (103ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (210ms)
-				TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (286ms)
+				TypeCache.ScanAssembly (261ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (783ms)
+	FinalizeReload (1076ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (694ms)
+		SetupLoadedEditorAssemblies (988ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (514ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (750ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +119,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.129 seconds
-Refreshing native plugins compatible for Editor in 12.05 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.475 seconds
+Refreshing native plugins compatible for Editor in 12.00 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -134,47 +134,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.964 seconds
-Domain Reload Profiling: 2083ms
-	BeginReloadAssembly (161ms)
+- Finished resetting the current domain, in  1.589 seconds
+Domain Reload Profiling: 3053ms
+	BeginReloadAssembly (171ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (831ms)
-		LoadAssemblies (428ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1135ms)
+		LoadAssemblies (574ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (474ms)
-			TypeCache.Refresh (426ms)
-				TypeCache.ScanAssembly (407ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (964ms)
+		AnalyzeDomain (632ms)
+			TypeCache.Refresh (572ms)
+				TypeCache.ScanAssembly (548ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1590ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (717ms)
+		SetupLoadedEditorAssemblies (1252ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (30ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (434ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (15ms)
+			BeforeProcessingInitializeOnLoad (259ms)
+			ProcessInitializeOnLoadAttributes (775ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 14.95 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 24.86 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6276 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 112 unused Assets / (0.8 MB). Loaded Objects now: 6728.
-Memory consumption went from 224.4 MB to 223.6 MB.
-Total: 5.313200 ms (FindLiveObjects: 0.503300 ms CreateObjectMapping: 0.602800 ms MarkObjects: 3.781000 ms  DeleteObjects: 0.425100 ms)
+Memory consumption went from 225.0 MB to 224.2 MB.
+Total: 7.488900 ms (FindLiveObjects: 0.563300 ms CreateObjectMapping: 1.019600 ms MarkObjects: 5.436300 ms  DeleteObjects: 0.468500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,115 +189,347 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1726.363195 seconds.
-  path: Assets/Cards/Defense/WaterHeal.asset
-  artifactKey: Guid(f723e868c2aa96049a94080e3b6b95a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Defense/WaterHeal.asset using Guid(f723e868c2aa96049a94080e3b6b95a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8694ceb65d97e6b334486e318ae4d19') in 0.004746 seconds
+  Time since last request: 20901.857405 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/FireBall.prefab
+  artifactKey: Guid(ef57882e279a1ee488f12824f67f0331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/FireBall.prefab using Guid(ef57882e279a1ee488f12824f67f0331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caf6007d61668210a857f906af03fd1') in 0.094817 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 39.956896 seconds.
-  path: Assets/Cards/Defense/WaterHeal.asset
-  artifactKey: Guid(f723e868c2aa96049a94080e3b6b95a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Defense/WaterHeal.asset using Guid(f723e868c2aa96049a94080e3b6b95a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68653fe32d4d899dfa2b9cd74dad941') in 0.001366 seconds
+  Time since last request: 0.788665 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/FireShuffle.prefab
+  artifactKey: Guid(a91620c143d37664da8bfe543d67d3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/FireShuffle.prefab using Guid(a91620c143d37664da8bfe543d67d3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2845590947238711ecf2eadb8cc35fc') in 0.029560 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 100.327792 seconds.
-  path: Assets/Cards/Defense/WaterShield.asset
-  artifactKey: Guid(67758671b459dad4ba3b4dd2d9dc2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Defense/WaterShield.asset using Guid(67758671b459dad4ba3b4dd2d9dc2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5a76103125406c383a6567bd53afdc') in 0.001096 seconds
+  Time since last request: 5.052619 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/StoneKick.prefab
+  artifactKey: Guid(743fe038cd6353e46bdc6113b97fb209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/StoneKick.prefab using Guid(743fe038cd6353e46bdc6113b97fb209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b590d4a6000572901dd0d3d1ee7c5c') in 0.021513 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 31.185282 seconds.
-  path: Assets/Cards/Defense/WaterShield.asset
-  artifactKey: Guid(67758671b459dad4ba3b4dd2d9dc2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Defense/WaterShield.asset using Guid(67758671b459dad4ba3b4dd2d9dc2738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9ed491b81b576f35365abf2bfb937f') in 0.001269 seconds
+  Time since last request: 7.621716 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/StoneThrow.prefab
+  artifactKey: Guid(066948f3b59b10a4aa37eec9fda45406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/StoneThrow.prefab using Guid(066948f3b59b10a4aa37eec9fda45406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390900edc944184e13dbad4aca23803f') in 0.023703 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 52
 ========================================================================
 Received Import Request.
-  Time since last request: 74.032969 seconds.
-  path: Assets/Cards/Attack/FireBall.asset
-  artifactKey: Guid(b6aea2e334d8a634c9bcb4d1dee12587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/FireBall.asset using Guid(b6aea2e334d8a634c9bcb4d1dee12587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4a7e0df2268198b7a4b6b783d47029') in 0.001169 seconds
+  Time since last request: 1.229448 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/StoneThrow.prefab
+  artifactKey: Guid(066948f3b59b10a4aa37eec9fda45406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/StoneThrow.prefab using Guid(066948f3b59b10a4aa37eec9fda45406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e984d578b399b23bb54f0cd8eac08ab0') in 0.018390 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 52
 ========================================================================
 Received Import Request.
-  Time since last request: 14.733493 seconds.
-  path: Assets/Cards/Attack/FireBall.asset
-  artifactKey: Guid(b6aea2e334d8a634c9bcb4d1dee12587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/FireBall.asset using Guid(b6aea2e334d8a634c9bcb4d1dee12587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdd4f1e167546c9990456690dfbde92') in 0.001285 seconds
+  Time since last request: 3.557287 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/WaterTornado.prefab
+  artifactKey: Guid(dc8e29e37635d1342adda2a7739f9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/WaterTornado.prefab using Guid(dc8e29e37635d1342adda2a7739f9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f211de84c6d38720ee1e3d16eb11a609') in 0.020639 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 9.627797 seconds.
-  path: Assets/Cards/Attack/FireBall.asset
-  artifactKey: Guid(b6aea2e334d8a634c9bcb4d1dee12587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/FireBall.asset using Guid(b6aea2e334d8a634c9bcb4d1dee12587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f41c5d3b21071ebd863d37f1ffc3ce6') in 0.001644 seconds
+  Time since last request: 2.196645 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/WaterTornado.prefab
+  artifactKey: Guid(dc8e29e37635d1342adda2a7739f9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/WaterTornado.prefab using Guid(dc8e29e37635d1342adda2a7739f9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a198638f41ede658986cbc941b258d') in 0.018814 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 100.989069 seconds.
-  path: Assets/Cards/Attack/FireShuffle.asset
-  artifactKey: Guid(eeede25946e9f3b4cb0b8e90e4362d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/FireShuffle.asset using Guid(eeede25946e9f3b4cb0b8e90e4362d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4494e2cc9faa68a580d59df44bd362ad') in 0.001337 seconds
+  Time since last request: 0.816528 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/WaterTornado.prefab
+  artifactKey: Guid(dc8e29e37635d1342adda2a7739f9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/WaterTornado.prefab using Guid(dc8e29e37635d1342adda2a7739f9b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa3bc4a390a089137d7e2119d108427') in 0.020589 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 25.117410 seconds.
-  path: Assets/Cards/Attack/FireShuffle.asset
-  artifactKey: Guid(eeede25946e9f3b4cb0b8e90e4362d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/FireShuffle.asset using Guid(eeede25946e9f3b4cb0b8e90e4362d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0781b7b943a257e7b07384254596f343') in 0.001592 seconds
+  Time since last request: 3.588351 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/WaterWave.prefab
+  artifactKey: Guid(a43411f38d0b089408b3886ee4b5ab92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/WaterWave.prefab using Guid(a43411f38d0b089408b3886ee4b5ab92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2d034ac6b08849475bc58a58b12c12') in 0.024535 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 64.312775 seconds.
-  path: Assets/Cards/Attack/StoneKick.asset
-  artifactKey: Guid(995c71c0965871a469ab5896fec4f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/StoneKick.asset using Guid(995c71c0965871a469ab5896fec4f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f98e89d1d02ebd0f2a1c834a2d3f64e') in 0.001101 seconds
+  Time since last request: 5.277842 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/AirDisguise.prefab
+  artifactKey: Guid(b27914316735d904fa8789709cb3c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/AirDisguise.prefab using Guid(b27914316735d904fa8789709cb3c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b1d10e0760a5c01c099f64375c00b') in 0.023737 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 22.164573 seconds.
-  path: Assets/Cards/Attack/StoneKick.asset
-  artifactKey: Guid(995c71c0965871a469ab5896fec4f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/StoneKick.asset using Guid(995c71c0965871a469ab5896fec4f4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298ecd1cf00d3df0a10d1cc00252cb65') in 0.001371 seconds
+  Time since last request: 1.131404 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/AirDisguise.prefab
+  artifactKey: Guid(b27914316735d904fa8789709cb3c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/AirDisguise.prefab using Guid(b27914316735d904fa8789709cb3c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d1334b47f3580f3f0a1975d3369867') in 0.021191 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 71.764208 seconds.
-  path: Assets/Cards/Attack/WaterTornado.asset
-  artifactKey: Guid(017fdbfaf97b39847a6cdc94f2ba2deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/WaterTornado.asset using Guid(017fdbfaf97b39847a6cdc94f2ba2deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c83561ae8a5cb409d9620945eb853f') in 0.001161 seconds
+  Time since last request: 2.695706 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/AirDodge.prefab
+  artifactKey: Guid(825348ffeb8e2f24e917224ab4ce93c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/AirDodge.prefab using Guid(825348ffeb8e2f24e917224ab4ce93c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf369938f61dc3d499db644805adb15') in 0.018804 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 24.377198 seconds.
-  path: Assets/Cards/Attack/WaterTornado.asset
-  artifactKey: Guid(017fdbfaf97b39847a6cdc94f2ba2deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/WaterTornado.asset using Guid(017fdbfaf97b39847a6cdc94f2ba2deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e11917b18640285c4d94f0abaa1c9') in 0.001233 seconds
+  Time since last request: 0.608701 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/AirDodge.prefab
+  artifactKey: Guid(825348ffeb8e2f24e917224ab4ce93c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/AirDodge.prefab using Guid(825348ffeb8e2f24e917224ab4ce93c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9ab28f969080660c18c3b41b088171') in 0.021181 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 3.241902 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/AirSwipe.prefab
+  artifactKey: Guid(88f9f0af493e291449f65ac4c0f3ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/AirSwipe.prefab using Guid(88f9f0af493e291449f65ac4c0f3ac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c815eb9c015eb44c79a02b9ec52e3568') in 0.020837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 2.344130 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/CrystalArmor.prefab
+  artifactKey: Guid(1a559e72b1487554594d303aaedbb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/CrystalArmor.prefab using Guid(1a559e72b1487554594d303aaedbb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f01a9facef56c92a9188d244cf183d') in 0.019866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.660930 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/CrystalArmor.prefab
+  artifactKey: Guid(1a559e72b1487554594d303aaedbb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/CrystalArmor.prefab using Guid(1a559e72b1487554594d303aaedbb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e5d0393713587db07f4f41214a20d8') in 0.019073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 2.614806 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/FireCircle.prefab
+  artifactKey: Guid(b7b8d35f8e7974f40a267a987cf0b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/FireCircle.prefab using Guid(b7b8d35f8e7974f40a267a987cf0b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17802c6a934ad7ce360fc3d79a5afce') in 0.020104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.835338 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/FireCircle.prefab
+  artifactKey: Guid(b7b8d35f8e7974f40a267a987cf0b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/FireCircle.prefab using Guid(b7b8d35f8e7974f40a267a987cf0b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aa303b3bb87b0f3507bbda750130de') in 0.022930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 3.171669 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/FireWall.prefab
+  artifactKey: Guid(0c45b279bd2113249898a2daf026525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/FireWall.prefab using Guid(0c45b279bd2113249898a2daf026525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc6ed3a6a5655f74e109a6a3c6f279b') in 0.020213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.703140 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/FireWall.prefab
+  artifactKey: Guid(0c45b279bd2113249898a2daf026525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/FireWall.prefab using Guid(0c45b279bd2113249898a2daf026525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17849101cf7f5d6aefb2401612e71254') in 0.022591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 2.895323 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/IceShield.prefab
+  artifactKey: Guid(47c6101c0b70fad41b6ac55932532d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/IceShield.prefab using Guid(47c6101c0b70fad41b6ac55932532d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed33f336a59ddf8d8b4d983728254eb') in 0.019418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.978246 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/IceShield.prefab
+  artifactKey: Guid(47c6101c0b70fad41b6ac55932532d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/IceShield.prefab using Guid(47c6101c0b70fad41b6ac55932532d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a691dce6956ae432d21e1a359048f4d') in 0.023795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 2.468245 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/Meditation.prefab
+  artifactKey: Guid(19579d16922eb9243a84497384cd556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/Meditation.prefab using Guid(19579d16922eb9243a84497384cd556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10083cdfd0b571ef88aabec2aabc6700') in 0.021148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1.833779 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/Meditation.prefab
+  artifactKey: Guid(19579d16922eb9243a84497384cd556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/Meditation.prefab using Guid(19579d16922eb9243a84497384cd556b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f89fd2e7bf2dcc5a732452d058054e') in 0.019805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 3.988800 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/StoneWall.prefab
+  artifactKey: Guid(1ce9fc98ebd57324db6416ecb25941cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/StoneWall.prefab using Guid(1ce9fc98ebd57324db6416ecb25941cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e9b29d93932daf797a62cefc37ecb3') in 0.021561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 3.508462 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/WaterBubble.prefab
+  artifactKey: Guid(35e367808357edf4191639043561436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/WaterBubble.prefab using Guid(35e367808357edf4191639043561436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119351daa7300926bf23b5975b7aa686') in 0.020018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 1.309736 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/WaterBubble.prefab
+  artifactKey: Guid(35e367808357edf4191639043561436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/WaterBubble.prefab using Guid(35e367808357edf4191639043561436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05b9dbcc2d2bfce4356f0f416afedd9') in 0.020316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 2.731865 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/WaterHeal.prefab
+  artifactKey: Guid(bde029b7ece379344bf30b5d73cb3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/WaterHeal.prefab using Guid(bde029b7ece379344bf30b5d73cb3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e7f3da41ba46a5f303fe2f8041c3dd') in 0.018559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.731740 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/WaterHeal.prefab
+  artifactKey: Guid(bde029b7ece379344bf30b5d73cb3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/WaterHeal.prefab using Guid(bde029b7ece379344bf30b5d73cb3d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930bb25a98955a04615b76c0b47cb4ee') in 0.019505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 2.496097 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/WaterShield.prefab
+  artifactKey: Guid(4c7ea907264a8b74abe691bda685071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/WaterShield.prefab using Guid(4c7ea907264a8b74abe691bda685071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6c88ce9c762e692e2c4b3ff0317338') in 0.018430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.729888 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Defense/WaterShield.prefab
+  artifactKey: Guid(4c7ea907264a8b74abe691bda685071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Defense/WaterShield.prefab using Guid(4c7ea907264a8b74abe691bda685071d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c8d7a8d4ecf20d09967404667c9c47') in 0.018609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 4.459762 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Air/AirHeroCard.prefab
+  artifactKey: Guid(bb20c2eda83921346b9c31d6ae54085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Air/AirHeroCard.prefab using Guid(bb20c2eda83921346b9c31d6ae54085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25b2b1a65b493280e41246a0ec348fd') in 0.020865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 7.797903 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Fire
+  artifactKey: Guid(ba0551fbc95bcc747a9f06223a2bdceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Fire using Guid(ba0551fbc95bcc747a9f06223a2bdceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2b4ba2b4e5c5d14b4e5c78a6db3888') in 0.000903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.224371 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Fire/FireAttackCard.prefab
+  artifactKey: Guid(f88eca9d33ada9d4d9c82d38641cb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Fire/FireAttackCard.prefab using Guid(f88eca9d33ada9d4d9c82d38641cb907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07f61acfb762401ef355327eb72faac') in 0.021240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Fire/FireHeroCard.prefab
+  artifactKey: Guid(4cc22af6dfdd46d449b72a0378a72427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Fire/FireHeroCard.prefab using Guid(4cc22af6dfdd46d449b72a0378a72427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca487b0e91a5f2178a63a60632c8b70b') in 0.021378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 2.999540 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Water
+  artifactKey: Guid(94d3b0ccd0584224ba50481cda5ccb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Water using Guid(94d3b0ccd0584224ba50481cda5ccb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fd83dd2300eade0d2a616060a86652') in 0.001070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051915 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Water/WaterAttackCard.prefab
+  artifactKey: Guid(0b71860f21d2d1d4f98c43b7efa277e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Water/WaterAttackCard.prefab using Guid(0b71860f21d2d1d4f98c43b7efa277e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab0846f9f36dd8dd9240c8cb4ee324f') in 0.024196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Elements/Water/WaterHeroCard.prefab
+  artifactKey: Guid(7f2d189e94b3a71429b36b0c796c58df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Elements/Water/WaterHeroCard.prefab using Guid(7f2d189e94b3a71429b36b0c796c58df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed412aae7f89af9b67494d7885ac6814') in 0.023107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 6.707187 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Hero/Iroh.prefab
+  artifactKey: Guid(f5e92012ba686794ab4fd137d6e9ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Hero/Iroh.prefab using Guid(f5e92012ba686794ab4fd137d6e9ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a618483994f5d7aa69ca7ca389f9359') in 0.020397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 1.812512 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Hero/Iroh.prefab
+  artifactKey: Guid(f5e92012ba686794ab4fd137d6e9ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Hero/Iroh.prefab using Guid(f5e92012ba686794ab4fd137d6e9ddd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b093f46b9adf7d404d868a59f83a143a') in 0.019337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 7.009590 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Hero/Suki.prefab
+  artifactKey: Guid(9024b3755108b304b99412e35abafdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Hero/Suki.prefab using Guid(9024b3755108b304b99412e35abafdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a83f4ebc91cacc365982c6bba7d28e') in 0.022024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 1.077821 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Hero/Suki.prefab
+  artifactKey: Guid(9024b3755108b304b99412e35abafdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Hero/Suki.prefab using Guid(9024b3755108b304b99412e35abafdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6ded7067a657ff7be7fa4a4316bcca') in 0.021902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.033 seconds
-Refreshing native plugins compatible for Editor in 11.27 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.041 seconds
+Refreshing native plugins compatible for Editor in 12.43 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -307,46 +539,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.787 seconds
-Domain Reload Profiling: 2812ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  1.999 seconds
+Domain Reload Profiling: 3031ms
+	BeginReloadAssembly (195ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (750ms)
-		LoadAssemblies (411ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (749ms)
+		LoadAssemblies (410ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (399ms)
-			TypeCache.Refresh (384ms)
-				TypeCache.ScanAssembly (370ms)
+		AnalyzeDomain (400ms)
+			TypeCache.Refresh (388ms)
+				TypeCache.ScanAssembly (373ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1788ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1999ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (746ms)
+		SetupLoadedEditorAssemblies (830ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (448ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 13.69 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 12.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 6174 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6734.
-Memory consumption went from 199.7 MB to 198.9 MB.
-Total: 6.910100 ms (FindLiveObjects: 0.690500 ms CreateObjectMapping: 0.707800 ms MarkObjects: 4.994100 ms  DeleteObjects: 0.516000 ms)
+Memory consumption went from 200.4 MB to 199.6 MB.
+Total: 7.818900 ms (FindLiveObjects: 0.643500 ms CreateObjectMapping: 0.880800 ms MarkObjects: 5.311300 ms  DeleteObjects: 0.981800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -362,253 +594,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 106.052256 seconds.
-  path: Assets/Cards/Attack/StoneThrow 1.asset
-  artifactKey: Guid(aa1d357b5c910354ca434bf2ee627f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/StoneThrow 1.asset using Guid(aa1d357b5c910354ca434bf2ee627f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049cc973f6600be0611983d249f098db') in 0.009458 seconds
+  Time since last request: 1078.618211 seconds.
+  path: Assets/Cards/Attack
+  artifactKey: Guid(c2015c8910f83144a8611b693fa6e270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Attack using Guid(c2015c8910f83144a8611b693fa6e270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8872bbb3bdab72600fff5944c0d104d7') in 0.002971 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 32.633909 seconds.
-  path: Assets/Cards/Attack/StoneThrow 1.asset
-  artifactKey: Guid(aa1d357b5c910354ca434bf2ee627f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/StoneThrow 1.asset using Guid(aa1d357b5c910354ca434bf2ee627f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3047075503f89d773da53beeacd79843') in 0.001300 seconds
+  Time since last request: 28.841680 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/AirFunnel.prefab
+  artifactKey: Guid(f9177861fae36044ebd7525163cbc96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/AirFunnel.prefab using Guid(f9177861fae36044ebd7525163cbc96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ccad51831890cf55b4f383483d7654a') in 0.071491 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 53
 ========================================================================
 Received Import Request.
-  Time since last request: 9.432848 seconds.
-  path: Assets/Cards/Attack/StoneThrow.asset
-  artifactKey: Guid(aa1d357b5c910354ca434bf2ee627f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cards/Attack/StoneThrow.asset using Guid(aa1d357b5c910354ca434bf2ee627f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c45504f6be4ff8dc147f68a1c734967') in 0.001195 seconds
+  Time since last request: 2.126312 seconds.
+  path: Assets/Prefabs/CardsPrefabs/Attack/AirFunnel.prefab
+  artifactKey: Guid(f9177861fae36044ebd7525163cbc96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CardsPrefabs/Attack/AirFunnel.prefab using Guid(f9177861fae36044ebd7525163cbc96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee5044ef7bb5980b80db14a2408c368') in 0.022431 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.011 seconds
-Refreshing native plugins compatible for Editor in 13.16 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.731 seconds
-Domain Reload Profiling: 2732ms
-	BeginReloadAssembly (175ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (722ms)
-		LoadAssemblies (397ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (387ms)
-			TypeCache.Refresh (375ms)
-				TypeCache.ScanAssembly (360ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1732ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (660ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (402ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
-			AfterProcessingInitializeOnLoad (16ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 12.44 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6174 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6738.
-Memory consumption went from 199.7 MB to 199.0 MB.
-Total: 4.759000 ms (FindLiveObjects: 0.524700 ms CreateObjectMapping: 0.662000 ms MarkObjects: 3.173400 ms  DeleteObjects: 0.397800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.981 seconds
-Refreshing native plugins compatible for Editor in 14.43 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.850 seconds
-Domain Reload Profiling: 2822ms
-	BeginReloadAssembly (176ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (700ms)
-		LoadAssemblies (386ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (378ms)
-			TypeCache.Refresh (368ms)
-				TypeCache.ScanAssembly (354ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (1851ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (739ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 12.49 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6174 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6742.
-Memory consumption went from 199.7 MB to 199.0 MB.
-Total: 7.603900 ms (FindLiveObjects: 0.826100 ms CreateObjectMapping: 1.088400 ms MarkObjects: 5.282500 ms  DeleteObjects: 0.406000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 37.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6 unused Assets / (0.7 MB). Loaded Objects now: 6742.
-Memory consumption went from 105.1 MB to 104.3 MB.
-Total: 9.685400 ms (FindLiveObjects: 0.999300 ms CreateObjectMapping: 1.051200 ms MarkObjects: 7.133900 ms  DeleteObjects: 0.499000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.039 seconds
-Refreshing native plugins compatible for Editor in 14.62 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.157 seconds
-Domain Reload Profiling: 3187ms
-	BeginReloadAssembly (194ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (734ms)
-		LoadAssemblies (421ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (384ms)
-			TypeCache.Refresh (371ms)
-				TypeCache.ScanAssembly (356ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (2157ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (765ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (146ms)
-			ProcessInitializeOnLoadAttributes (466ms)
-			ProcessInitializeOnLoadMethodAttributes (96ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 13.64 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6174 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (0.8 MB). Loaded Objects now: 6746.
-Memory consumption went from 199.7 MB to 199.0 MB.
-Total: 7.499400 ms (FindLiveObjects: 0.579400 ms CreateObjectMapping: 0.881300 ms MarkObjects: 5.382900 ms  DeleteObjects: 0.654000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 53

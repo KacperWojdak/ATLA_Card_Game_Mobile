@@ -11,7 +11,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -129,8 +128,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Toggle
   serializedClasses:
-    Assembly-CSharp:
-    - HeroCard
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
@@ -241,13 +238,13 @@ ScriptsOnlyBuild:
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
+    methodName: DisplayMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DisplayCards
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DisplayDecks
