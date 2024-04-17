@@ -1,19 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
-public class Deck : MonoBehaviour
+[CreateAssetMenu(fileName = "NewDeck", menuName = "Deck")]
+public class Deck : ScriptableObject
 {
     public string deckName;
-    public List<string> cardNames = new List<string>();
-
-    public Deck(string name)
-    {
-        deckName = name;
-    }
-
-    public void AddCard(string cardName)
-    {
-        cardNames.Add(cardName);
-    }
+    public GameObject heroCardPrefab;
+    public List<GameObject> cardPrefabs;
 }

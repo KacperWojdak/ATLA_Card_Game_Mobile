@@ -38,21 +38,3 @@ public class HeroCard : Card
     public int talentCooldown;
     public string talentDescription;
 }
-
-[CreateAssetMenu(fileName = "NewAttackCard", menuName = "Cards/AttackCard")]
-public class AttackCardData : ScriptableObject
-{
-    public AttackCard card;
-}
-
-[CreateAssetMenu(fileName = "NewDefenseCard", menuName = "Cards/DefenseCard")]
-public class DefenseCardData : ScriptableObject
-{
-    public DefenseCard card;
-}
-
-[CreateAssetMenu(fileName = "NewHeroCard", menuName = "Cards/HeroCard")]
-public class HeroCardData : ScriptableObject
-{
-    public HeroCard card;
-}
