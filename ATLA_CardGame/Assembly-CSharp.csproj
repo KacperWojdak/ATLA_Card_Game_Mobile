@@ -71,6 +71,7 @@
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\LeanTween\Testing\FollowingTests.cs" />
+    <Compile Include="Assets\Scripts\Deck\Deck.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingOptionalCancel.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescr.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingIssue2.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="Assets\LeanTween\Testing\PerformanceTests.cs" />
     <Compile Include="Assets\Scripts\Cards\CardDisplay.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing246.cs" />
+    <Compile Include="Assets\Scripts\Deck\DeckManager.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\Scripts\Cards\CardZoom.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
