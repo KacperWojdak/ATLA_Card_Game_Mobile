@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29ca125d3a39c749bd0c19b13ec81c5, type: 3}
+  m_Name: Suki's Deck
+  m_EditorClassIdentifier: 
+  deckName: Suki Deck
+  deckImage: {fileID: 21300000, guid: 323f10b317665be479a3da7c2fdabcb7, type: 3}
+  heroCard: {fileID: 7345937265943229522, guid: 9024b3755108b304b99412e35abafdd1, type: 3}
+  cards:
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 7319478153546753565, guid: 1ce9fc98ebd57324db6416ecb25941cf, type: 3}
+  - {fileID: 7319478153546753565, guid: 1ce9fc98ebd57324db6416ecb25941cf, type: 3}
+  - {fileID: 7319478153546753565, guid: 1ce9fc98ebd57324db6416ecb25941cf, type: 3}
+  - {fileID: 5230041995839874481, guid: 825348ffeb8e2f24e917224ab4ce93c1, type: 3}
+  - {fileID: 1075632160325462009, guid: 88f9f0af493e291449f65ac4c0f3ac43, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}

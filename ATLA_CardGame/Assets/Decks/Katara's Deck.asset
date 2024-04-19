@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29ca125d3a39c749bd0c19b13ec81c5, type: 3}
+  m_Name: Katara's Deck
+  m_EditorClassIdentifier: 
+  deckName: Katara Deck
+  deckImage: {fileID: 21300000, guid: 2a91a574b8c75024894a23d7c8d358da, type: 3}
+  heroCard: {fileID: 7643284790680797943, guid: d98acf4527a598149b41a09853689c04, type: 3}
+  cards:
+  - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
+  - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
+  - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
+  - {fileID: 1638643931926176626, guid: a43411f38d0b089408b3886ee4b5ab92, type: 3}
+  - {fileID: 1638643931926176626, guid: a43411f38d0b089408b3886ee4b5ab92, type: 3}
+  - {fileID: 1638643931926176626, guid: a43411f38d0b089408b3886ee4b5ab92, type: 3}
+  - {fileID: 7976849314108134405, guid: 47c6101c0b70fad41b6ac55932532d3e, type: 3}
+  - {fileID: 7976849314108134405, guid: 47c6101c0b70fad41b6ac55932532d3e, type: 3}
+  - {fileID: 7976849314108134405, guid: 47c6101c0b70fad41b6ac55932532d3e, type: 3}
+  - {fileID: 1322618447895501666, guid: 35e367808357edf4191639043561436c, type: 3}
+  - {fileID: 1322618447895501666, guid: 35e367808357edf4191639043561436c, type: 3}
+  - {fileID: 1322618447895501666, guid: 35e367808357edf4191639043561436c, type: 3}
+  - {fileID: 5390641912570350958, guid: bde029b7ece379344bf30b5d73cb3d01, type: 3}
+  - {fileID: 5390641912570350958, guid: bde029b7ece379344bf30b5d73cb3d01, type: 3}
+  - {fileID: 5390641912570350958, guid: bde029b7ece379344bf30b5d73cb3d01, type: 3}
+  - {fileID: 7400206006680175515, guid: 4c7ea907264a8b74abe691bda685071d, type: 3}
+  - {fileID: 7400206006680175515, guid: 4c7ea907264a8b74abe691bda685071d, type: 3}
+  - {fileID: 7400206006680175515, guid: 4c7ea907264a8b74abe691bda685071d, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}

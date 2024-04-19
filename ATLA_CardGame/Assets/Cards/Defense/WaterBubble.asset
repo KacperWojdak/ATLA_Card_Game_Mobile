@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WaterBubble
   m_EditorClassIdentifier: Assembly-CSharp::DefenseCardData
   card:
-    cardName: WaterBubble
+    cardName: Water Bubble
     description: Block 4 Damage
     goldenDescription: Block 6 Damage
     chiCost: 5
