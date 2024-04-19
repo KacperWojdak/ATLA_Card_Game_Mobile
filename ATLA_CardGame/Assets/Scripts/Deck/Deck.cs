@@ -1,10 +1,16 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "NewDeck", menuName = "Deck")]
+[CreateAssetMenu(fileName = "New Deck", menuName = "Deck/Deck")]
 public class Deck : ScriptableObject
 {
-    public string deckName;
-    public GameObject heroCardPrefab;
-    public List<GameObject> cardPrefabs;
+    [SerializeField] public string deckName;
+    [SerializeField] public Sprite deckImage;
+    [SerializeField] private GameObject heroCard;
+    [SerializeField] private List<GameObject> cards = new List<GameObject>();
+
+    public string DeckName => deckName;
+    public Sprite DeckImage => deckImage;
+    public GameObject HeroCard => heroCard;
+    public List<GameObject> Cards => cards;
 }

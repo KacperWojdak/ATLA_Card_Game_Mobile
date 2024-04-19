@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29ca125d3a39c749bd0c19b13ec81c5, type: 3}
+  m_Name: Aang's Deck
+  m_EditorClassIdentifier: 
+  deckName: Aang deck
+  deckImage: {fileID: 21300000, guid: a1a72a3d1b5c1354e8dbfdb56bf55c64, type: 3}
+  heroCard: {fileID: 4982932567633566337, guid: 56f90e37101c2bf4c82fe53cefe459d7, type: 3}
+  cards:
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+  - {fileID: 8658208711744185839, guid: b27914316735d904fa8789709cb3c324, type: 3}
+  - {fileID: 8658208711744185839, guid: b27914316735d904fa8789709cb3c324, type: 3}
+  - {fileID: 5230041995839874481, guid: 825348ffeb8e2f24e917224ab4ce93c1, type: 3}
+  - {fileID: 5230041995839874481, guid: 825348ffeb8e2f24e917224ab4ce93c1, type: 3}
+  - {fileID: 1075632160325462009, guid: 88f9f0af493e291449f65ac4c0f3ac43, type: 3}
+  - {fileID: 1075632160325462009, guid: 88f9f0af493e291449f65ac4c0f3ac43, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 7976849314108134405, guid: 47c6101c0b70fad41b6ac55932532d3e, type: 3}
+  - {fileID: 1322618447895501666, guid: 35e367808357edf4191639043561436c, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 6246338936093970915, guid: a91620c143d37664da8bfe543d67d3f5, type: 3}
+  - {fileID: 1017321505150444606, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
+  - {fileID: 1017321505150444606, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
+  - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}

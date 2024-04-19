@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e29ca125d3a39c749bd0c19b13ec81c5, type: 3}
+  m_Name: Toph's Deck
+  m_EditorClassIdentifier: 
+  deckName: Toph Deck
+  deckImage: {fileID: 21300000, guid: ae8190005e20cd348abdc2846fdc2653, type: 3}
+  heroCard: {fileID: 3279493170918475061, guid: d75f11f767661654d9eeeaa60ba13f36, type: 3}
+  cards:
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 4782832111883241011, guid: 743fe038cd6353e46bdc6113b97fb209, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
+  - {fileID: 7319478153546753565, guid: 1ce9fc98ebd57324db6416ecb25941cf, type: 3}
+  - {fileID: 7319478153546753565, guid: 1ce9fc98ebd57324db6416ecb25941cf, type: 3}
+  - {fileID: 7319478153546753565, guid: 1ce9fc98ebd57324db6416ecb25941cf, type: 3}
+  - {fileID: 8658208711744185839, guid: b27914316735d904fa8789709cb3c324, type: 3}
+  - {fileID: 8658208711744185839, guid: b27914316735d904fa8789709cb3c324, type: 3}
+  - {fileID: 598595689619188308, guid: 89b44c2b81be01a4ca8d6cbf15795185, type: 3}
+  - {fileID: 598595689619188308, guid: 89b44c2b81be01a4ca8d6cbf15795185, type: 3}
+  - {fileID: 1638643931926176626, guid: a43411f38d0b089408b3886ee4b5ab92, type: 3}
+  - {fileID: 1638643931926176626, guid: a43411f38d0b089408b3886ee4b5ab92, type: 3}
+  - {fileID: 6246338936093970915, guid: a91620c143d37664da8bfe543d67d3f5, type: 3}
+  - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
