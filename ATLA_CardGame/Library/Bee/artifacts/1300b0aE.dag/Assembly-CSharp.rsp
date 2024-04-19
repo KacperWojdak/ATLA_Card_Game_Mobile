@@ -436,6 +436,7 @@
 "Assets/Scripts/Cards/ScriptableObjects/DefenseCardData.cs"
 "Assets/Scripts/Cards/ScriptableObjects/HeroCardData.cs"
 "Assets/Scripts/Controllers/AuthManager.cs"
+"Assets/Scripts/Controllers/DeckController.cs"
 "Assets/Scripts/Controllers/MainMenu.cs"
 "Assets/Scripts/Controllers/TitleScreenControler.cs"
 "Assets/Scripts/Deck/Deck.cs"

@@ -1,4 +1,4 @@
-#Thu Apr 11 20:33:44 CEST 2024
+#Fri Apr 19 22:05:14 CEST 2024
 base.0=C\:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

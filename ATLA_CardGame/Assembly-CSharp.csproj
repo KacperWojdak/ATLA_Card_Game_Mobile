@@ -79,6 +79,7 @@
     <Compile Include="Assets\LeanTween\Testing\TestingIssue2.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingColorTweening.cs" />
+    <Compile Include="Assets\Scripts\Controllers\DeckController.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing243.cs" />
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\DefenseCardData.cs" />
