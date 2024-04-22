@@ -441,6 +441,7 @@
 "Assets/Scripts/Controllers/TitleScreenControler.cs"
 "Assets/Scripts/Deck/Deck.cs"
 "Assets/Scripts/Deck/DeckDisplay.cs"
+"Assets/Scripts/Deck/DeckSelection.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenControler.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenOut.cs"
 -langversion:9.0

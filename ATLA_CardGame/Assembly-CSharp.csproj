@@ -82,6 +82,7 @@
     <Compile Include="Assets\Scripts\Controllers\DeckController.cs" />
     <Compile Include="Assets\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing243.cs" />
+    <Compile Include="Assets\Scripts\Deck\DeckSelection.cs" />
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\DefenseCardData.cs" />
     <Compile Include="Assets\Scripts\Controllers\AuthManager.cs" />
     <Compile Include="Assets\LeanTween\Testing\Testing240.cs" />
