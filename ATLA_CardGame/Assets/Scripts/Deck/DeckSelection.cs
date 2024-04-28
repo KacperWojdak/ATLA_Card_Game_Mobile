@@ -18,44 +18,44 @@ public class DeckSelectionManager : MonoBehaviour
         playerSelectedDeckText.text = "Player Deck: ";
         enemySelectedDeckText.text = "Enemy Deck: ";
 
-        foreach (var deckGO in playerDeckGameObjects)
-        {
-            deckGO.GetComponent<Button>().onClick.AddListener(() => PlayerDeckSelected(deckGO));
-        }
+        playerDeckGameObjects.ForEach(deckGO => AddDeckListener(deckGO, true));
+        enemyDeckGameObjects.ForEach(deckGO => AddDeckListener(deckGO, false));
+    }
 
-        foreach (var deckGO in enemyDeckGameObjects)
+    private void AddDeckListener(GameObject deckGO, bool isPlayer)
+    {
+        deckGO.GetComponent<Button>().onClick.AddListener(() =>
         {
-            deckGO.GetComponent<Button>().onClick.AddListener(() => EnemyDeckSelected(deckGO));
-        }
+            if (isPlayer)
+                PlayerDeckSelected(deckGO);
+            else
+                EnemyDeckSelected(deckGO);
+        });
     }
 
     public void PlayerDeckSelected(GameObject selectedDeckGO)
     {
-        if (playerSelectedDeck == selectedDeckGO)
-        {
-            DeselectDeck(playerDeckGameObjects, ref playerSelectedDeck);
-            playerSelectedDeckText.text = "Player Deck: ";
-        }
-        else
-        {
-            playerSelectedDeck = selectedDeckGO;
-            playerSelectedDeckText.text = "Player Deck: " + selectedDeckGO.name.Replace(" Deck", "");
-            UpdateDeckVisuals(playerDeckGameObjects, playerSelectedDeck);
-        }
+        SelectDeck(ref playerSelectedDeck, selectedDeckGO, playerSelectedDeckText, playerDeckGameObjects, "Player Deck: ");
     }
 
     public void EnemyDeckSelected(GameObject selectedDeckGO)
     {
-        if (enemySelectedDeck == selectedDeckGO)
+        SelectDeck(ref enemySelectedDeck, selectedDeckGO, enemySelectedDeckText, enemyDeckGameObjects, "Enemy Deck: ");
+    }
+
+    private void SelectDeck(ref GameObject currentSelectedDeck, GameObject newSelectedDeck, TextMeshProUGUI deckText, List<GameObject> deckGameObjects, string textPrefix)
+    {
+        if (currentSelectedDeck == newSelectedDeck)
         {
-            DeselectDeck(enemyDeckGameObjects, ref enemySelectedDeck);
-            enemySelectedDeckText.text = "Enemy Deck: ";
+            UnselectDeck(deckGameObjects);
+            deckText.text = textPrefix;
+            currentSelectedDeck = null;
         }
         else
         {
-            enemySelectedDeck = selectedDeckGO;
-            enemySelectedDeckText.text = "Enemy Deck: " + selectedDeckGO.name.Replace(" Deck", "");
-            UpdateDeckVisuals(enemyDeckGameObjects, enemySelectedDeck);
+            currentSelectedDeck = newSelectedDeck;
+            deckText.text = textPrefix + newSelectedDeck.name.Replace(" Deck", "");
+            UpdateDeckVisuals(deckGameObjects, currentSelectedDeck);
         }
     }
 
@@ -67,19 +67,12 @@ public class DeckSelectionManager : MonoBehaviour
             if (imageTransform != null)
             {
                 var image = imageTransform.GetComponent<Image>();
-                if (deckGO == selectedDeckGO)
-                {
-                    image.color = Color.white;
-                }
-                else
-                {
-                    image.color = Color.gray;
-                }
+                image.color = deckGO == selectedDeckGO ? Color.white : Color.gray;
             }
         }
     }
 
-    private void DeselectDeck(List<GameObject> deckGOs, ref GameObject selectedDeck)
+    private void UnselectDeck(List<GameObject> deckGOs)
     {
         foreach (var deckGO in deckGOs)
         {
@@ -90,7 +83,5 @@ public class DeckSelectionManager : MonoBehaviour
                 image.color = Color.white;
             }
         }
-
-        selectedDeck = null;
     }
 }

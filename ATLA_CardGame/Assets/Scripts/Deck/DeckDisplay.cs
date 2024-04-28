@@ -8,6 +8,8 @@ public class DeckDisplay : MonoBehaviour
     [SerializeField] private TextMeshProUGUI deckNameText;
     [SerializeField] private Image deckImageDisplay;
 
+    public Deck Deck => deck;
+
     void Start()
     {
         if (deck != null)
