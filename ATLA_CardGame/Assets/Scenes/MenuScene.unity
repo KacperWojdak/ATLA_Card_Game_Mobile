@@ -15329,7 +15329,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -15338,18 +15338,18 @@ PrefabInstance:
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1900966685}
+      objectReference: {fileID: 1942437092}
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DisplayPlay
+      value: OnPlayButtonClicked
       objectReference: {fileID: 0}
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: PlayButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1414145049485777321, guid: a001152eba104e8408f5a0348d76b03a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -22310,6 +22310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1942437090}
   - component: {fileID: 1942437091}
+  - component: {fileID: 1942437092}
   m_Layer: 0
   m_Name: DeckSelectionController
   m_TagString: Untagged
@@ -22354,12 +22355,27 @@ MonoBehaviour:
   - {fileID: 1809781920}
   - {fileID: 2056013896}
   enemyDeckGameObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 34263346}
+  - {fileID: 102671825}
+  - {fileID: 935194282}
+  - {fileID: 799811779}
+  - {fileID: 825668810}
+  - {fileID: 1345071057}
+  enemySelectedDeck: {fileID: 0}
+  playerSelectedDeck: {fileID: 0}
+--- !u!114 &1942437092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942437089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9923edb28215584da3fd5b7e6340826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deckSelectionController: {fileID: 1942437091}
 --- !u!224 &1942836458 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2755412748378874351, guid: 083c202ae75f8fc4f9ee500c45d17a16, type: 3}

@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class DeckPrefab : MonoBehaviour
 {
-    [SerializeField] private List<GameObject> cards = new List<GameObject>();
-    [SerializeField] private GameObject heroCard;
+    [SerializeField] public List<GameObject> cards = new List<GameObject>();
+    [SerializeField] public GameObject heroCard;
 }
