@@ -443,10 +443,11 @@
 "Assets/Scripts/Deck/Deck.cs"
 "Assets/Scripts/Deck/DeckDisplay.cs"
 "Assets/Scripts/Deck/DeckPrefab.cs"
-"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Game/GameManager.cs"
+"Assets/Scripts/Game/HandManager.cs"
+"Assets/Scripts/Game/PlayButton.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenControler.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenOut.cs"
-"Assets/Scripts/PlayButton.cs"
 -langversion:9.0
 
 /deterministic
