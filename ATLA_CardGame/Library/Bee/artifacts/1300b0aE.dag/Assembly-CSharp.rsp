@@ -448,7 +448,7 @@
 "Assets/Scripts/Game/GameManager.cs"
 "Assets/Scripts/Game/HandManager.cs"
 "Assets/Scripts/Game/PlayButton.cs"
-"Assets/Scripts/LoadingScreen/LoadingScreenControler.cs"
+"Assets/Scripts/LoadingScreen/LoadingScreenController.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenOut.cs"
 -langversion:9.0
 

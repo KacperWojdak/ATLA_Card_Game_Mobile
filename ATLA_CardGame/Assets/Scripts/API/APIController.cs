@@ -10,8 +10,11 @@ public class APIController : MonoBehaviour
     public TMP_InputField usernameInputRegister;
     public TMP_InputField emailInputRegister;
     public TMP_InputField passwordInputRegister;
+    public GameObject warning;
 
-    private readonly string baseUrl = "https://57df-31-60-18-184.ngrok-free.app/api";
+    public LoadingScreenController loadingScreenController;
+
+    private readonly string baseUrl = "https://apiatlaphp.cloud/api";
 
     [System.Obsolete]
     public void Login()
@@ -41,10 +44,13 @@ public class APIController : MonoBehaviour
         if (www.result != UnityWebRequest.Result.Success || www.responseCode != 200)
         {
             Debug.LogError($"Login failed: {www.error}, Status Code: {www.responseCode}");
+            warning.SetActive(true);
         }
         else
         {
             Debug.Log("Login successful. Response: " + www.downloadHandler.text);
+            warning.SetActive(false);
+            loadingScreenController.StartLoadingSequence();
         }
     }
 
@@ -61,13 +67,14 @@ public class APIController : MonoBehaviour
 
         yield return www.SendWebRequest();
 
-        if (www.result != UnityWebRequest.Result.Success || www.responseCode != 200)
+        if (www.result != UnityWebRequest.Result.Success || (www.responseCode != 200 && www.responseCode != 201))
         {
             Debug.LogError($"Register failed: {www.error}, Status Code: {www.responseCode}");
         }
         else
         {
             Debug.Log("Register successful. Response: " + www.downloadHandler.text);
+            loadingScreenController.StartLoadingSequence();
         }
     }
 

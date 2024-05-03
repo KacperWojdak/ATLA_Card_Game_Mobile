@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Scripts\LeanPool.cs" />
+    <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenController.cs" />
     <Compile Include="Assets\Scripts\Game\PlayButton.cs" />
     <Compile Include="Assets\Scripts\Deck\DeckDisplay.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTest.cs" />
@@ -67,7 +68,6 @@
     <Compile Include="Assets\Scripts\Controllers\TitleScreenControler.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTweenExt.cs" />
-    <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenControler.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing240.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\Scripts\Cards\Card.cs" />
