@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ZY32BVDH3K",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 1611,
+        "processId": 2613,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,18 @@
             "deviceId": "ZY32BVDH3K",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 1611,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 604,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2613,
             "exited": false
         }
     ],
