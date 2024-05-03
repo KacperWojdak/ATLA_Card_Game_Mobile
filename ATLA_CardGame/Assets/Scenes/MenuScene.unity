@@ -633,6 +633,7 @@ MonoBehaviour:
   - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
   - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
   heroCard: {fileID: 4982932567633566337, guid: 56f90e37101c2bf4c82fe53cefe459d7, type: 3}
+  cardBackSprite: {fileID: 0}
 --- !u!1001 &37770176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,6 +2051,7 @@ MonoBehaviour:
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   heroCard: {fileID: 7643284790680797943, guid: d98acf4527a598149b41a09853689c04, type: 3}
+  cardBackSprite: {fileID: 0}
 --- !u!114 &102671828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7802,13 +7804,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 784556585285000956, guid: f1d6f85f1ff284543af986d28f42e1ca, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 617670202}
+    - targetCorrespondingSourceObject: {fileID: 784556585285000956, guid: f1d6f85f1ff284543af986d28f42e1ca, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 617670199}
     - targetCorrespondingSourceObject: {fileID: 784556585285000956, guid: f1d6f85f1ff284543af986d28f42e1ca, type: 3}
       insertIndex: -1
       addedObject: {fileID: 617670198}
-    - targetCorrespondingSourceObject: {fileID: 784556585285000956, guid: f1d6f85f1ff284543af986d28f42e1ca, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 617670202}
   m_SourcePrefab: {fileID: 100100000, guid: f1d6f85f1ff284543af986d28f42e1ca, type: 3}
 --- !u!224 &617670195 stripped
 RectTransform:
@@ -7966,6 +7968,7 @@ MonoBehaviour:
   - {fileID: 6246338936093970915, guid: a91620c143d37664da8bfe543d67d3f5, type: 3}
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   heroCard: {fileID: 3279493170918475061, guid: d75f11f767661654d9eeeaa60ba13f36, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: 21dec0b30a66a7e449b4d426e38275f5, type: 3}
 --- !u!1 &625821701
 GameObject:
   m_ObjectHideFlags: 0
@@ -9039,6 +9042,7 @@ MonoBehaviour:
   - {fileID: 6246338936093970915, guid: a91620c143d37664da8bfe543d67d3f5, type: 3}
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   heroCard: {fileID: 3279493170918475061, guid: d75f11f767661654d9eeeaa60ba13f36, type: 3}
+  cardBackSprite: {fileID: 0}
 --- !u!114 &799811782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9423,6 +9427,7 @@ MonoBehaviour:
   - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
   - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
   heroCard: {fileID: 4073174416927273496, guid: a067f1b8e1c782f4f8105522e0a6068b, type: 3}
+  cardBackSprite: {fileID: 0}
 --- !u!114 &825668813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11255,6 +11260,7 @@ MonoBehaviour:
   - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   heroCard: {fileID: 7345937265943229522, guid: 9024b3755108b304b99412e35abafdd1, type: 3}
+  cardBackSprite: {fileID: 0}
 --- !u!114 &935194285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12737,6 +12743,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1766297980}
     m_Modifications:
+    - target: {fileID: 3997343092996738519, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
+      propertyPath: deckImageDisplay
+      value: 
+      objectReference: {fileID: 1450289009}
     - target: {fileID: 7147773599073356458, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
       propertyPath: m_Name
       value: Katara Deck
@@ -12831,13 +12841,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7147773599073356458, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1130612935}
+    - targetCorrespondingSourceObject: {fileID: 7147773599073356458, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1130612932}
     - targetCorrespondingSourceObject: {fileID: 7147773599073356458, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1130612931}
-    - targetCorrespondingSourceObject: {fileID: 7147773599073356458, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1130612935}
   m_SourcePrefab: {fileID: 100100000, guid: d0029d312982f2b4195e7957a6a323e6, type: 3}
 --- !u!224 &1130612928 stripped
 RectTransform:
@@ -12995,6 +13005,7 @@ MonoBehaviour:
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   heroCard: {fileID: 7643284790680797943, guid: d98acf4527a598149b41a09853689c04, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: d5c5dfceea3f48843998de0d148d3aec, type: 3}
 --- !u!1001 &1141072818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15218,6 +15229,7 @@ MonoBehaviour:
   - {fileID: 1017321505150444606, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
   - {fileID: 1017321505150444606, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
   heroCard: {fileID: 2740340717591850759, guid: f5e92012ba686794ab4fd137d6e9ddd2, type: 3}
+  cardBackSprite: {fileID: 0}
 --- !u!114 &1345071060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15591,6 +15603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aang Deck
       objectReference: {fileID: 0}
+    - target: {fileID: 2599585008261255491, guid: b642f437d594b7e4ebaee20cad015d2e, type: 3}
+      propertyPath: deckImageDisplay
+      value: 
+      objectReference: {fileID: 761516750}
     - target: {fileID: 8415471147782518054, guid: b642f437d594b7e4ebaee20cad015d2e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -15845,6 +15861,7 @@ MonoBehaviour:
   - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
   - {fileID: 5798984370930863855, guid: dc8e29e37635d1342adda2a7739f9b17, type: 3}
   heroCard: {fileID: 4982932567633566337, guid: 56f90e37101c2bf4c82fe53cefe459d7, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: a55216b18637aa84c8b9d0319503ed51, type: 3}
 --- !u!1 &1390203454
 GameObject:
   m_ObjectHideFlags: 0
@@ -16969,6 +16986,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5053608190779981456, guid: 56f90e37101c2bf4c82fe53cefe459d7, type: 3}
   m_PrefabInstance: {fileID: 1438626730}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450289009 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 925367005973485641, guid: d98acf4527a598149b41a09853689c04, type: 3}
+  m_PrefabInstance: {fileID: 496031769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1461594115
 GameObject:
   m_ObjectHideFlags: 0
@@ -18162,13 +18190,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4129759724236729811, guid: 929e232fd6b9df64abf3642acdc9f802, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1538614783}
+    - targetCorrespondingSourceObject: {fileID: 4129759724236729811, guid: 929e232fd6b9df64abf3642acdc9f802, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1538614780}
     - targetCorrespondingSourceObject: {fileID: 4129759724236729811, guid: 929e232fd6b9df64abf3642acdc9f802, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1538614779}
-    - targetCorrespondingSourceObject: {fileID: 4129759724236729811, guid: 929e232fd6b9df64abf3642acdc9f802, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1538614783}
   m_SourcePrefab: {fileID: 100100000, guid: 929e232fd6b9df64abf3642acdc9f802, type: 3}
 --- !u!224 &1538614776 stripped
 RectTransform:
@@ -18326,6 +18354,7 @@ MonoBehaviour:
   - {fileID: 4990314751254965763, guid: 066948f3b59b10a4aa37eec9fda45406, type: 3}
   - {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
   heroCard: {fileID: 7345937265943229522, guid: 9024b3755108b304b99412e35abafdd1, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: 21dec0b30a66a7e449b4d426e38275f5, type: 3}
 --- !u!1001 &1569399276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20535,13 +20564,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3206773568124760555, guid: 594dfc9b334bd6b488c04ad998306d33, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1809781926}
+    - targetCorrespondingSourceObject: {fileID: 3206773568124760555, guid: 594dfc9b334bd6b488c04ad998306d33, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1809781923}
     - targetCorrespondingSourceObject: {fileID: 3206773568124760555, guid: 594dfc9b334bd6b488c04ad998306d33, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1809781922}
-    - targetCorrespondingSourceObject: {fileID: 3206773568124760555, guid: 594dfc9b334bd6b488c04ad998306d33, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1809781926}
   m_SourcePrefab: {fileID: 100100000, guid: 594dfc9b334bd6b488c04ad998306d33, type: 3}
 --- !u!224 &1809781919 stripped
 RectTransform:
@@ -20699,6 +20728,7 @@ MonoBehaviour:
   - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
   - {fileID: 6797730634190437174, guid: 1a559e72b1487554594d303aaedbb015, type: 3}
   heroCard: {fileID: 4073174416927273496, guid: a067f1b8e1c782f4f8105522e0a6068b, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: a37bfac85778ea64185b8b10fb083a65, type: 3}
 --- !u!1 &1812861090
 GameObject:
   m_ObjectHideFlags: 0
@@ -22361,8 +22391,8 @@ MonoBehaviour:
   - {fileID: 799811779}
   - {fileID: 825668810}
   - {fileID: 1345071057}
-  enemySelectedDeck: {fileID: 0}
   playerSelectedDeck: {fileID: 0}
+  enemySelectedDeck: {fileID: 0}
 --- !u!114 &1942437092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23795,13 +23825,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 779014797586120112, guid: 190c5edbd55a2bd4388733906e1349cb, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2056013902}
+    - targetCorrespondingSourceObject: {fileID: 779014797586120112, guid: 190c5edbd55a2bd4388733906e1349cb, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2056013899}
     - targetCorrespondingSourceObject: {fileID: 779014797586120112, guid: 190c5edbd55a2bd4388733906e1349cb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2056013898}
-    - targetCorrespondingSourceObject: {fileID: 779014797586120112, guid: 190c5edbd55a2bd4388733906e1349cb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2056013902}
   m_SourcePrefab: {fileID: 100100000, guid: 190c5edbd55a2bd4388733906e1349cb, type: 3}
 --- !u!224 &2056013895 stripped
 RectTransform:
@@ -23959,6 +23989,7 @@ MonoBehaviour:
   - {fileID: 1017321505150444606, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
   - {fileID: 1017321505150444606, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
   heroCard: {fileID: 2740340717591850759, guid: f5e92012ba686794ab4fd137d6e9ddd2, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: a37bfac85778ea64185b8b10fb083a65, type: 3}
 --- !u!1 &2076438954
 GameObject:
   m_ObjectHideFlags: 0

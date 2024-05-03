@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
         ShuffleCards(PlayerCards);
         ShuffleCards(EnemyCards);
 
-        handManager.DealCards(PlayerCards, EnemyCards, 5);
+        handManager.DealCards(PlayerCards, EnemyCards, PlayerHeroCard, EnemyHeroCard, 5);
     }
 
     void ShuffleCards(List<GameObject> cards)
