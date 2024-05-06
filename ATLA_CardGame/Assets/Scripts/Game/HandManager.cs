@@ -7,6 +7,8 @@ public class HandManager : MonoBehaviour
     public Transform enemyHandArea;
     public Transform playerHero;
     public Transform enemyHero;
+    public Transform playerDeck;
+    public Transform enemyDeck;
 
     public float scale = 0.8f;
 
@@ -14,15 +16,24 @@ public class HandManager : MonoBehaviour
     {
         for (int i = 0; i < cardsCount; i++)
         {
-            if (playerCards.Count > i) InstantiateCard(playerCards[i], playerHandArea, scale, false);
-            if (enemyCards.Count > i) InstantiateCard(enemyCards[i], enemyHandArea, scale, true);
+            if (playerCards.Count > i) InstantiateCard(playerCards[i], playerHandArea, scale, false, false);
+            if (enemyCards.Count > i) InstantiateCard(enemyCards[i], enemyHandArea, scale, true, false);
         }
 
-        if (playerHeroCard != null) InstantiateCard(playerHeroCard, playerHero, scale, false);
-        if (enemyHeroCard != null) InstantiateCard(enemyHeroCard, enemyHero, scale, true);
+        for (int i = cardsCount; i < playerCards.Count; i++)
+        {
+            InstantiateCard(playerCards[i], playerDeck, scale, false, true);
+        }
+        for (int i = cardsCount; i < enemyCards.Count; i++)
+        {
+            InstantiateCard(enemyCards[i], enemyDeck, scale, true, true);
+        }
+
+        if (playerHeroCard != null) InstantiateCard(playerHeroCard, playerHero, scale, false, false);
+        if (enemyHeroCard != null) InstantiateCard(enemyHeroCard, enemyHero, scale, true, false);
     }
 
-    void InstantiateCard(GameObject cardPrefab, Transform handArea, float scale, bool isEnemy)
+    void InstantiateCard(GameObject cardPrefab, Transform handArea, float scale, bool isEnemy, bool isDeckCard)
     {
         GameObject card = Instantiate(cardPrefab, handArea);
         card.transform.localPosition = Vector3.zero;
@@ -34,7 +45,7 @@ public class HandManager : MonoBehaviour
             zoom.enabled = false;
         }
 
-        if (isEnemy)
+        if (isEnemy || isDeckCard)
         {
             Transform chiCost = card.transform.Find("ChiCost");
             if (chiCost != null)

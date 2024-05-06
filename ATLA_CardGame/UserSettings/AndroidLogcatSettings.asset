@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ZY32BVDH3K",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 2613,
+        "processId": 22407,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -30,6 +30,30 @@
             "deviceId": "ZY32BVDH3K",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 2613,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16941,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18049,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18916,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 22407,
             "exited": false
         }
     ],

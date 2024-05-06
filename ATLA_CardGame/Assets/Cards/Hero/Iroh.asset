@@ -21,4 +21,4 @@ MonoBehaviour:
     elementImage: {fileID: 21300000, guid: c467af178d08b2d4ab2dca09cddd21e1, type: 3}
     healthPoints: 20
     talentCooldown: 4
-    talentDescription: Throw 2 cards this round
+    talentDescription: Deal 2 damage and gain 2 defense points

@@ -257,11 +257,14 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
     methodName: ResetDebugManager
   - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayPlay
+  - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
-    fullTypeName: PlayButton
-    methodName: OnPlayButtonClicked
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
@@ -273,28 +276,25 @@ ScriptsOnlyBuild:
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayPlay
+    methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayButton
+    methodName: OnPlayButtonClicked
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DisplayCards
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: DisplayMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowAangDeck
@@ -472,7 +472,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 28484}
     - Class: 114
-      Script: {instanceID: 39994}
+      Script: {instanceID: 32634}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -841,7 +841,7 @@ ScriptsOnlyBuild:
     className: TestingSequencer
   - hash:
       serializedVersion: 2
-      Hash: 1587e033af32a4152d0e277e9d4133f0
+      Hash: 120912ab56aaefa34226714edf99e2c7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HandManager
