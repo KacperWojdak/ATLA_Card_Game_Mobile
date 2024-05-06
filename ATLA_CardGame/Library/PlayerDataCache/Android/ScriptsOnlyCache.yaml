@@ -11,12 +11,14 @@ ScriptsOnlyBuild:
     - DeckDisplay
     - DeckPrefab
     - DeckSelectionController
+    - DropArea
     - GameManager
     - HandManager
     - LoadingScreenController
     - LoadingScreenOut
     - MainMenu
     - PlayButton
+    - RoundManager
     - TitleScreenController
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -57,8 +59,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     Unity.RenderPipelines.Core.Runtime:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
     - UnityEngine.Rendering.UI.DebugUIHandlerButton
@@ -266,26 +266,17 @@ ScriptsOnlyBuild:
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: QuitGame
   - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
+    methodName: DisplayCards
   - assembly: Assembly-CSharp
     fullTypeName: PlayButton
     methodName: OnPlayButtonClicked
@@ -293,8 +284,17 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: DisplayMenu
   - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
     fullTypeName: MainMenu
-    methodName: DisplayCards
+    methodName: DisplayMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowAangDeck
@@ -360,12 +360,20 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16814}
     - Class: 114
       Script: {instanceID: 16820}
     - Class: 114
@@ -375,20 +383,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18324}
     - Class: 114
-      Script: {instanceID: 20224}
+      Script: {instanceID: 20060}
     - Class: 114
-      Script: {instanceID: 21344}
+      Script: {instanceID: 20226}
     - Class: 114
-      Script: {instanceID: 21638}
+      Script: {instanceID: 20970}
     - Class: 114
-      Script: {instanceID: 24006}
+      Script: {instanceID: 21346}
     - Class: 114
-      Script: {instanceID: 24192}
+      Script: {instanceID: 21640}
     - Class: 114
-      Script: {instanceID: 25118}
+      Script: {instanceID: 24008}
     - Class: 114
-      Script: {instanceID: 28484}
+      Script: {instanceID: 24194}
+    - Class: 114
+      Script: {instanceID: 25122}
+    - Class: 114
+      Script: {instanceID: 25748}
+    - Class: 114
+      Script: {instanceID: 26458}
+    - Class: 114
+      Script: {instanceID: 28490}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -442,37 +460,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19962}
     - Class: 114
-      Script: {instanceID: 20336}
+      Script: {instanceID: 20338}
     - Class: 114
-      Script: {instanceID: 20952}
+      Script: {instanceID: 20954}
     - Class: 114
-      Script: {instanceID: 20968}
+      Script: {instanceID: 20970}
     - Class: 114
-      Script: {instanceID: 21638}
+      Script: {instanceID: 21640}
     - Class: 114
-      Script: {instanceID: 23254}
+      Script: {instanceID: 23256}
     - Class: 114
-      Script: {instanceID: 23778}
+      Script: {instanceID: 23780}
     - Class: 114
-      Script: {instanceID: 24006}
+      Script: {instanceID: 24008}
     - Class: 114
-      Script: {instanceID: 24066}
+      Script: {instanceID: 24068}
     - Class: 114
-      Script: {instanceID: 24192}
+      Script: {instanceID: 24194}
     - Class: 114
-      Script: {instanceID: 24732}
+      Script: {instanceID: 24736}
     - Class: 114
-      Script: {instanceID: 25118}
+      Script: {instanceID: 25122}
     - Class: 114
-      Script: {instanceID: 25864}
+      Script: {instanceID: 25870}
     - Class: 114
-      Script: {instanceID: 26292}
+      Script: {instanceID: 26298}
     - Class: 114
-      Script: {instanceID: 26452}
+      Script: {instanceID: 26458}
     - Class: 114
-      Script: {instanceID: 28484}
+      Script: {instanceID: 28490}
     - Class: 114
-      Script: {instanceID: 32634}
+      Script: {instanceID: 32854}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,95 +565,95 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19320}
     - Class: 114
-      Script: {instanceID: 20114}
+      Script: {instanceID: 20116}
     - Class: 114
-      Script: {instanceID: 20158}
+      Script: {instanceID: 20160}
     - Class: 114
-      Script: {instanceID: 20224}
+      Script: {instanceID: 20226}
     - Class: 114
-      Script: {instanceID: 20290}
+      Script: {instanceID: 20292}
     - Class: 114
-      Script: {instanceID: 20458}
+      Script: {instanceID: 20460}
     - Class: 114
-      Script: {instanceID: 20474}
+      Script: {instanceID: 20476}
     - Class: 114
-      Script: {instanceID: 20962}
+      Script: {instanceID: 20964}
     - Class: 114
-      Script: {instanceID: 20968}
+      Script: {instanceID: 20970}
     - Class: 114
-      Script: {instanceID: 21046}
+      Script: {instanceID: 21048}
     - Class: 114
-      Script: {instanceID: 21070}
+      Script: {instanceID: 21072}
     - Class: 114
-      Script: {instanceID: 21150}
+      Script: {instanceID: 21152}
     - Class: 114
-      Script: {instanceID: 21238}
+      Script: {instanceID: 21240}
     - Class: 114
-      Script: {instanceID: 21626}
+      Script: {instanceID: 21628}
     - Class: 114
-      Script: {instanceID: 21638}
+      Script: {instanceID: 21640}
     - Class: 114
-      Script: {instanceID: 21694}
+      Script: {instanceID: 21696}
     - Class: 114
-      Script: {instanceID: 22600}
+      Script: {instanceID: 22602}
     - Class: 114
-      Script: {instanceID: 23586}
+      Script: {instanceID: 23588}
     - Class: 114
-      Script: {instanceID: 23652}
+      Script: {instanceID: 23654}
     - Class: 114
-      Script: {instanceID: 23706}
+      Script: {instanceID: 23708}
     - Class: 114
-      Script: {instanceID: 23798}
+      Script: {instanceID: 23800}
     - Class: 114
-      Script: {instanceID: 24006}
+      Script: {instanceID: 24008}
     - Class: 114
-      Script: {instanceID: 24192}
+      Script: {instanceID: 24194}
     - Class: 114
-      Script: {instanceID: 24924}
+      Script: {instanceID: 24928}
     - Class: 114
-      Script: {instanceID: 24994}
+      Script: {instanceID: 24998}
     - Class: 114
-      Script: {instanceID: 25118}
+      Script: {instanceID: 25122}
     - Class: 114
-      Script: {instanceID: 25374}
+      Script: {instanceID: 25378}
     - Class: 114
-      Script: {instanceID: 25514}
+      Script: {instanceID: 25518}
     - Class: 114
-      Script: {instanceID: 25648}
+      Script: {instanceID: 25652}
     - Class: 114
-      Script: {instanceID: 25728}
+      Script: {instanceID: 25732}
     - Class: 114
-      Script: {instanceID: 26240}
+      Script: {instanceID: 26246}
     - Class: 114
-      Script: {instanceID: 26398}
+      Script: {instanceID: 26404}
     - Class: 114
-      Script: {instanceID: 26452}
+      Script: {instanceID: 26458}
     - Class: 114
-      Script: {instanceID: 26658}
+      Script: {instanceID: 26664}
     - Class: 114
-      Script: {instanceID: 26936}
+      Script: {instanceID: 26942}
     - Class: 114
-      Script: {instanceID: 27260}
+      Script: {instanceID: 27266}
     - Class: 114
-      Script: {instanceID: 27404}
+      Script: {instanceID: 27410}
     - Class: 114
-      Script: {instanceID: 27500}
+      Script: {instanceID: 27506}
     - Class: 114
-      Script: {instanceID: 27584}
+      Script: {instanceID: 27590}
     - Class: 114
-      Script: {instanceID: 27712}
+      Script: {instanceID: 27718}
     - Class: 114
-      Script: {instanceID: 27872}
+      Script: {instanceID: 27878}
     - Class: 114
-      Script: {instanceID: 28166}
+      Script: {instanceID: 28172}
     - Class: 114
-      Script: {instanceID: 28202}
+      Script: {instanceID: 28208}
     - Class: 114
-      Script: {instanceID: 28484}
+      Script: {instanceID: 28490}
     - Class: 114
-      Script: {instanceID: 28726}
+      Script: {instanceID: 28732}
     - Class: 114
-      Script: {instanceID: 28990}
+      Script: {instanceID: 28996}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1235,6 +1253,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 77659e725e22b357e0d80c8b7ef25150
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropArea
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1963,6 +1987,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: ba25157f898a2fae0317a611ec00140b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InteractiveCard
+  - hash:
+      serializedVersion: 2
       Hash: bb1919f987f39a217a67674a47792b29
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -2213,6 +2243,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a22cc3443a44703817e2f7f3588bd87a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RoundManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b

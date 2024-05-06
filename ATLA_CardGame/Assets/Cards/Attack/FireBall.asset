@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AttackCardData
   card:
     cardName: Fire Ball
-    description: Deal 6 damage
-    goldenDescription: Deal 8 damage
+    description: Deal 6 Damage
+    goldenDescription: Deal 8 Damage
     chiCost: 6
     cardImage: {fileID: 21300000, guid: 0b80d85ba56c7de4aa93b945fb9ef267, type: 3}
     elementImage: {fileID: 21300000, guid: c467af178d08b2d4ab2dca09cddd21e1, type: 3}

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DefenseCardData
   card:
     cardName: Crystal Armor
-    description: Block 4 Damage
-    goldenDescription: Block 8 Damage
+    description: Block 4 damage
+    goldenDescription: Block 8 damage
     chiCost: 4
     cardImage: {fileID: 21300000, guid: d70eeb6c434e5774b97b5173ce120d3e, type: 3}
     elementImage: {fileID: 21300000, guid: f7621e7e28086044d934a29f106146a4, type: 3}

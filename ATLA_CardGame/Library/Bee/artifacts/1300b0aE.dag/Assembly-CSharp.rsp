@@ -445,9 +445,13 @@
 "Assets/Scripts/Deck/DeckDisplay.cs"
 "Assets/Scripts/Deck/DeckPrefab.cs"
 "Assets/Scripts/Game/BackgroundController.cs"
+"Assets/Scripts/Game/ChiManager.cs"
+"Assets/Scripts/Game/DropArea.cs"
 "Assets/Scripts/Game/GameManager.cs"
 "Assets/Scripts/Game/HandManager.cs"
+"Assets/Scripts/Game/InteractiveCard.cs"
 "Assets/Scripts/Game/PlayButton.cs"
+"Assets/Scripts/Game/RoundManager.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenController.cs"
 "Assets/Scripts/LoadingScreen/LoadingScreenOut.cs"
 -langversion:9.0

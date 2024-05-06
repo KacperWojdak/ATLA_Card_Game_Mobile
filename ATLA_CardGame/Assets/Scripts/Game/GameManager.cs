@@ -29,4 +29,10 @@ public class GameManager : MonoBehaviour
             (cards[randomIndex], cards[i]) = (cards[i], cards[randomIndex]);
         }
     }
+
+    public void AddCardAtRoundEnd()
+    {
+        handManager.DealSingleCard(PlayerCards, handManager.playerHandArea, handManager.playerDeck, false);
+        handManager.DealSingleCard(EnemyCards, handManager.enemyHandArea, handManager.enemyDeck, true);
+    }
 }

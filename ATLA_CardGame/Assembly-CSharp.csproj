@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Deck\DeckDisplay.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingDescr.cs" />
+    <Compile Include="Assets\Scripts\Game\InteractiveCard.cs" />
     <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenOut.cs" />
     <Compile Include="Assets\Scripts\Controllers\TitleScreenControler.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingSceneSwitching.cs" />
@@ -76,7 +77,9 @@
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Deck\DeckPrefab.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing243.cs" />
+    <Compile Include="Assets\Scripts\Game\RoundManager.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing246.cs" />
+    <Compile Include="Assets\Scripts\Game\ChiManager.cs" />
     <Compile Include="Assets\Scripts\Controllers\DeckSelectionController.cs" />
     <Compile Include="Assets\Scripts\Deck\Deck.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingRotate.cs" />
@@ -84,6 +87,7 @@
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\AttackCardData.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingIssue.cs" />
+    <Compile Include="Assets\Scripts\Game\DropArea.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingIssue2.cs" />
     <Compile Include="Assets\Scripts\Controllers\DeckController.cs" />
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\DefenseCardData.cs" />
