@@ -12,6 +12,7 @@ public class ChiManager : MonoBehaviour
     private int currentPlayerGoldenChi;
     private int currentEnemyChi;
     private int currentEnemyGoldenChi;
+    private ChiManager chiManager;
 
     public void InitializeChi(int startPlayerChi, int startPlayerGoldenChi, int startEnemyChi, int startEnemyGoldenChi)
     {

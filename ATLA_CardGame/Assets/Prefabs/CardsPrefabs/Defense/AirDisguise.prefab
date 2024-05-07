@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 2272462125065578655}
   - component: {fileID: 223638245124106125}
   - component: {fileID: 6406706048715673149}
+  - component: {fileID: 5911285598201281071}
   m_Layer: 0
   m_Name: AirDisguise
   m_TagString: Untagged
@@ -1106,3 +1107,30 @@ MonoBehaviour:
   healthPointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
+--- !u!114 &5911285598201281071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8658208711744185839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db5491719207cd409ac242d5a02d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalParent: {fileID: 0}
+  isPlayerCard: 1
+  isDropped: 0
+  card: {fileID: 11400000, guid: ebc349cee34c06a47bb08639d0803a1e, type: 2}
+  attackCard:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+    attackDamage: 0
+    goldenAttackDamage: 0
+  chiCost: 0

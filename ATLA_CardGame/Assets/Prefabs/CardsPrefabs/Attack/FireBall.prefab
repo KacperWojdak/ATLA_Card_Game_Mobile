@@ -226,6 +226,8 @@ GameObject:
   - component: {fileID: 1754152300036076849}
   - component: {fileID: 5464685966596755880}
   - component: {fileID: 3375479757863736848}
+  - component: {fileID: 5958891048051121133}
+  - component: {fileID: 8703535997259890795}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Untagged
@@ -382,6 +384,60 @@ MonoBehaviour:
   healthPointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
+--- !u!114 &5958891048051121133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017321505150444606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db5491719207cd409ac242d5a02d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalParent: {fileID: 0}
+  isPlayerCard: 1
+  isDropped: 0
+  card: {fileID: 11400000, guid: b6aea2e334d8a634c9bcb4d1dee12587, type: 2}
+  attackCard:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+    attackDamage: 0
+    goldenAttackDamage: 0
+  chiCost: 0
+--- !u!114 &8703535997259890795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017321505150444606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db5491719207cd409ac242d5a02d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalParent: {fileID: 0}
+  isPlayerCard: 1
+  isDropped: 0
+  card: {fileID: 0}
+  attackCard:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+    attackDamage: 0
+    goldenAttackDamage: 0
+  chiCost: 0
 --- !u!1 &2443306038456453408
 GameObject:
   m_ObjectHideFlags: 0

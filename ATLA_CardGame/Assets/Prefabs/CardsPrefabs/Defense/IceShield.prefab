@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 9038180624949427434}
   - component: {fileID: 9154505998969663679}
   - component: {fileID: 7854383858112223653}
+  - component: {fileID: 4045802347226774825}
   m_Layer: 0
   m_Name: IceShield
   m_TagString: Untagged
@@ -1106,3 +1107,30 @@ MonoBehaviour:
   healthPointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
+--- !u!114 &4045802347226774825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7976849314108134405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db5491719207cd409ac242d5a02d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalParent: {fileID: 0}
+  isPlayerCard: 1
+  isDropped: 0
+  card: {fileID: 11400000, guid: 94601bc4bff2d7a4db3c76df0193b1a5, type: 2}
+  attackCard:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+    attackDamage: 0
+    goldenAttackDamage: 0
+  chiCost: 0

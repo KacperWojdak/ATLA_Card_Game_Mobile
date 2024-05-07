@@ -24952,7 +24952,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8703535997259890795, guid: ef57882e279a1ee488f12824f67f0331, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -25202,6 +25203,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 951232006}
     m_Modifications:
+    - target: {fileID: 550635617692869069, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 22.099976
+      objectReference: {fileID: 0}
     - target: {fileID: 709443547462313723, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
       propertyPath: scrollRect
       value: 
@@ -25210,6 +25215,10 @@ PrefabInstance:
       propertyPath: screenCardView
       value: 
       objectReference: {fileID: 549331811}
+    - target: {fileID: 4591149562421464885, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5471911225357479251, guid: f9177861fae36044ebd7525163cbc96d, type: 3}
       propertyPath: m_Name
       value: AirFunnel

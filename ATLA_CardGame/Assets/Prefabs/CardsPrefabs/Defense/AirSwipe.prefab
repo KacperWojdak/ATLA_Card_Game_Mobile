@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 8859098232486550741}
   - component: {fileID: 19956639474465729}
   - component: {fileID: 8930579946264274076}
+  - component: {fileID: 3121386189112710249}
   m_Layer: 0
   m_Name: AirSwipe
   m_TagString: Untagged
@@ -261,6 +262,33 @@ MonoBehaviour:
   healthPointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
+--- !u!114 &3121386189112710249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075632160325462009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db5491719207cd409ac242d5a02d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalParent: {fileID: 0}
+  isPlayerCard: 1
+  isDropped: 0
+  card: {fileID: 11400000, guid: f2aa367b23810cc4e86c119ad66632dd, type: 2}
+  attackCard:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+    attackDamage: 0
+    goldenAttackDamage: 0
+  chiCost: 0
 --- !u!1 &1688425871801740168
 GameObject:
   m_ObjectHideFlags: 0

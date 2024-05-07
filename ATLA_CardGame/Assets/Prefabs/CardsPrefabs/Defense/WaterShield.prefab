@@ -815,6 +815,7 @@ GameObject:
   - component: {fileID: 1156416339117220301}
   - component: {fileID: 6199187376847897238}
   - component: {fileID: 2803483892470902124}
+  - component: {fileID: 5436701235543892253}
   m_Layer: 0
   m_Name: WaterShield
   m_TagString: Untagged
@@ -971,6 +972,33 @@ MonoBehaviour:
   healthPointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
+--- !u!114 &5436701235543892253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7400206006680175515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8db5491719207cd409ac242d5a02d98f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalPosition: {x: 0, y: 0, z: 0}
+  originalParent: {fileID: 0}
+  isPlayerCard: 1
+  isDropped: 0
+  card: {fileID: 11400000, guid: 67758671b459dad4ba3b4dd2d9dc2738, type: 2}
+  attackCard:
+    cardName: 
+    description: 
+    goldenDescription: 
+    chiCost: 0
+    cardImage: {fileID: 0}
+    elementImage: {fileID: 0}
+    attackDamage: 0
+    goldenAttackDamage: 0
+  chiCost: 0
 --- !u!1 &8416437157100343731
 GameObject:
   m_ObjectHideFlags: 0

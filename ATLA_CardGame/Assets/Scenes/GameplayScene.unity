@@ -1566,7 +1566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayerArea: 0
-  chiManager: {fileID: 0}
+  chiManager: {fileID: 1124138576}
 --- !u!61 &915819426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2213,6 +2213,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108620588}
   m_CullTransparentMesh: 1
+--- !u!1 &1124138574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1124138575}
+  - component: {fileID: 1124138576}
+  m_Layer: 0
+  m_Name: ChiManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1124138575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124138574}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348513465}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1124138576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124138574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c2e01adad7d37449fa0396b7ecda77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerChiPoints:
+  - {fileID: 2080035296}
+  - {fileID: 1458116282}
+  - {fileID: 1537704557}
+  - {fileID: 150352947}
+  - {fileID: 681616346}
+  - {fileID: 702842109}
+  - {fileID: 988626419}
+  - {fileID: 823278731}
+  - {fileID: 1895708522}
+  - {fileID: 1585036405}
+  playerGoldenChiPoints:
+  - {fileID: 1177140139}
+  - {fileID: 426445000}
+  - {fileID: 1008877951}
+  - {fileID: 208832346}
+  enemyChiPoints:
+  - {fileID: 2051486481}
+  - {fileID: 254303241}
+  - {fileID: 578290813}
+  - {fileID: 1035057762}
+  - {fileID: 553298955}
+  - {fileID: 611398036}
+  - {fileID: 2083286868}
+  - {fileID: 124998836}
+  - {fileID: 2097090053}
+  - {fileID: 1457638531}
+  enemyGoldenChiPoints:
+  - {fileID: 991434643}
+  - {fileID: 1172820510}
+  - {fileID: 567377076}
+  - {fileID: 1704005821}
 --- !u!1 &1163620485
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,6 +2769,7 @@ Transform:
   - {fileID: 891261517}
   - {fileID: 1897481223}
   - {fileID: 312999106}
+  - {fileID: 1124138575}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3295,7 +3372,6 @@ GameObject:
   - component: {fileID: 1583262266}
   - component: {fileID: 1583262265}
   - component: {fileID: 1583262267}
-  - component: {fileID: 1583262268}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3347,51 +3423,7 @@ MonoBehaviour:
   roundText: {fileID: 1391714044}
   skipButton: {fileID: 1580355259}
   gameManager: {fileID: 1583262265}
-  chiManager: {fileID: 1583262268}
---- !u!114 &1583262268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583262264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63c2e01adad7d37449fa0396b7ecda77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerChiPoints:
-  - {fileID: 2080035296}
-  - {fileID: 1458116282}
-  - {fileID: 1537704557}
-  - {fileID: 150352947}
-  - {fileID: 681616346}
-  - {fileID: 702842109}
-  - {fileID: 988626419}
-  - {fileID: 823278731}
-  - {fileID: 1895708522}
-  - {fileID: 1585036405}
-  playerGoldenChiPoints:
-  - {fileID: 1177140139}
-  - {fileID: 426445000}
-  - {fileID: 1008877951}
-  - {fileID: 208832346}
-  enemyChiPoints:
-  - {fileID: 2051486481}
-  - {fileID: 254303241}
-  - {fileID: 578290813}
-  - {fileID: 1035057762}
-  - {fileID: 553298955}
-  - {fileID: 611398036}
-  - {fileID: 2083286868}
-  - {fileID: 124998836}
-  - {fileID: 2097090053}
-  - {fileID: 1457638531}
-  enemyGoldenChiPoints:
-  - {fileID: 991434643}
-  - {fileID: 1172820510}
-  - {fileID: 567377076}
-  - {fileID: 1704005821}
+  chiManager: {fileID: 1124138576}
 --- !u!1 &1585036403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,7 +3905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayerArea: 1
-  chiManager: {fileID: 0}
+  chiManager: {fileID: 1124138576}
 --- !u!61 &1772304417
 BoxCollider2D:
   m_ObjectHideFlags: 0

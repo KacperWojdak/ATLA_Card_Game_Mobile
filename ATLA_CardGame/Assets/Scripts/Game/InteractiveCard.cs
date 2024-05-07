@@ -10,7 +10,9 @@ public class InteractiveCard : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     public bool isPlayerCard = true;
     public bool isDropped = false;
 
-    public Card card;
+    public ScriptableObject card;
+    public AttackCard attackCard;
+    public int chiCost;
 
     void Awake()
     {
@@ -22,13 +24,14 @@ public class InteractiveCard : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
         }
 
-        if (card != null)
-        {
-            Debug.Log("Chi cost from card data: " + card.chiCost);
-        }
+        AttackCardData attackCardData = card as AttackCardData;
+        if (attackCardData != null) chiCost = attackCardData.card.chiCost;
         else
         {
-            Debug.LogError("Card data not set on " + gameObject.name);
+            DefenseCardData defenseCardData = card as DefenseCardData;
+
+            if (defenseCardData != null) chiCost = defenseCardData.card.chiCost;
+            else chiCost = 0;
         }
     }
 
