@@ -13,7 +13,6 @@ public class DeckSelectionController : MonoBehaviour
     public GameObject playerSelectedDeck;
     public GameObject enemySelectedDeck;
 
-    // Initialize the deck selection UI
     void Start()
     {
         playerSelectedDeckText.text = "Player Deck: ";
@@ -23,7 +22,6 @@ public class DeckSelectionController : MonoBehaviour
         enemyDeckGameObjects.ForEach(deckGO => AddDeckListener(deckGO, false));
     }
 
-    // Helper method to add click listeners to deck game objects
     private void AddDeckListener(GameObject deckGO, bool isPlayer)
     {
         deckGO.GetComponent<Button>().onClick.AddListener(() =>
@@ -35,7 +33,6 @@ public class DeckSelectionController : MonoBehaviour
         });
     }
 
-    // Handle player deck selection
     public void PlayerDeckSelected(GameObject selectedDeckGO)
     {
         SelectDeck(ref playerSelectedDeck, selectedDeckGO, playerSelectedDeckText, playerDeckGameObjects, "Player Deck: ");
@@ -45,7 +42,6 @@ public class DeckSelectionController : MonoBehaviour
         GameManager.PlayerHeroCard = deckPrefab.heroCard;
     }
 
-    // Handle enemy deck selection
     public void EnemyDeckSelected(GameObject selectedDeckGO)
     {
         SelectDeck(ref enemySelectedDeck, selectedDeckGO, enemySelectedDeckText, enemyDeckGameObjects, "Enemy Deck: ");
@@ -55,7 +51,6 @@ public class DeckSelectionController : MonoBehaviour
         GameManager.EnemyHeroCard = deckPrefab.heroCard;
     }
 
-    // Select or unselect a deck
     private void SelectDeck(ref GameObject currentSelectedDeck, GameObject newSelectedDeck, TextMeshProUGUI deckText, List<GameObject> deckGameObjects, string textPrefix)
     {
         if (currentSelectedDeck == newSelectedDeck)
@@ -72,7 +67,6 @@ public class DeckSelectionController : MonoBehaviour
         }
     }
 
-    // Update the visual appearance of decks
     private void UpdateDeckVisuals(List<GameObject> deckGOs, GameObject selectedDeckGO)
     {
         foreach (var deckGO in deckGOs)
@@ -86,7 +80,6 @@ public class DeckSelectionController : MonoBehaviour
         }
     }
 
-    // Reset the visual appearance of all decks
     private void UnselectDeck(List<GameObject> deckGOs)
     {
         foreach (var deckGO in deckGOs)

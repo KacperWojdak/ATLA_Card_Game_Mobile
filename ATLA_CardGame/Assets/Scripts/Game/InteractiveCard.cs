@@ -9,10 +9,16 @@ public class InteractiveCard : MonoBehaviour, IPointerDownHandler, IPointerUpHan
     private bool isDragging = false;
     public bool isPlayerCard = true;
     public bool isDropped = false;
+    public bool isInDeck = false;
+    public bool isEnemyCard = false;
 
-    public ScriptableObject card;
-    public AttackCard attackCard;
     public int chiCost;
+    public int attackPoints;
+    public int goldAttackPoints;
+    public int defensePoints;
+    public int goldDefensePoints;
+    public int healingPoints;
+    public int goldHealingPoints;
 
     void Awake()
     {
@@ -23,21 +29,11 @@ public class InteractiveCard : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         {
             canvasGroup = gameObject.AddComponent<CanvasGroup>();
         }
-
-        AttackCardData attackCardData = card as AttackCardData;
-        if (attackCardData != null) chiCost = attackCardData.card.chiCost;
-        else
-        {
-            DefenseCardData defenseCardData = card as DefenseCardData;
-
-            if (defenseCardData != null) chiCost = defenseCardData.card.chiCost;
-            else chiCost = 0;
-        }
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (!isPlayerCard) return;
+        if (!isPlayerCard || isInDeck || isEnemyCard) return;
 
         isDragging = true;
         canvasGroup.blocksRaycasts = false;
@@ -47,10 +43,9 @@ public class InteractiveCard : MonoBehaviour, IPointerDownHandler, IPointerUpHan
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (isDragging)
-        {
-            transform.position = eventData.position;
-        }
+        if (!isDragging || isInDeck) return;
+
+        if (isDragging) transform.position = eventData.position;
     }
 
     public void OnPointerUp(PointerEventData eventData)

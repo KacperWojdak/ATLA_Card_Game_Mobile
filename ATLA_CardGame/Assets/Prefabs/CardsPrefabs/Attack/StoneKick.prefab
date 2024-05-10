@@ -589,7 +589,7 @@ RectTransform:
   m_GameObject: {fileID: 4782832111883241011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2776110852996090790}
@@ -727,6 +727,7 @@ MonoBehaviour:
   cardImage: {fileID: 906623707918050098}
   elementImage: {fileID: 3886319966186642011}
   healthPointsText: {fileID: 0}
+  defensePointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
 --- !u!114 &2255109353281548447
@@ -745,17 +746,15 @@ MonoBehaviour:
   originalParent: {fileID: 0}
   isPlayerCard: 1
   isDropped: 0
-  card: {fileID: 11400000, guid: 995c71c0965871a469ab5896fec4f4c1, type: 2}
-  attackCard:
-    cardName: 
-    description: 
-    goldenDescription: 
-    chiCost: 0
-    cardImage: {fileID: 0}
-    elementImage: {fileID: 0}
-    attackDamage: 0
-    goldenAttackDamage: 0
-  chiCost: 0
+  isInDeck: 0
+  isEnemyCard: 0
+  chiCost: 5
+  attackPoints: 4
+  goldAttackPoints: 6
+  defensePoints: 0
+  goldDefensePoints: 0
+  healingPoints: 0
+  goldHealingPoints: 0
 --- !u!1 &5135825345300352147
 GameObject:
   m_ObjectHideFlags: 0

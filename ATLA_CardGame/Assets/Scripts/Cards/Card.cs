@@ -26,7 +26,7 @@ public class DefenseCard : Card
 {
     public int defensePoints;
     public int goldenDefensePoints;
-    
+
     public int healPoints;
     public int goldenHealPoints;
 }
@@ -35,6 +35,7 @@ public class DefenseCard : Card
 public class HeroCard : Card
 {
     public int healthPoints;
+    public int defensePoints;
     public int talentCooldown;
     public string talentDescription;
 }

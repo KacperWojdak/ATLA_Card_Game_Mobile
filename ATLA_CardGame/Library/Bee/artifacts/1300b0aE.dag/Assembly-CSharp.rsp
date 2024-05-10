@@ -433,6 +433,8 @@
 "Assets/Scripts/Cards/Card.cs"
 "Assets/Scripts/Cards/CardDisplay.cs"
 "Assets/Scripts/Cards/CardZoom.cs"
+"Assets/Scripts/Cards/HeroStats.cs"
+"Assets/Scripts/Cards/SceneScriptManager.cs"
 "Assets/Scripts/Cards/ScriptableObjects/AttackCardData.cs"
 "Assets/Scripts/Cards/ScriptableObjects/DefenseCardData.cs"
 "Assets/Scripts/Cards/ScriptableObjects/HeroCardData.cs"

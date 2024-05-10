@@ -19,12 +19,38 @@ public class APIController : MonoBehaviour
     [System.Obsolete]
     public void Login()
     {
+        if (string.IsNullOrWhiteSpace(emailInputLogin.text) || string.IsNullOrWhiteSpace(passwordInputLogin.text))
+        {
+            warning.SetActive(true);
+            Invoke("HideWarning", 2.0f);
+            return;
+        }
+
+        if (!IsValidEmail(emailInputLogin.text))
+        {
+            warning.SetActive(true);
+            Invoke("HideWarning", 2.0f);
+            return;
+        }
+
         StartCoroutine(SendLoginRequest(emailInputLogin.text, passwordInputLogin.text));
     }
 
     [System.Obsolete]
     public void Register()
     {
+        if (string.IsNullOrWhiteSpace(usernameInputRegister.text) || string.IsNullOrWhiteSpace(emailInputRegister.text) || string.IsNullOrWhiteSpace(passwordInputRegister.text))
+        {
+            warning.SetActive(true);
+            return;
+        }
+
+        if (!IsValidEmail(emailInputRegister.text))
+        {
+            warning.SetActive(true);
+            return;
+        }
+
         StartCoroutine(SendRegisterRequest(usernameInputRegister.text, emailInputRegister.text, passwordInputRegister.text));
     }
 
@@ -76,6 +102,16 @@ public class APIController : MonoBehaviour
             Debug.Log("Register successful. Response: " + www.downloadHandler.text);
             loadingScreenController.StartLoadingSequence();
         }
+    }
+
+    private bool IsValidEmail(string email)
+    {
+        return System.Text.RegularExpressions.Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
+    }
+
+    private void HideWarning()
+    {
+        warning.SetActive(false);
     }
 
     private class LoginData

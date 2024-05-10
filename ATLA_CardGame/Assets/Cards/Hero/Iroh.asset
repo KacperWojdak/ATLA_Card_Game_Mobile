@@ -20,5 +20,6 @@ MonoBehaviour:
     cardImage: {fileID: 21300000, guid: d313037793903fc498344134ae724782, type: 3}
     elementImage: {fileID: 21300000, guid: c467af178d08b2d4ab2dca09cddd21e1, type: 3}
     healthPoints: 20
+    defensePoints: 0
     talentCooldown: 4
     talentDescription: Deal 2 damage and gain 2 defense points

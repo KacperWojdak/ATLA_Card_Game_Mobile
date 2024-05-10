@@ -10,16 +10,18 @@ public class RoundManager : MonoBehaviour
     public Button skipButton;
     public GameManager gameManager;
     public ChiManager chiManager;
+    public HandManager handManager;
 
     void Start()
     {
         UpdateRoundText();
         skipButton.onClick.AddListener(SkipRound);
         if (gameManager == null) gameManager = FindObjectOfType<GameManager>();
+        if (chiManager == null) chiManager = FindObjectOfType<ChiManager>();
         chiManager.InitializeChi(1, 0, 1, 0);
     }
 
-    void UpdateRoundText()
+    public void UpdateRoundText()
     {
         roundText.text = "ROUND " + currentRound;
         AnimateRoundText();
@@ -53,6 +55,9 @@ public class RoundManager : MonoBehaviour
         currentRound++;
         UpdateRoundText();
         gameManager.AddCardAtRoundEnd();
+
+        handManager.ResetPlayerCanPlay();
+        handManager.ResetEnemyCanPlay();
 
         int newChi = Mathf.Min(currentRound, 10);
         chiManager.RefreshChi(newChi, newChi);

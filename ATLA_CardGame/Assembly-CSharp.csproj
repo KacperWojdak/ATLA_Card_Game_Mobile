@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Deck\DeckDisplay.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingDescr.cs" />
+    <Compile Include="Assets\Scripts\Cards\SceneScriptManager.cs" />
     <Compile Include="Assets\Scripts\Game\InteractiveCard.cs" />
     <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenOut.cs" />
     <Compile Include="Assets\Scripts\Controllers\TitleScreenControler.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\Scripts\Game\HandManager.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LTDescr.cs" />
+    <Compile Include="Assets\Scripts\Cards\HeroStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

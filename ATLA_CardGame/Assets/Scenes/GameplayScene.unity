@@ -865,6 +865,52 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
+--- !u!1 &518858528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 518858529}
+  - component: {fileID: 518858530}
+  m_Layer: 0
+  m_Name: SceneScriptManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &518858529
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518858528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348513465}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &518858530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518858528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e055f175570f6eb47bd57a9602285db5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameplaySceneName: GameplayScene
+  menuSceneName: MenuScene
 --- !u!1 &553298953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,7 +1493,10 @@ MonoBehaviour:
   enemyHero: {fileID: 8213418}
   playerDeck: {fileID: 1484748964}
   enemyDeck: {fileID: 1163620486}
+  maxHandSize: 10
   scale: 0.8
+  chiManager: {fileID: 1124138576}
+  roundManager: {fileID: 1373551298}
 --- !u!1 &915819420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1528,7 +1577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.5509434, b: 0.5509434, a: 0.05882353}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.05882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1567,6 +1616,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerArea: 0
   chiManager: {fileID: 1124138576}
+  playerHero: {fileID: 0}
+  enemyHero: {fileID: 0}
 --- !u!61 &915819426
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2765,14 +2816,66 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1897481223}
   - {fileID: 1583262266}
   - {fileID: 891261517}
-  - {fileID: 1897481223}
+  - {fileID: 1373551297}
   - {fileID: 312999106}
   - {fileID: 1124138575}
+  - {fileID: 518858529}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1373551296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373551297}
+  - component: {fileID: 1373551298}
+  m_Layer: 0
+  m_Name: RoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373551297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373551296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1348513465}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1373551298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373551296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf0e968470fb304c86c8d7c3a7e79e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentRound: 1
+  roundText: {fileID: 1391714044}
+  skipButton: {fileID: 1580355259}
+  gameManager: {fileID: 1583262265}
+  chiManager: {fileID: 1124138576}
+  handManager: {fileID: 891261518}
 --- !u!1 &1391714042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,7 +3199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 422.5, y: 75}
+  m_AnchoredPosition: {x: 432, y: 75}
   m_SizeDelta: {x: -1085, y: 150}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1484748965
@@ -3371,7 +3474,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1583262266}
   - component: {fileID: 1583262265}
-  - component: {fileID: 1583262267}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3407,23 +3509,6 @@ Transform:
   m_Father: {fileID: 1348513465}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1583262267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1583262264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaf0e968470fb304c86c8d7c3a7e79e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentRound: 1
-  roundText: {fileID: 1391714044}
-  skipButton: {fileID: 1580355259}
-  gameManager: {fileID: 1583262265}
-  chiManager: {fileID: 1124138576}
 --- !u!1 &1585036403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3906,6 +3991,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerArea: 1
   chiManager: {fileID: 1124138576}
+  playerHero: {fileID: 31998666}
+  enemyHero: {fileID: 8213418}
 --- !u!61 &1772304417
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4067,8 +4154,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897481220}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -557.6289, y: -272.45413, z: 5.1901846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

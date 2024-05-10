@@ -8,10 +8,10 @@ public class ChiManager : MonoBehaviour
     public Image[] enemyChiPoints;
     public Image[] enemyGoldenChiPoints;
 
-    private int currentPlayerChi;
-    private int currentPlayerGoldenChi;
-    private int currentEnemyChi;
-    private int currentEnemyGoldenChi;
+    public int currentPlayerChi;
+    public int currentPlayerGoldenChi;
+    public int currentEnemyChi;
+    public int currentEnemyGoldenChi;
     private ChiManager chiManager;
 
     public void InitializeChi(int startPlayerChi, int startPlayerGoldenChi, int startEnemyChi, int startEnemyGoldenChi)
@@ -23,7 +23,7 @@ public class ChiManager : MonoBehaviour
         UpdateChiDisplay();
     }
 
-    void UpdateChiDisplay()
+    public void UpdateChiDisplay()
     {
         UpdateChiImages(playerChiPoints, currentPlayerChi);
         UpdateChiImages(playerGoldenChiPoints, currentPlayerGoldenChi);
@@ -41,14 +41,17 @@ public class ChiManager : MonoBehaviour
 
     public bool UseChi(bool isPlayer, int chiCost)
     {
-        if (isPlayer)
+        int currentChi = isPlayer ? currentPlayerChi : currentEnemyChi;
+
+        if (currentChi >= chiCost)
         {
-            return UsePlayerChi(chiCost);
+            if (isPlayer) currentPlayerChi -= chiCost;
+            else currentEnemyChi -= chiCost;
+
+            UpdateChiDisplay();
+            return true;
         }
-        else
-        {
-            return UseEnemyChi(chiCost);
-        }
+        return false;
     }
 
     private bool UsePlayerChi(int chiCost)
@@ -71,6 +74,12 @@ public class ChiManager : MonoBehaviour
             return true;
         }
         return false;
+    }
+
+    public bool HasEnoughChi(bool isPlayer, int chiCost)
+    {
+        int currentChi = isPlayer ? currentPlayerChi : currentEnemyChi;
+        return currentChi >= chiCost;
     }
 
     public void RefreshChi(int newPlayerChi, int newEnemyChi)

@@ -591,6 +591,7 @@ MonoBehaviour:
   cardImage: {fileID: 5082802886115698153}
   elementImage: {fileID: 6754704617684741894}
   healthPointsText: {fileID: 0}
+  defensePointsText: {fileID: 0}
   talentCooldownText: {fileID: 0}
   talentDescriptionText: {fileID: 0}
 --- !u!114 &6488474761024866800
@@ -609,17 +610,18 @@ MonoBehaviour:
   originalParent: {fileID: 0}
   isPlayerCard: 1
   isDropped: 0
-  card: {fileID: 11400000, guid: 0e7268ac7f8db8f43b063bff7533991b, type: 2}
-  attackCard:
-    cardName: 
-    description: 
-    goldenDescription: 
-    chiCost: 0
-    cardImage: {fileID: 0}
-    elementImage: {fileID: 0}
-    attackDamage: 0
-    goldenAttackDamage: 0
-  chiCost: 0
+  isInDeck: 0
+  isEnemyCard: 0
+  chiCost: 7
+  attackPoints: 0
+  goldAttackPoints: 0
+  defensePoints: 7
+  goldDefensePoints: 10
+  healingPoints: 0
+  goldHealingPoints: 0
+  healthPoints: 0
+  armorPoints: 0
+  cooldown: 0
 --- !u!1 &2240061181130872775
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,36 +7,36 @@
       "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\droparea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\chimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\chimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\interactivecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\interactivecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\handmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\carddisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\roundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\game\\chimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\game\\chimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\herostats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\herostats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\deck\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deck\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C15E2F-4609-CA4D-1B7B-5B7D56D70CD6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,20 +50,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\Card.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\Card.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cards\\Card.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCEAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-29T11:40:01.211Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Deck.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Deck\\Deck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Deck\\Deck.cs",
@@ -76,40 +76,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CardDisplay.cs",
-              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\CardDisplay.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\CardDisplay.cs",
-              "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\CardDisplay.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Cards\\CardDisplay.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "DocumentIndex": 6,
+              "Title": "HeroStats.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\HeroStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Cards\\HeroStats.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Cards\\HeroStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Cards\\HeroStats.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T21:29:37.416Z"
+              "WhenOpened": "2024-05-08T11:57:27.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ChiManager.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\ChiManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\ChiManager.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\ChiManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\ChiManager.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T19:51:12.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "RoundManager.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\RoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\RoundManager.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\RoundManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\RoundManager.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAUwDwAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T17:44:39.937Z"
+              "WhenOpened": "2024-05-06T17:44:39.937Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -119,46 +120,49 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\DropArea.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\DropArea.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\DropArea.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAQwCQAAAAJAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T15:39:47.663Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "InteractiveCard.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\InteractiveCard.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\InteractiveCard.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\InteractiveCard.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\InteractiveCard.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBoAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:37:48.023Z"
+              "WhenOpened": "2024-05-06T15:37:48.023Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "HandManager.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\HandManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\HandManager.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\HandManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\HandManager.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAUwFEAAAABAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAIwJQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T11:54:29.984Z"
+              "WhenOpened": "2024-04-30T11:54:29.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Game\\GameManager.cs",
               "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Game\\GameManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAUwCYAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T11:24:33.091Z"
+              "WhenOpened": "2024-04-30T11:24:33.091Z",
+              "EditorCaption": ""
             }
           ]
         }
