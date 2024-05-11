@@ -61,7 +61,6 @@ public class HandManager : MonoBehaviour
         enemyCanPlay = true;
     }
 
-
     public void DealCards(List<GameObject> playerCards, List<GameObject> enemyCards, GameObject playerHeroCard, GameObject enemyHeroCard, int cardsCount)
     {
         for (int i = 0; i < cardsCount; i++)
@@ -167,7 +166,6 @@ public class HandManager : MonoBehaviour
     {
         return handArea.childCount;
     }
-
 
     void UpdateDeckVisual(Transform deckArea)
     {

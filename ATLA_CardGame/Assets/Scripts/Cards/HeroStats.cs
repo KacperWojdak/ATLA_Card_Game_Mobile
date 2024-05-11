@@ -5,7 +5,6 @@ public class HeroStats : MonoBehaviour
 {
     public int healthPoints;
     public int armorPoints;
-    public int cooldown;
     public TextMeshProUGUI healthText;
     public TextMeshProUGUI armorText;
 

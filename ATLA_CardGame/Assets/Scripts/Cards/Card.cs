@@ -36,6 +36,4 @@ public class HeroCard : Card
 {
     public int healthPoints;
     public int defensePoints;
-    public int talentCooldown;
-    public string talentDescription;
 }

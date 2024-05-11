@@ -446,6 +446,7 @@
 "Assets/Scripts/Deck/Deck.cs"
 "Assets/Scripts/Deck/DeckDisplay.cs"
 "Assets/Scripts/Deck/DeckPrefab.cs"
+"Assets/Scripts/Game/AIController.cs"
 "Assets/Scripts/Game/BackgroundController.cs"
 "Assets/Scripts/Game/ChiManager.cs"
 "Assets/Scripts/Game/DropArea.cs"
