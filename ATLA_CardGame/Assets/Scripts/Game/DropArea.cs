@@ -6,6 +6,7 @@ public class DropArea : MonoBehaviour, IDropHandler
 {
     public bool isPlayerArea;
     public ChiManager chiManager;
+    public RoundManager roundManager;
 
     public Transform playerHero;
     public Transform enemyHero;
@@ -45,6 +46,7 @@ public class DropArea : MonoBehaviour, IDropHandler
         else if (chiManager.UseChi(isPlayerArea, card.chiCost))
         {
             ApplyCardEffects(card, isPlayerArea, false);
+            roundManager.ToggleTurn();
         }
         else
         {
