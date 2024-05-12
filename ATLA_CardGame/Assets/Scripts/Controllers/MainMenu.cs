@@ -5,14 +5,22 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] private GameObject mainMenu;
+    [SerializeField] private GameObject playMenu;
     [SerializeField] private GameObject cardMenu;
     [SerializeField] private GameObject deckMenu;
 
     public void DisplayMenu()
     {
         mainMenu.SetActive(true);
+        playMenu.SetActive(false);
         cardMenu.SetActive(false);
         deckMenu.SetActive(false);
+    }
+
+    public void DisplayPlay()
+    {
+        mainMenu.SetActive(false);
+        playMenu.SetActive(true);
     }
 
     public void DisplayCards()

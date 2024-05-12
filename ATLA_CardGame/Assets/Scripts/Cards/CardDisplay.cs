@@ -16,8 +16,7 @@ public class CardDisplay : MonoBehaviour
 
     [Header("Hero Card UI Elements")]
     public TextMeshProUGUI healthPointsText;
-    public TextMeshProUGUI talentCooldownText;
-    public TextMeshProUGUI talentDescriptionText;
+    public TextMeshProUGUI defensePointsText;
 
     void Start()
     {
@@ -69,7 +68,6 @@ public class CardDisplay : MonoBehaviour
         cardImage.sprite = card.cardImage;
         elementImage.sprite = card.elementImage;
         healthPointsText.text = card.healthPoints.ToString();
-        talentCooldownText.text = card.talentCooldown.ToString();
-        talentDescriptionText.text = card.talentDescription;
+        defensePointsText.text = card.defensePoints.ToString();
     }
 }

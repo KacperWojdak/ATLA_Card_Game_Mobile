@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AttackCardData
   card:
     cardName: Air Funnel
-    description: Deal 3 Damage
-    goldenDescription: Deal 5 Damage
+    description: Deal 3 damage
+    goldenDescription: Deal 5 damage
     chiCost: 3
     cardImage: {fileID: 21300000, guid: ba79cbd5800c1f84b9e81a8fe1c83b37, type: 3}
     elementImage: {fileID: 21300000, guid: 082918df0a9b71b409b702524b8fa4e7, type: 3}

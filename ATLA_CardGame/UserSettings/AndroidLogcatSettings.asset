@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "ZY32BVDH3K",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 1611,
+        "processId": 7137,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,72 @@
             "deviceId": "ZY32BVDH3K",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 1611,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 604,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2613,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16941,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18049,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18916,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 22407,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 17112,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 7837,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 10343,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 11336,
+            "exited": false
+        },
+        {
+            "deviceId": "ZY32BVDH3K",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 7137,
             "exited": false
         }
     ],

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AttackCardData
   card:
     cardName: Water Wave
-    description: Deal 4 Damage
-    goldenDescription: Deal 7 Damage
+    description: Deal 4 damage
+    goldenDescription: Deal 7 damage
     chiCost: 5
     cardImage: {fileID: 21300000, guid: d222141423800c045be95422f759483f, type: 3}
     elementImage: {fileID: 21300000, guid: 9044fe00ff3b58e46bb391ad2b44ff0a, type: 3}
