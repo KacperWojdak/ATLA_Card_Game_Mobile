@@ -24,7 +24,6 @@ public class HeroStats : MonoBehaviour
             healthPoints = Mathf.Max(0, healthPoints - damage);
         }
         UpdateUI();
-        CheckForDefeat();
     }
 
     public void Heal(int amount)
@@ -43,13 +42,5 @@ public class HeroStats : MonoBehaviour
     {
         if (healthText != null) healthText.text = healthPoints.ToString();
         if (armorText != null) armorText.text = armorPoints.ToString();
-    }
-
-    private void CheckForDefeat()
-    {
-        if (healthPoints <= 0)
-        {
-            Debug.Log(gameObject.name + " has been defeated.");
-        }
     }
 }

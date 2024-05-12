@@ -54,7 +54,7 @@ public class ChiManager : MonoBehaviour
         return false;
     }
 
-    private bool UsePlayerChi(int chiCost)
+    public bool UsePlayerChi(int chiCost)
     {
         if (currentPlayerChi >= chiCost)
         {
@@ -65,7 +65,7 @@ public class ChiManager : MonoBehaviour
         return false;
     }
 
-    private bool UseEnemyChi(int chiCost)
+    public bool UseEnemyChi(int chiCost)
     {
         if (currentEnemyChi >= chiCost)
         {

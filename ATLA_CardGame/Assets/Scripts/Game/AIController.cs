@@ -5,38 +5,45 @@ public class AIController : MonoBehaviour
 {
     public Transform enemyHand;
     public Transform enemyDropArea;
-    public ChiManager chiManager;
     public Button enemySkipButton;
+    private ChiManager chiManager;
+    private RoundManager roundManager;
 
-
-    private void PerformAITurn()
+    void Start()
     {
-        bool hasPlayed = false;
+        if (chiManager == null) chiManager = FindObjectOfType<ChiManager>();
+        if (roundManager == null) roundManager = FindObjectOfType<RoundManager>();
+    }
+
+    void Update()
+    {
+        if (roundManager.IsEnemyTurn())
+        {
+            PlayTurn();
+        }
+    }
+
+    private void PlayTurn()
+    {
+        bool hasPlayedCard = false;
 
         foreach (Transform cardTransform in enemyHand)
         {
             InteractiveCard card = cardTransform.GetComponent<InteractiveCard>();
-            if (card != null && card.chiCost <= chiManager.currentEnemyChi)
+            if (card != null && chiManager.HasEnoughChi(false, card.chiCost))
             {
-                PlayCard(card);
-                hasPlayed = true;
-                break;
+                if (chiManager.UseChi(false, card.chiCost))
+                {
+                    cardTransform.SetParent(enemyDropArea);
+                    hasPlayedCard = true;
+                    break;
+                }
             }
         }
 
-        if (!hasPlayed)
+        if (!hasPlayedCard)
         {
-            Debug.Log("AI decides to skip the turn.");
             enemySkipButton.onClick.Invoke();
         }
-    }
-
-    private void PlayCard(InteractiveCard card)
-    {
-        Debug.Log("AI plays: " + card.name);
-        card.transform.SetParent(enemyDropArea);
-        card.transform.localPosition = Vector3.zero;  // Reset position to the center of the DropArea
-        // Tutaj trzeba by dodaæ logikê odpowiedzialn¹ za aktywacjê efektów karty
-        //card.OnCardPlayed();  // Przyk³adowa metoda do implementacji w InteractiveCard
     }
 }

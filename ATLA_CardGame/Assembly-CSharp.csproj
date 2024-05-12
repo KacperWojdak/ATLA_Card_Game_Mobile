@@ -74,12 +74,14 @@
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing240.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\Scripts\Cards\Card.cs" />
+    <Compile Include="Assets\Scripts\Game\EnemyDropArea.cs" />
     <Compile Include="Assets\Scripts\API\APIController.cs" />
     <Compile Include="Assets\Scripts\Game\BackgroundController.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Deck\DeckPrefab.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing243.cs" />
     <Compile Include="Assets\Scripts\Game\RoundManager.cs" />
+    <Compile Include="Assets\Scripts\Game\PlayerDropArea.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing246.cs" />
     <Compile Include="Assets\Scripts\Game\ChiManager.cs" />
     <Compile Include="Assets\Scripts\Controllers\DeckSelectionController.cs" />
@@ -89,7 +91,6 @@
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\AttackCardData.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingIssue.cs" />
-    <Compile Include="Assets\Scripts\Game\DropArea.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingIssue2.cs" />
     <Compile Include="Assets\Scripts\Controllers\DeckController.cs" />
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\DefenseCardData.cs" />

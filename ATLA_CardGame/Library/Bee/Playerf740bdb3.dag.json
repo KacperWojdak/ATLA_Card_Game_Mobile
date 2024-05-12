@@ -409,7 +409,28 @@
         401,
         402,
         403,
-        404
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        412,
+        413,
+        414,
+        415,
+        416,
+        417,
+        418,
+        419,
+        420,
+        421,
+        422,
+        423,
+        424,
+        425
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -10360,7 +10381,7 @@
       "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/app_icon.png"
+        "Temp/StagingArea/res.mdpi.app_icon.png"
       ],
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
@@ -10372,7 +10393,7 @@
       "DisplayName": "Copying ic_launcher_background.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_background.png"
+        "Temp/StagingArea/res.mdpi.adaptive_icon-0.png"
       ],
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
@@ -10384,12 +10405,264 @@
       "DisplayName": "Copying ic_launcher_foreground.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "Temp/StagingArea/res.mdpi.adaptive_icon-1.png"
       ],
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
       "DebugActionIndex": 389
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png"
+      ],
+      "DebugActionIndex": 390
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 391
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 392
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 393
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
+      "DisplayName": "Copying app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 394
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 395
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.mdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 396
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 397
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 398
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 399
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
+      "DisplayName": "Copying app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 400
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 401
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 402
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 403
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 404
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
+      "DisplayName": "Copying ic_launcher_background.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.adaptive_icon-0.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png"
+      ],
+      "DebugActionIndex": 405
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 406
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 407
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 408
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 409
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "DisplayName": "Copying ic_launcher_foreground.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.adaptive_icon-1.png"
+      ],
+      "Outputs": [
+        "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+      ],
+      "DebugActionIndex": 410
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -10401,7 +10674,7 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 390
+      "DebugActionIndex": 411
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -10409,11 +10682,11 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        390,
-        392
+        411,
+        413
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 391
+      "DebugActionIndex": 412
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -10425,7 +10698,7 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 392
+      "DebugActionIndex": 413
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -10437,7 +10710,7 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 393
+      "DebugActionIndex": 414
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so",
@@ -10449,7 +10722,7 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 415
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so",
@@ -10461,20 +10734,20 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so"
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 416
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 283878,
-      "PayloadLength": 23994,
+      "PayloadLength": 23992,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 417
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -10736,12 +11009,12 @@
         365,
         367,
         369,
-        396
+        417
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 397
+      "DebugActionIndex": 418
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -10753,7 +11026,7 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 419
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -10765,7 +11038,7 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 420
     },
     {
       "Annotation": "CopyFiles C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -10777,20 +11050,20 @@
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 421
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_hfzz.info",
       "DisplayName": "Writing unity_app_guid_hfzz.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 307964,
+      "PayloadOffset": 307962,
       "PayloadLength": 17249,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_hfzz.info"
       ],
-      "DebugActionIndex": 401
+      "DebugActionIndex": 422
     },
     {
       "Annotation": "GuidGenerator C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -10937,25 +11210,25 @@
       ],
       "ToBuildDependencies": [
         6,
-        401
+        422
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 402
+      "DebugActionIndex": 423
     },
     {
       "Annotation": "WriteText C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 325425,
+      "PayloadOffset": 325423,
       "PayloadLength": 65,
       "PayloadDebugContentSnippet": "2022.3.3f1;Mono;Release;StripE",
       "Inputs": [],
       "Outputs": [
         "C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 403
+      "DebugActionIndex": 424
     },
     {
       "Annotation": "Player",
@@ -11231,16 +11504,37 @@
         388,
         389,
         390,
+        391,
         392,
         393,
         394,
         395,
+        396,
         397,
+        398,
+        399,
+        400,
+        401,
         402,
-        403
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411,
+        413,
+        414,
+        415,
+        416,
+        418,
+        423,
+        424
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 404
+      "DebugActionIndex": 425
     }
   ],
   "FileSignatures": [
@@ -11573,8 +11867,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 391,
-          "Player": 404
+          "SourceBuildPlayerFiles": 412,
+          "Player": 425
         }
 ,  "DefaultNodes": [
     0

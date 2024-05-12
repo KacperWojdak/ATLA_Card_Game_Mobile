@@ -71,4 +71,16 @@ public class InteractiveCard : MonoBehaviour, IPointerDownHandler, IPointerUpHan
             card.originalPosition = transform.position;
         }
     }
+
+    public void ToggleCardDisplay(bool showDetails)
+    {
+        Transform chiCost = transform.Find("ChiCost");
+        Transform cardBack = transform.Find("CardBack");
+
+        if (chiCost != null)
+            chiCost.gameObject.SetActive(showDetails);
+
+        if (cardBack != null)
+            cardBack.gameObject.SetActive(!showDetails);
+    }
 }

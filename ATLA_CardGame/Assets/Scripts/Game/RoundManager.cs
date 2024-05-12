@@ -17,12 +17,12 @@ public class RoundManager : MonoBehaviour
     private bool playerTurn;
     private bool playerHasSkipped;
     private bool enemyHasSkipped;
-    private bool startingPlayer; // True for player, false for enemy
+    private bool startingPlayer;
 
     void Start()
     {
         DetermineFirstTurn();
-        startingPlayer = playerTurn; // Initialize who starts the first round
+        startingPlayer = playerTurn;
         UpdateRoundText();
         playerSkipButton.onClick.AddListener(PlayerSkip);
         enemySkipButton.onClick.AddListener(EnemySkip);
@@ -33,9 +33,13 @@ public class RoundManager : MonoBehaviour
 
     void DetermineFirstTurn()
     {
-        playerTurn = Random.Range(0, 2) == 0; // 50% chance for player or enemy to start
+        playerTurn = Random.Range(0, 2) == 0;
         turnText.text = playerTurn ? "Your Turn" : "Enemy Turn";
-        Debug.Log($"First turn determined: {(playerTurn ? "Player starts" : "Enemy starts")}");
+    }
+
+    public bool IsEnemyTurn()
+    {
+        return !playerTurn;
     }
 
     public void UpdateRoundText()
@@ -85,7 +89,6 @@ public class RoundManager : MonoBehaviour
         if (playerTurn)
         {
             playerHasSkipped = true;
-            Debug.Log("Player skipped their turn.");
             ToggleTurn();
         }
     }
@@ -110,17 +113,15 @@ public class RoundManager : MonoBehaviour
         {
             playerTurn = !playerTurn;
             turnText.text = playerTurn ? "Your Turn" : "Enemy Turn";
-            Debug.Log($"Turn switched: Now it's {(playerTurn ? "Player's" : "Enemy's")} turn.");
         }
     }
 
     void ResetRound()
     {
-        startingPlayer = !startingPlayer; // Alternate who starts the next round
-        playerTurn = startingPlayer; // Set the turn based on who is starting the round
+        startingPlayer = !startingPlayer;
+        playerTurn = startingPlayer;
         playerHasSkipped = false;
         enemyHasSkipped = false;
         turnText.text = playerTurn ? "Your Turn" : "Enemy Turn";
-        Debug.Log($"Round reset: Starting player - {(playerTurn ? "Player" : "Enemy")}");
     }
 }
