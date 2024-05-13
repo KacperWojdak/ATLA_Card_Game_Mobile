@@ -12,10 +12,7 @@ public class DeckDisplay : MonoBehaviour
 
     void Start()
     {
-        if (deck != null)
-        {
-            UpdateDeckUI();
-        }
+        if (deck != null) UpdateDeckUI();
     }
 
     public void UpdateDeckUI()

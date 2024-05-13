@@ -1,6 +1,6 @@
-using UnityEngine;
-using TMPro;
 using System.Collections;
+using TMPro;
+using UnityEngine;
 using UnityEngine.Networking;
 
 public class APIController : MonoBehaviour

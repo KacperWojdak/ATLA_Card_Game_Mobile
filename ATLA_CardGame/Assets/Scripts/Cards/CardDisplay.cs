@@ -20,26 +20,14 @@ public class CardDisplay : MonoBehaviour
 
     void Start()
     {
-        if (card != null)
-        {
-            SetupCard();
-        }
+        if (card != null) SetupCard();
     }
 
     public void SetupCard()
     {
-        if (card is AttackCardData attackCardData)
-        {
-            SetupAttackCard(attackCardData.card);
-        }
-        else if (card is DefenseCardData defenseCardData)
-        {
-            SetupDefenseCard(defenseCardData.card);
-        }
-        else if (card is HeroCardData heroCardData)
-        {
-            SetupHeroCard(heroCardData.card);
-        }
+        if (card is AttackCardData attackCardData) SetupAttackCard(attackCardData.card);
+        else if (card is DefenseCardData defenseCardData) SetupDefenseCard(defenseCardData.card);
+        else if (card is HeroCardData heroCardData) SetupHeroCard(heroCardData.card);
     }
 
     private void SetupAttackCard(AttackCard card)

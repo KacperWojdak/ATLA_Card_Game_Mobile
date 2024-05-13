@@ -99,9 +99,9 @@ public class TitleScreenController : MonoBehaviour
             CanvasGroup canvasGroup = menuPanel.GetComponent<CanvasGroup>();
 
             if (canvasGroup == null)
-                {
-                    canvasGroup = menuPanel.AddComponent<CanvasGroup>();
-                }
+            {
+                canvasGroup = menuPanel.AddComponent<CanvasGroup>();
+            }
 
             canvasGroup.alpha = 0;
             LeanTween.alphaCanvas(canvasGroup, 1f, 1f).setEase(LeanTweenType.easeInOutQuad);
@@ -148,9 +148,6 @@ public class TitleScreenController : MonoBehaviour
 
     private void CancelTweens(params GameObject[] objects)
     {
-        foreach (var obj in objects)
-        {
-            LeanTween.cancel(obj);
-        }
+        foreach (var obj in objects) LeanTween.cancel(obj);
     }
 }

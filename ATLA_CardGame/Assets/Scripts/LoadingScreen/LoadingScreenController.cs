@@ -44,10 +44,8 @@ public class LoadingScreenController : MonoBehaviour
 
     public IEnumerator FadeLoadingScreen(float targetAlpha, bool blockRaycasts)
     {
-        if (blockRaycasts)
-        {
-            loadingScreenCanvasGroup.blocksRaycasts = true;
-        }
+        if (blockRaycasts) loadingScreenCanvasGroup.blocksRaycasts = true;
+
 
         float startAlpha = loadingScreenCanvasGroup.alpha;
         for (float t = 0; t < 1; t += Time.deltaTime / fadeDuration)
@@ -57,9 +55,6 @@ public class LoadingScreenController : MonoBehaviour
         }
         loadingScreenCanvasGroup.alpha = targetAlpha;
 
-        if (!blockRaycasts)
-        {
-            loadingScreenCanvasGroup.blocksRaycasts = false;
-        }
+        if (!blockRaycasts) loadingScreenCanvasGroup.blocksRaycasts = false;
     }
 }

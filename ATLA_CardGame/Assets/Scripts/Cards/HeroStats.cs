@@ -14,15 +14,10 @@ public class HeroStats : MonoBehaviour
         {
             int damageAfterArmor = damage - armorPoints;
             armorPoints = Mathf.Max(0, armorPoints - damage);
-            if (damageAfterArmor > 0)
-            {
-                healthPoints = Mathf.Max(0, healthPoints - damageAfterArmor);
-            }
+
+            if (damageAfterArmor > 0) healthPoints = Mathf.Max(0, healthPoints - damageAfterArmor);
         }
-        else
-        {
-            healthPoints = Mathf.Max(0, healthPoints - damage);
-        }
+        else healthPoints = Mathf.Max(0, healthPoints - damage);
         UpdateUI();
     }
 

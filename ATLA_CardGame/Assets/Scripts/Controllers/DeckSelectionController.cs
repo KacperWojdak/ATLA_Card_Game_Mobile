@@ -1,7 +1,7 @@
-using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 
 public class DeckSelectionController : MonoBehaviour
 {
@@ -26,10 +26,8 @@ public class DeckSelectionController : MonoBehaviour
     {
         deckGO.GetComponent<Button>().onClick.AddListener(() =>
         {
-            if (isPlayer)
-                PlayerDeckSelected(deckGO);
-            else
-                EnemyDeckSelected(deckGO);
+            if (isPlayer) PlayerDeckSelected(deckGO);
+            else EnemyDeckSelected(deckGO);
         });
     }
 

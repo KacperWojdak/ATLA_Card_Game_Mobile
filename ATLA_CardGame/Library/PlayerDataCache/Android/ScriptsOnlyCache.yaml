@@ -147,6 +147,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Toggle
   serializedClasses:
+    Assembly-CSharp:
+    - AttackCard
+    - DefenseCard
+    - HeroCard
     Unity.AdaptivePerformance:
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceIndexerSettings
     - UnityEngine.AdaptivePerformance.AdaptivePerformanceScalerProfile
@@ -262,29 +266,11 @@ ScriptsOnlyBuild:
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: DisplayMenu
-  - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: DisplayMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: DeckController
-    methodName: ShowDeckDisplay
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: DisplayMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: MainMenu
-    methodName: DisplayPlay
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
@@ -292,17 +278,41 @@ ScriptsOnlyBuild:
     fullTypeName: MainMenu
     methodName: DisplayCards
   - assembly: Assembly-CSharp
-    fullTypeName: PlayButton
-    methodName: OnPlayButtonClicked
+    fullTypeName: MainMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: DeckController
+    methodName: ShowDeckDisplay
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayButton
+    methodName: OnPlayButtonClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayPlay
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayMenu
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowAangDeck
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowKataraDeck
+  - assembly: Assembly-CSharp
+    fullTypeName: MainMenu
+    methodName: DisplayRules
   - assembly: Assembly-CSharp
     fullTypeName: DeckController
     methodName: ShowTophDeck
@@ -384,39 +394,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16824}
     - Class: 114
-      Script: {instanceID: 17420}
+      Script: {instanceID: 20220}
     - Class: 114
-      Script: {instanceID: 17758}
+      Script: {instanceID: 20964}
     - Class: 114
-      Script: {instanceID: 18328}
+      Script: {instanceID: 21630}
     - Class: 114
-      Script: {instanceID: 18472}
+      Script: {instanceID: 23996}
     - Class: 114
-      Script: {instanceID: 20230}
+      Script: {instanceID: 24180}
     - Class: 114
-      Script: {instanceID: 20974}
+      Script: {instanceID: 25106}
     - Class: 114
-      Script: {instanceID: 21350}
+      Script: {instanceID: 26440}
     - Class: 114
-      Script: {instanceID: 21438}
+      Script: {instanceID: 28472}
     - Class: 114
-      Script: {instanceID: 21646}
+      Script: {instanceID: 29276}
     - Class: 114
-      Script: {instanceID: 22346}
+      Script: {instanceID: 29280}
     - Class: 114
-      Script: {instanceID: 24018}
+      Script: {instanceID: 29288}
     - Class: 114
-      Script: {instanceID: 24204}
+      Script: {instanceID: 29296}
     - Class: 114
-      Script: {instanceID: 25132}
+      Script: {instanceID: 29300}
     - Class: 114
-      Script: {instanceID: 25758}
+      Script: {instanceID: 29308}
     - Class: 114
-      Script: {instanceID: 26468}
+      Script: {instanceID: 29312}
     - Class: 114
-      Script: {instanceID: 28500}
+      Script: {instanceID: 29320}
     - Class: 114
-      Script: {instanceID: 28534}
+      Script: {instanceID: 29324}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -467,49 +477,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16826}
     - Class: 114
-      Script: {instanceID: 17608}
+      Script: {instanceID: 17606}
     - Class: 114
-      Script: {instanceID: 18818}
+      Script: {instanceID: 19958}
     - Class: 114
-      Script: {instanceID: 19968}
+      Script: {instanceID: 20332}
     - Class: 114
-      Script: {instanceID: 20342}
+      Script: {instanceID: 20948}
     - Class: 114
-      Script: {instanceID: 20958}
+      Script: {instanceID: 20964}
     - Class: 114
-      Script: {instanceID: 20974}
+      Script: {instanceID: 21630}
     - Class: 114
-      Script: {instanceID: 21646}
+      Script: {instanceID: 23768}
     - Class: 114
-      Script: {instanceID: 21790}
+      Script: {instanceID: 23996}
     - Class: 114
-      Script: {instanceID: 22346}
+      Script: {instanceID: 24180}
     - Class: 114
-      Script: {instanceID: 23266}
+      Script: {instanceID: 24720}
     - Class: 114
-      Script: {instanceID: 23790}
+      Script: {instanceID: 25106}
     - Class: 114
-      Script: {instanceID: 24018}
+      Script: {instanceID: 25852}
     - Class: 114
-      Script: {instanceID: 24078}
+      Script: {instanceID: 26280}
     - Class: 114
-      Script: {instanceID: 24204}
+      Script: {instanceID: 26440}
     - Class: 114
-      Script: {instanceID: 24290}
+      Script: {instanceID: 28472}
     - Class: 114
-      Script: {instanceID: 24746}
+      Script: {instanceID: 29276}
     - Class: 114
-      Script: {instanceID: 25132}
+      Script: {instanceID: 29292}
     - Class: 114
-      Script: {instanceID: 25880}
+      Script: {instanceID: 29304}
     - Class: 114
-      Script: {instanceID: 26308}
+      Script: {instanceID: 29316}
     - Class: 114
-      Script: {instanceID: 26468}
+      Script: {instanceID: 29328}
     - Class: 114
-      Script: {instanceID: 28500}
+      Script: {instanceID: 29332}
     - Class: 114
-      Script: {instanceID: 31324}
+      Script: {instanceID: 34046}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -570,109 +580,109 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17384}
     - Class: 114
-      Script: {instanceID: 17624}
+      Script: {instanceID: 17622}
     - Class: 114
-      Script: {instanceID: 17848}
+      Script: {instanceID: 17844}
     - Class: 114
-      Script: {instanceID: 18018}
+      Script: {instanceID: 18014}
     - Class: 114
-      Script: {instanceID: 18502}
+      Script: {instanceID: 18494}
     - Class: 114
-      Script: {instanceID: 18578}
+      Script: {instanceID: 18570}
     - Class: 114
-      Script: {instanceID: 18730}
+      Script: {instanceID: 18722}
     - Class: 114
-      Script: {instanceID: 19326}
+      Script: {instanceID: 19316}
     - Class: 114
-      Script: {instanceID: 20120}
+      Script: {instanceID: 20110}
     - Class: 114
-      Script: {instanceID: 20164}
+      Script: {instanceID: 20154}
     - Class: 114
-      Script: {instanceID: 20230}
+      Script: {instanceID: 20220}
     - Class: 114
-      Script: {instanceID: 20296}
+      Script: {instanceID: 20286}
     - Class: 114
-      Script: {instanceID: 20464}
+      Script: {instanceID: 20454}
     - Class: 114
-      Script: {instanceID: 20480}
+      Script: {instanceID: 20470}
     - Class: 114
-      Script: {instanceID: 20968}
+      Script: {instanceID: 20958}
     - Class: 114
-      Script: {instanceID: 20974}
+      Script: {instanceID: 20964}
     - Class: 114
-      Script: {instanceID: 21052}
+      Script: {instanceID: 21042}
     - Class: 114
-      Script: {instanceID: 21076}
+      Script: {instanceID: 21144}
     - Class: 114
-      Script: {instanceID: 21156}
+      Script: {instanceID: 21232}
     - Class: 114
-      Script: {instanceID: 21244}
+      Script: {instanceID: 21618}
     - Class: 114
-      Script: {instanceID: 21634}
+      Script: {instanceID: 21630}
     - Class: 114
-      Script: {instanceID: 21646}
+      Script: {instanceID: 21686}
     - Class: 114
-      Script: {instanceID: 21702}
+      Script: {instanceID: 22592}
     - Class: 114
-      Script: {instanceID: 22612}
+      Script: {instanceID: 23576}
     - Class: 114
-      Script: {instanceID: 23598}
+      Script: {instanceID: 23642}
     - Class: 114
-      Script: {instanceID: 23664}
+      Script: {instanceID: 23696}
     - Class: 114
-      Script: {instanceID: 23718}
+      Script: {instanceID: 23788}
     - Class: 114
-      Script: {instanceID: 23810}
+      Script: {instanceID: 23996}
     - Class: 114
-      Script: {instanceID: 24018}
+      Script: {instanceID: 24180}
     - Class: 114
-      Script: {instanceID: 24204}
+      Script: {instanceID: 24912}
     - Class: 114
-      Script: {instanceID: 24938}
+      Script: {instanceID: 24982}
     - Class: 114
-      Script: {instanceID: 25008}
+      Script: {instanceID: 25106}
     - Class: 114
-      Script: {instanceID: 25132}
+      Script: {instanceID: 25362}
     - Class: 114
-      Script: {instanceID: 25388}
+      Script: {instanceID: 25502}
     - Class: 114
-      Script: {instanceID: 25528}
+      Script: {instanceID: 25636}
     - Class: 114
-      Script: {instanceID: 25662}
+      Script: {instanceID: 25716}
     - Class: 114
-      Script: {instanceID: 25742}
+      Script: {instanceID: 26228}
     - Class: 114
-      Script: {instanceID: 26256}
+      Script: {instanceID: 26386}
     - Class: 114
-      Script: {instanceID: 26414}
+      Script: {instanceID: 26440}
     - Class: 114
-      Script: {instanceID: 26468}
+      Script: {instanceID: 26646}
     - Class: 114
-      Script: {instanceID: 26674}
+      Script: {instanceID: 26924}
     - Class: 114
-      Script: {instanceID: 26952}
+      Script: {instanceID: 27248}
     - Class: 114
-      Script: {instanceID: 27276}
+      Script: {instanceID: 27392}
     - Class: 114
-      Script: {instanceID: 27420}
+      Script: {instanceID: 27488}
     - Class: 114
-      Script: {instanceID: 27516}
+      Script: {instanceID: 27572}
     - Class: 114
-      Script: {instanceID: 27600}
+      Script: {instanceID: 27700}
     - Class: 114
-      Script: {instanceID: 27728}
+      Script: {instanceID: 27860}
     - Class: 114
-      Script: {instanceID: 27888}
+      Script: {instanceID: 28154}
     - Class: 114
-      Script: {instanceID: 28182}
+      Script: {instanceID: 28190}
     - Class: 114
-      Script: {instanceID: 28218}
+      Script: {instanceID: 28472}
     - Class: 114
-      Script: {instanceID: 28500}
+      Script: {instanceID: 28714}
     - Class: 114
-      Script: {instanceID: 28744}
+      Script: {instanceID: 28978}
     - Class: 114
-      Script: {instanceID: 29008}
+      Script: {instanceID: 29284}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -824,12 +834,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerObjectPopupField
   - hash:
       serializedVersion: 2
-      Hash: 89dfe64b9599d4a21187a6a45b0b5ede
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ChiManager
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -882,12 +886,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: TestingSequencer
-  - hash:
-      serializedVersion: 2
-      Hash: 39e6ae53d9fa8b7d32c6047ef2d16a4e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HandManager
   - hash:
       serializedVersion: 2
       Hash: 53a965cff2a6e263c60c6e4d680d693d
@@ -1004,12 +1002,6 @@ ScriptsOnlyBuild:
     className: OnScreenButton
   - hash:
       serializedVersion: 2
-      Hash: ff071e2707d03dcc2fe9e926c160fe07
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.AdaptivePerformance
     namespaceName: UnityEngine.AdaptivePerformance
@@ -1038,12 +1030,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b92fe98ea111dd032a5ccace054868fc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemyDropArea
   - hash:
       serializedVersion: 2
       Hash: a8b7fd1da21541aeec7d0fde1c075720
@@ -1104,12 +1090,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 4841528e49f0714f5e86503c14a5b063
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayButton
   - hash:
       serializedVersion: 2
       Hash: a4b6a15207ddeee6c47ecf7a67be24a6
@@ -1448,12 +1428,6 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerIntField
   - hash:
       serializedVersion: 2
-      Hash: c20051ad5e623743c6fadada9886ea95
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: APIController
-  - hash:
-      serializedVersion: 2
       Hash: 2cc35b2fe169bf48b64da75cf9381325
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
@@ -1490,12 +1464,6 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: 5857c58111faa3241cbe58d7ab8b3de3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BackgroundController
-  - hash:
-      serializedVersion: 2
       Hash: a03cf6f60c605d858f83449f4b4fc400
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools
@@ -1518,12 +1486,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.EnhancedTouch
     className: TouchSimulation
-  - hash:
-      serializedVersion: 2
-      Hash: 723321c23b95f3f04468a924c254e4da
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AIController
   - hash:
       serializedVersion: 2
       Hash: 0223aec4a786d4ffe1bac74b49058303
@@ -1572,12 +1534,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering
     className: ProbeVolume
-  - hash:
-      serializedVersion: 2
-      Hash: d2a6651b695e7f8258074168d1e95fdc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HeroStats
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1662,12 +1618,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: UnityEngine.Rendering.Universal
     className: DecalProjector
-  - hash:
-      serializedVersion: 2
-      Hash: 52dd79d55245e1f5169ea9887592c730
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SceneScriptManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1844,12 +1794,6 @@ ScriptsOnlyBuild:
     className: ScreenSpaceAmbientOcclusion
   - hash:
       serializedVersion: 2
-      Hash: 8ec967cc28342c44b0ae174c0e97e92e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DeckSelectionController
-  - hash:
-      serializedVersion: 2
       Hash: 43c176d094cb12cae28266d5b205ebc1
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.UI
@@ -1928,7 +1872,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: 55cc131169fb423d3e8718eea2610a82
+      Hash: ae4c4f7c4ac739a8197560960dcc1dd9
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: MainMenu
@@ -1982,12 +1926,6 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e61cec817c0b2336a424ac1db59d225b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DeckPrefab
-  - hash:
-      serializedVersion: 2
       Hash: 433dc5dbeff082285ab19d7d1b927f2c
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine.Tilemaps
@@ -2028,12 +1966,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
-  - hash:
-      serializedVersion: 2
-      Hash: eeb9d032b485399b1346e5061c4269de
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: InteractiveCard
   - hash:
       serializedVersion: 2
       Hash: bb1919f987f39a217a67674a47792b29
@@ -2286,12 +2218,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_SpriteAsset
-  - hash:
-      serializedVersion: 2
-      Hash: c07c2fa6195e26740ad04fe6a316c74d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RoundManager
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -2720,12 +2646,6 @@ ScriptsOnlyBuild:
     className: InputSystemUIInputModule
   - hash:
       serializedVersion: 2
-      Hash: b92fe98ea111dd032a5ccace054868fc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerDropArea
-  - hash:
-      serializedVersion: 2
       Hash: ba0656d47f0fcdf90e7f55af86e32052
     assemblyName: Unity.RenderPipelines.Universal.Runtime
     namespaceName: 
@@ -2790,6 +2710,96 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 52dd79d55245e1f5169ea9887592c730
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SceneScriptManager
+  - hash:
+      serializedVersion: 2
+      Hash: ff071e2707d03dcc2fe9e926c160fe07
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: c20051ad5e623743c6fadada9886ea95
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: APIController
+  - hash:
+      serializedVersion: 2
+      Hash: 89dfe64b9599d4a21187a6a45b0b5ede
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChiManager
+  - hash:
+      serializedVersion: 2
+      Hash: e61cec817c0b2336a424ac1db59d225b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DeckPrefab
+  - hash:
+      serializedVersion: 2
+      Hash: 39e6ae53d9fa8b7d32c6047ef2d16a4e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HandManager
+  - hash:
+      serializedVersion: 2
+      Hash: b441ae16f03cc57541481e586cee7651
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AIController
+  - hash:
+      serializedVersion: 2
+      Hash: 4841528e49f0714f5e86503c14a5b063
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayButton
+  - hash:
+      serializedVersion: 2
+      Hash: c07c2fa6195e26740ad04fe6a316c74d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RoundManager
+  - hash:
+      serializedVersion: 2
+      Hash: b92fe98ea111dd032a5ccace054868fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerDropArea
+  - hash:
+      serializedVersion: 2
+      Hash: eeb9d032b485399b1346e5061c4269de
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InteractiveCard
+  - hash:
+      serializedVersion: 2
+      Hash: cf120d55013e8edb04d655b888129748
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyDropArea
+  - hash:
+      serializedVersion: 2
+      Hash: 5857c58111faa3241cbe58d7ab8b3de3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BackgroundController
+  - hash:
+      serializedVersion: 2
+      Hash: d2a6651b695e7f8258074168d1e95fdc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HeroStats
+  - hash:
+      serializedVersion: 2
+      Hash: 8ec967cc28342c44b0ae174c0e97e92e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DeckSelectionController
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScreen.unity

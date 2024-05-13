@@ -1,31 +1,31 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections;
 using UnityEngine.UI;
-using Unity.VisualScripting;
 
 public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     private Vector3 originalScale;
     private Vector3 originalPosition;
     private Transform originalParent;
+    private Vector2 lastTouchPosition;
+    private Vector2 dragStartPosition;
 
     private bool isZoomed = false;
-    private Coroutine holdCoroutine;
-    private Vector2 lastTouchPosition;
+    private bool isDragging = false;
 
     public RectTransform screenCardView;
     public ScrollRect scrollRect;
+    private Coroutine holdCoroutine;
+    private Canvas canvas;
+
     public float zoomScale = 2f;
     public float zoomDelay = 1f;
     public float moveSpeed = 15f;
 
     private int originalUIIndex;
-    private Canvas canvas;
-
-    private bool isDragging = false;
-    private Vector2 dragStartPosition;
     private const float dragThreshold = 10.0f;
+
 
     void Start()
     {
@@ -36,9 +36,7 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
     public void OnPointerDown(PointerEventData eventData)
     {
         lastTouchPosition = eventData.position;
-
         if (scrollRect != null) scrollRect.StopMovement();
-
         holdCoroutine = StartCoroutine(HoldToZoom());
     }
 
@@ -57,6 +55,22 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
         }
     }
 
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (isZoomed)
+        {
+            RectTransformUtility.ScreenPointToLocalPointInRectangle(
+                canvas.transform as RectTransform,
+                eventData.position,
+                canvas.worldCamera,
+                out Vector2 localPoint
+            );
+
+            transform.localPosition = localPoint;
+        }
+        else if (scrollRect != null) scrollRect.OnDrag(eventData);
+    }
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         isDragging = true;
@@ -72,33 +86,9 @@ public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
     {
         isDragging = false;
 
-        if (!isZoomed && scrollRect != null)
-        {
-            scrollRect.OnEndDrag(eventData);
-        }
+        if (!isZoomed && scrollRect != null) scrollRect.OnEndDrag(eventData);
 
-        if (isZoomed && Vector2.Distance(dragStartPosition, eventData.position) < dragThreshold)
-        {
-            ResetZoom();
-        }
-    }
-    public void OnDrag(PointerEventData eventData)
-    {
-        if (isZoomed)
-        {
-            RectTransformUtility.ScreenPointToLocalPointInRectangle(
-                canvas.transform as RectTransform,
-                eventData.position,
-                canvas.worldCamera,
-                out Vector2 localPoint
-            );
-
-            transform.localPosition = localPoint;
-        }
-        else if (scrollRect != null)
-        {
-            scrollRect.OnDrag(eventData);
-        }
+        if (isZoomed && Vector2.Distance(dragStartPosition, eventData.position) < dragThreshold) ResetZoom();
     }
 
     private void ZoomCard()

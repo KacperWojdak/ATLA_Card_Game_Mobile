@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
-using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class AuthManager : MonoBehaviour
 {
@@ -21,16 +17,7 @@ public class AuthManager : MonoBehaviour
 
     private void Start()
     {
-        if (!loadingScreenControler)
-        {
-            loadingScreenControler = FindObjectOfType<LoadingScreenController>();
-
-            if (!loadingScreenControler)
-            {
-                Debug.LogWarning("LoadingScreenControler not found.");
-            }
-        }
-
+        if (!loadingScreenControler) loadingScreenControler = FindObjectOfType<LoadingScreenController>();
         ShowLoginPanel();
     }
 
