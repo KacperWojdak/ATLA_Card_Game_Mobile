@@ -17,9 +17,6 @@ public class SceneScriptManager : MonoBehaviour
         bool enableInteractiveCard = currentScene == gameplaySceneName;
 
         InteractiveCard[] interactiveCards = FindObjectsOfType<InteractiveCard>(true);
-        foreach (InteractiveCard card in interactiveCards)
-        {
-            card.enabled = enableInteractiveCard;
-        }
+        foreach (InteractiveCard card in interactiveCards) card.enabled = enableInteractiveCard;
     }
 }

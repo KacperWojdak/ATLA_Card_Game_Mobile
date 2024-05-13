@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainMenu : MonoBehaviour
@@ -8,6 +6,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] private GameObject playMenu;
     [SerializeField] private GameObject cardMenu;
     [SerializeField] private GameObject deckMenu;
+    [SerializeField] private GameObject rulesMenu;
 
     public void DisplayMenu()
     {
@@ -15,6 +14,7 @@ public class MainMenu : MonoBehaviour
         playMenu.SetActive(false);
         cardMenu.SetActive(false);
         deckMenu.SetActive(false);
+        rulesMenu.SetActive(false);
     }
 
     public void DisplayPlay()
@@ -33,6 +33,12 @@ public class MainMenu : MonoBehaviour
     {
         mainMenu.SetActive(false);
         deckMenu.SetActive(true);
+    }
+
+    public void DisplayRules()
+    {
+        mainMenu.SetActive(false);
+        rulesMenu.SetActive(true);
     }
 
     public void QuitGame()

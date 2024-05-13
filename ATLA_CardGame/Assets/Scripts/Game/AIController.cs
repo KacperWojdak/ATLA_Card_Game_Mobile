@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,6 +7,8 @@ public class AIController : MonoBehaviour
     public Transform enemyHand;
     public Transform enemyDropArea;
     public Button enemySkipButton;
+    public TextMeshProUGUI enemyActionText;
+
     private ChiManager chiManager;
     private RoundManager roundManager;
 
@@ -17,10 +20,7 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
-        if (roundManager.IsEnemyTurn())
-        {
-            PlayTurn();
-        }
+        if (roundManager.IsEnemyTurn()) PlayTurn();
     }
 
     private void PlayTurn()
@@ -36,6 +36,7 @@ public class AIController : MonoBehaviour
                 {
                     cardTransform.SetParent(enemyDropArea);
                     hasPlayedCard = true;
+                    enemyActionText.text = $"Enemy attacks for {card.attackPoints}";
                     break;
                 }
             }
@@ -44,6 +45,7 @@ public class AIController : MonoBehaviour
         if (!hasPlayedCard)
         {
             enemySkipButton.onClick.Invoke();
+            enemyActionText.text = "Enemy skipped";
         }
     }
 }

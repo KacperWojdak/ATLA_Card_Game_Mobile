@@ -30,7 +30,7 @@ public class HandManager : MonoBehaviour
         InteractiveCard card = cardObject.GetComponent<InteractiveCard>();
         if (card == null) return;
 
-        if (isPlayer && !playerCanPlay || !isPlayer && !enemyCanPlay) return;
+        if ((isPlayer && !playerCanPlay) || (!isPlayer && !enemyCanPlay)) return;
 
         if ((isPlayer && !chiManager.UseChi(true, card.chiCost)) || (!isPlayer && !chiManager.UseChi(false, card.chiCost))) return;
 
@@ -165,15 +165,5 @@ public class HandManager : MonoBehaviour
     private int CountCardsInHand(Transform handArea)
     {
         return handArea.childCount;
-    }
-
-    void UpdateDeckVisual(Transform deckArea)
-    {
-        foreach (Transform card in deckArea)
-        {
-            Transform cardBack = card.Find("CardBack");
-            if (cardBack != null)
-                cardBack.gameObject.SetActive(true);
-        }
     }
 }

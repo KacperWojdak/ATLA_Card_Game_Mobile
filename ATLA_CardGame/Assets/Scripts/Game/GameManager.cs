@@ -37,16 +37,6 @@ public class GameManager : MonoBehaviour
         CheckGameOver();
     }
 
-    public void StopGame()
-    {
-        Time.timeScale = 0;
-    }
-
-    public void ResumeGame()
-    {
-        Time.timeScale = 1;
-    }
-
     void ShuffleCards(List<GameObject> cards)
     {
         for (int i = cards.Count - 1; i > 0; i--)
@@ -87,8 +77,6 @@ public class GameManager : MonoBehaviour
             winText.gameObject.SetActive(false);
         }
 
-        StopGame();
-
         turnText.gameObject.SetActive(false);
         restartButton.gameObject.SetActive(true);
     }
@@ -96,6 +84,5 @@ public class GameManager : MonoBehaviour
     public void LoadMenu()
     {
         SceneManager.LoadScene("MenuScene");
-        ResumeGame();
     }
 }

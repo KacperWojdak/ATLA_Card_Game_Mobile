@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Collections;
+using TMPro;
 
 public class EnemyDropArea : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class EnemyDropArea : MonoBehaviour
     public Transform playerHero;
     public Transform enemyHero;
     public Transform discard;
+    public TextMeshProUGUI enemyActionText;
 
     void Update()
     {
@@ -78,6 +80,7 @@ public class EnemyDropArea : MonoBehaviour
             enemyStats.TakeDamage(card.attackPoints);
             heroStats.AddArmor(card.defensePoints);
             heroStats.Heal(card.healingPoints);
+            enemyActionText.text = $"Enemy defends for {card.defensePoints}";
         }
     }
 
