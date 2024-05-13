@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class CardZoom : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
-    private Vector3 originalScale;
-    private Vector3 originalPosition;
+    public Vector3 originalScale;
+    public Vector3 originalPosition;
     private Transform originalParent;
     private Vector2 lastTouchPosition;
     private Vector2 dragStartPosition;
 
-    private bool isZoomed = false;
+    public bool isZoomed = false;
     private bool isDragging = false;
 
     public RectTransform screenCardView;

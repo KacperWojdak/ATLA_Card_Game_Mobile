@@ -4,13 +4,13 @@ using UnityEngine.UI;
 
 public class DeckDisplay : MonoBehaviour
 {
-    [SerializeField] private Deck deck;
-    [SerializeField] private TextMeshProUGUI deckNameText;
-    [SerializeField] private Image deckImageDisplay;
+    [SerializeField] public Deck deck;
+    [SerializeField] public TextMeshProUGUI deckNameText;
+    [SerializeField] public Image deckImageDisplay;
 
     public Deck Deck => deck;
 
-    void Start()
+    public void Start()
     {
         if (deck != null) UpdateDeckUI();
     }
