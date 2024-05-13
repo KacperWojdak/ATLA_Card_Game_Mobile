@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 108
+  controlID: 96
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1097.6
+    width: 1106.4
     height: 730.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -164,7 +164,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1097.6
+    width: 1106.4
     height: 472
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
@@ -187,13 +187,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 269.6
+    width: 267.2
     height: 472
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &9
@@ -211,18 +211,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 269.6
+    x: 267.2
     y: 0
-    width: 828
+    width: 839.2
     height: 472
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
   - {fileID: 15}
+  - {fileID: 16}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,14 +241,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 472
-    width: 1097.6
+    width: 1106.4
     height: 258.8
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 12}
+  - {fileID: 17}
+  - {fileID: 13}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -265,18 +266,808 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1097.6
+    x: 1106.4
     y: 0
-    width: 438.40002
+    width: 429.59998
     height: 730.8
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 267.2
+    y: 73.6
+    width: 837.2
+    height: 451
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  m_Spl:
+    ID: 573
+    splitterInitialOffset: 322.8
+    currentActiveSplitter: -1
+    realSizes:
+    - 259.2
+    - 121.599976
+    relativeSizes:
+    - 0.68172044
+    - 0.31827956
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 380.8
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 12}
+    m_NewResultList:
+    - id: 1005
+      uniqueId: '[ATLA_CardGame][suite]'
+      name: ATLA_CardGame
+      fullName: ATLA_CardGame
+      resultStatus: 0
+      duration: 0.2516692
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[PlayMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/PlayMode.dll][suite]'
+      name: PlayMode.dll
+      fullName: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 0
+      duration: 0.2334406
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[ATLA_CardGame][suite]'
+    - id: 1001
+      uniqueId: PlayMode.dll/[PlayMode][DeckSelectionControllerTests][suite]
+      name: DeckSelectionControllerTests
+      fullName: DeckSelectionControllerTests
+      resultStatus: 0
+      duration: 0.2289826
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[PlayMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1003
+      uniqueId: PlayMode.dll/DeckSelectionControllerTests/[PlayMode][DeckSelectionControllerTests.DeckSelection_WhenEnemyDeckSelected_UpdatesUIAndGameManager]
+      name: DeckSelection_WhenEnemyDeckSelected_UpdatesUIAndGameManager
+      fullName: DeckSelectionControllerTests.DeckSelection_WhenEnemyDeckSelected_UpdatesUIAndGameManager
+      resultStatus: 0
+      duration: 0.1414943
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][DeckSelectionControllerTests][suite]
+    - id: 1002
+      uniqueId: PlayMode.dll/DeckSelectionControllerTests/[PlayMode][DeckSelectionControllerTests.DeckSelection_WhenPlayerDeckSelected_UpdatesUIAndGameManager]
+      name: DeckSelection_WhenPlayerDeckSelected_UpdatesUIAndGameManager
+      fullName: DeckSelectionControllerTests.DeckSelection_WhenPlayerDeckSelected_UpdatesUIAndGameManager
+      resultStatus: 0
+      duration: 0.0136632
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/[PlayMode][DeckSelectionControllerTests][suite]
+    m_ResultText: 'OnPlayButtonClicked_SetsPlayerAndEnemyDecks (0,024s)
+
+      ---
+
+      Unhandled
+      log message: ''[Exception] NullReferenceException: Object reference not set
+      to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect
+
+      ---
+
+      DeckSelectionController.Start
+      () (at Assets/Scripts/Controllers/DeckSelectionController.cs:18)
+
+      ---
+
+      NullReferenceException:
+      Object reference not set to an instance of an object'
+    m_ResultStacktrace: 'DeckSelectionController.Start () (at Assets/Scripts/Controllers/DeckSelectionController.cs:18)
+
+      
+
+'
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: ae707652
+      m_LastClickedID: 1383493806
+      m_ExpandedIDs: 2ee3bbb30766babec2a17902e8e7002547c2b2421f4c0f4e01dec774ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 12}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[ATLA_CardGame][suite]'
+      name: ATLA_CardGame
+      fullName: ATLA_CardGame
+      resultStatus: 0
+      duration: 0.1538534
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1006
+      uniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+      name: EditMode.dll
+      fullName: C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll
+      resultStatus: 0
+      duration: 0.0742233
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[ATLA_CardGame][suite]'
+    - id: 1001
+      uniqueId: EditMode.dll/[EditMode][APIControllerTests][suite]
+      name: APIControllerTests
+      fullName: APIControllerTests
+      resultStatus: 0
+      duration: 0.0142716
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1002
+      uniqueId: EditMode.dll/APIControllerTests/[EditMode][APIControllerTests.Login_WithEmptyEmail_DisplaysWarning]
+      name: Login_WithEmptyEmail_DisplaysWarning
+      fullName: APIControllerTests.Login_WithEmptyEmail_DisplaysWarning
+      resultStatus: 0
+      duration: 0.0056141
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][APIControllerTests][suite]
+    - id: 1003
+      uniqueId: EditMode.dll/APIControllerTests/[EditMode][APIControllerTests.Login_WithInvalidEmail_DisplaysWarning]
+      name: Login_WithInvalidEmail_DisplaysWarning
+      fullName: APIControllerTests.Login_WithInvalidEmail_DisplaysWarning
+      resultStatus: 0
+      duration: 0.0045075
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][APIControllerTests][suite]
+    - id: 1004
+      uniqueId: EditMode.dll/[EditMode][BackgroundControllerTests][suite]
+      name: BackgroundControllerTests
+      fullName: BackgroundControllerTests
+      resultStatus: 0
+      duration: 0.0143995
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1005
+      uniqueId: EditMode.dll/BackgroundControllerTests/[EditMode][BackgroundControllerTests.LoadRandomBackground_ChangesBackgroundImage]
+      name: LoadRandomBackground_ChangesBackgroundImage
+      fullName: BackgroundControllerTests.LoadRandomBackground_ChangesBackgroundImage
+      resultStatus: 0
+      duration: 0.0103041
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditMode.dll/[EditMode][BackgroundControllerTests][suite]
+    - id: 1004
+      uniqueId: EditMode.dll/[EditMode][CardDataTests][suite]
+      name: CardDataTests
+      fullName: CardDataTests
+      resultStatus: 0
+      duration: 0.0065558
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1005
+      uniqueId: EditMode.dll/CardDataTests/[EditMode][CardDataTests.AttackCardData_HoldsCorrectValues]
+      name: AttackCardData_HoldsCorrectValues
+      fullName: CardDataTests.AttackCardData_HoldsCorrectValues
+      resultStatus: 0
+      duration: 0.001207
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditMode.dll/[EditMode][CardDataTests][suite]
+    - id: 1006
+      uniqueId: EditMode.dll/CardDataTests/[EditMode][CardDataTests.DefenseCardData_HoldsCorrectValues]
+      name: DefenseCardData_HoldsCorrectValues
+      fullName: CardDataTests.DefenseCardData_HoldsCorrectValues
+      resultStatus: 0
+      duration: 0.0006213
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditMode.dll/[EditMode][CardDataTests][suite]
+    - id: 1007
+      uniqueId: EditMode.dll/CardDataTests/[EditMode][CardDataTests.HeroCardData_HoldsCorrectValues]
+      name: HeroCardData_HoldsCorrectValues
+      fullName: CardDataTests.HeroCardData_HoldsCorrectValues
+      resultStatus: 0
+      duration: 0.0006301
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: EditMode.dll/[EditMode][CardDataTests][suite]
+    - id: 1010
+      uniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+      name: ChiManagerTests
+      fullName: ChiManagerTests
+      resultStatus: 0
+      duration: 0.0206439
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1030
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1018
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.HasEnoughChi_EnemyHasEnoughChi_ReturnsTrue]
+      name: HasEnoughChi_EnemyHasEnoughChi_ReturnsTrue
+      fullName: ChiManagerTests.HasEnoughChi_EnemyHasEnoughChi_ReturnsTrue
+      resultStatus: 0
+      duration: 0.0025798
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1019
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.HasEnoughChi_EnemyNotEnoughChi_ReturnsFalse]
+      name: HasEnoughChi_EnemyNotEnoughChi_ReturnsFalse
+      fullName: ChiManagerTests.HasEnoughChi_EnemyNotEnoughChi_ReturnsFalse
+      resultStatus: 0
+      duration: 0.0020448
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1016
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.HasEnoughChi_PlayerHasEnoughChi_ReturnsTrue]
+      name: HasEnoughChi_PlayerHasEnoughChi_ReturnsTrue
+      fullName: ChiManagerTests.HasEnoughChi_PlayerHasEnoughChi_ReturnsTrue
+      resultStatus: 0
+      duration: 0.0018125
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1017
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.HasEnoughChi_PlayerNotEnoughChi_ReturnsFalse]
+      name: HasEnoughChi_PlayerNotEnoughChi_ReturnsFalse
+      fullName: ChiManagerTests.HasEnoughChi_PlayerNotEnoughChi_ReturnsFalse
+      resultStatus: 0
+      duration: 0.0014815
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1011
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.InitializeChi_SetsChiValuesCorrectly]
+      name: InitializeChi_SetsChiValuesCorrectly
+      fullName: ChiManagerTests.InitializeChi_SetsChiValuesCorrectly
+      resultStatus: 0
+      duration: 0.0016035
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1014
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.UseEnemyChi_EnoughChi_ReturnsTrueAndReducesChi]
+      name: UseEnemyChi_EnoughChi_ReturnsTrueAndReducesChi
+      fullName: ChiManagerTests.UseEnemyChi_EnoughChi_ReturnsTrueAndReducesChi
+      resultStatus: 0
+      duration: 0.001523
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1015
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.UseEnemyChi_NotEnoughChi_ReturnsFalseAndDoesNotReduceChi]
+      name: UseEnemyChi_NotEnoughChi_ReturnsFalseAndDoesNotReduceChi
+      fullName: ChiManagerTests.UseEnemyChi_NotEnoughChi_ReturnsFalseAndDoesNotReduceChi
+      resultStatus: 0
+      duration: 0.0014388
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1012
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.UsePlayerChi_EnoughChi_ReturnsTrueAndReducesChi]
+      name: UsePlayerChi_EnoughChi_ReturnsTrueAndReducesChi
+      fullName: ChiManagerTests.UsePlayerChi_EnoughChi_ReturnsTrueAndReducesChi
+      resultStatus: 0
+      duration: 0.0014909
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1013
+      uniqueId: EditMode.dll/ChiManagerTests/[EditMode][ChiManagerTests.UsePlayerChi_NotEnoughChi_ReturnsFalseAndDoesNotReduceChi]
+      name: UsePlayerChi_NotEnoughChi_ReturnsFalseAndDoesNotReduceChi
+      fullName: ChiManagerTests.UsePlayerChi_NotEnoughChi_ReturnsFalseAndDoesNotReduceChi
+      resultStatus: 0
+      duration: 0.0015232
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: EditMode.dll/[EditMode][ChiManagerTests][suite]
+    - id: 1008
+      uniqueId: EditMode.dll/[EditMode][DeckDisplayTests][suite]
+      name: DeckDisplayTests
+      fullName: DeckDisplayTests
+      resultStatus: 0
+      duration: 0.0109375
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1018
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1009
+      uniqueId: EditMode.dll/DeckDisplayTests/[EditMode][DeckDisplayTests.DeckDisplay_UpdatesUIOnStart]
+      name: DeckDisplay_UpdatesUIOnStart
+      fullName: DeckDisplayTests.DeckDisplay_UpdatesUIOnStart
+      resultStatus: 0
+      duration: 0.0020606
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditMode.dll/[EditMode][DeckDisplayTests][suite]
+    - id: 1010
+      uniqueId: EditMode.dll/DeckDisplayTests/[EditMode][DeckDisplayTests.UpdateDeckUI_UpdatesTextAndImage]
+      name: UpdateDeckUI_UpdatesTextAndImage
+      fullName: DeckDisplayTests.UpdateDeckUI_UpdatesTextAndImage
+      resultStatus: 0
+      duration: 0.0013701
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditMode.dll/[EditMode][DeckDisplayTests][suite]
+    - id: 1008
+      uniqueId: EditMode.dll/[EditMode][DeckTests][suite]
+      name: DeckTests
+      fullName: DeckTests
+      resultStatus: 0
+      duration: 0.0035356
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1009
+      uniqueId: EditMode.dll/DeckTests/[EditMode][DeckTests.Deck_CorrectlyAssignsAndRetrievesValues]
+      name: Deck_CorrectlyAssignsAndRetrievesValues
+      fullName: DeckTests.Deck_CorrectlyAssignsAndRetrievesValues
+      resultStatus: 0
+      duration: 0.0009435
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: EditMode.dll/[EditMode][DeckTests][suite]
+    - id: 1001
+      uniqueId: EditMode.dll/[EditMode][HeroStatsTests][suite]
+      name: HeroStatsTests
+      fullName: HeroStatsTests
+      resultStatus: 0
+      duration: 0.0155695
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: '[EditMode][C:/Users/kacpe/Desktop/ATLA_Card_Game_Mobile/ATLA_CardGame/Library/ScriptAssemblies/EditMode.dll][suite]'
+    - id: 1005
+      uniqueId: EditMode.dll/HeroStatsTests/[EditMode][HeroStatsTests.HeroStats_AddArmor_IncreasesArmor]
+      name: HeroStats_AddArmor_IncreasesArmor
+      fullName: HeroStatsTests.HeroStats_AddArmor_IncreasesArmor
+      resultStatus: 0
+      duration: 0.0047781
+      messages: 
+      output: 'Can''t add ''TextMeshProUGUI'' to New Game Object because a ''TextMeshProUGUI''
+        is already added to the game object!
+
+        A GameObject can only contain
+        one ''Graphic'' component.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][HeroStatsTests][suite]
+    - id: 1004
+      uniqueId: EditMode.dll/HeroStatsTests/[EditMode][HeroStatsTests.HeroStats_Heal_IncreasesHealthNotExceedMax]
+      name: HeroStats_Heal_IncreasesHealthNotExceedMax
+      fullName: HeroStatsTests.HeroStats_Heal_IncreasesHealthNotExceedMax
+      resultStatus: 0
+      duration: 0.0024877
+      messages: 
+      output: 'Can''t add ''TextMeshProUGUI'' to New Game Object because a ''TextMeshProUGUI''
+        is already added to the game object!
+
+        A GameObject can only contain
+        one ''Graphic'' component.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][HeroStatsTests][suite]
+    - id: 1002
+      uniqueId: EditMode.dll/HeroStatsTests/[EditMode][HeroStatsTests.HeroStats_TakeDamageWithArmor_ReduceHealthAndArmor]
+      name: HeroStats_TakeDamageWithArmor_ReduceHealthAndArmor
+      fullName: HeroStatsTests.HeroStats_TakeDamageWithArmor_ReduceHealthAndArmor
+      resultStatus: 0
+      duration: 0.0025175
+      messages: 
+      output: 'Can''t add ''TextMeshProUGUI'' to New Game Object because a ''TextMeshProUGUI''
+        is already added to the game object!
+
+        A GameObject can only contain
+        one ''Graphic'' component.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][HeroStatsTests][suite]
+    - id: 1003
+      uniqueId: EditMode.dll/HeroStatsTests/[EditMode][HeroStatsTests.HeroStats_TakeDamageWithoutArmor_ReduceHealth]
+      name: HeroStats_TakeDamageWithoutArmor_ReduceHealth
+      fullName: HeroStatsTests.HeroStats_TakeDamageWithoutArmor_ReduceHealth
+      resultStatus: 0
+      duration: 0.002326
+      messages: 
+      output: 'Can''t add ''TextMeshProUGUI'' to New Game Object because a ''TextMeshProUGUI''
+        is already added to the game object!
+
+        A GameObject can only contain
+        one ''Graphic'' component.
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditMode.dll/[EditMode][HeroStatsTests][suite]
+    m_ResultText: "RoundManager_SkipRound_IncrementsRound (0,010s)\n---\nSystem.NullReferenceException
+      : Object reference not set to an instance of an object\n---\nat GameManager.AddCardAtRoundEnd
+      () [0x00000] in C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\GameManager.cs:51
+      \r\n  at RoundManager.SkipRound () [0x00014] in C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\RoundManager.cs:78
+      \r\n  at RoundManagerTests.RoundManager_SkipRound_IncrementsRound () [0x0000b]
+      in C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Tests\\EditMode\\RoundManagerTests.cs:47
+      \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <605bf8b31fcb444b85176da963870aa7>:0"
+    m_ResultStacktrace: "  at GameManager.AddCardAtRoundEnd () [0x00000] in C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\GameManager.cs:51
+      \r\n  at RoundManager.SkipRound () [0x00014] in C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Game\\RoundManager.cs:78
+      \r\n  at RoundManagerTests.RoundManager_SkipRound_IncrementsRound () [0x0000b]
+      in C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Tests\\EditMode\\RoundManagerTests.cs:47
+      \r\n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\r\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <605bf8b31fcb444b85176da963870aa7>:0 "
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 160ff8c4
+      m_LastClickedID: -990376170
+      m_ExpandedIDs: ab1e6a843c57078c915e689a878905a10766babe6dc4eb050807cc0a5253f631a1bbc24509fb45546401a75f9f39a6640ea4fc6bffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,7 +1089,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 545.60004
-    width: 1096.6
+    width: 1105.4
     height: 237.79999
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -310,7 +1101,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -332,7 +1123,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 268.6
+    width: 266.2
     height: 451
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -349,7 +1140,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6082fdffa482fdffa285fdff28bdfdff6ebdfdff9407feff7408feff3c52feffde54feff606afeff2ce5feff7ae6feff3430ffffb631ffff3e44ffffee9cffff20aaffff7af6ffff247f0000e07f000018ad000098ad000008b6000030790100467b0100e4c301000688020010880200ca880200d08a020056d30200
+      m_ExpandedIDs: 100fffff9419ffffd619ffff081affffe41bffffc01dfffff21dffff5a1fffff9c23ffffce23ffff7625ffffc42fffff0a32fffff833ffff4036fffff03bffff183effff5442ffffd044ffff0245ffffca46ffffcc4afffffe4afffff24cffff324dffff644dffff584fffff5450ffff8650ffffde52ffffcc58fffff65dffff9e5fffff0a60ffffea60ffffa662ffffd862ffff6264ffff8466ffff726cffff506effff606fffff986ffffff8a7ffff80dfffff98e0ffff3ee4ffff14e6ffff6ae9ffff36edfffff6eeffff8cefffff18f1ffffe2f1ffff84f3ffffa4f6fffff6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -373,7 +1164,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -393,9 +1184,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 269.6
+    x: 267.2
     y: 73.6
-    width: 826
+    width: 837.2
     height: 451
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -834,7 +1625,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -854,9 +1645,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 269.6
+    x: 267.2
     y: 73.6
-    width: 826
+    width: 837.2
     height: 451
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -874,7 +1665,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1032.5, y: 537.5}
+  m_TargetSize: {x: 1046.5, y: 537.5}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -889,8 +1680,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -413
-    m_HBaseRangeMax: 413
+    m_HBaseRangeMin: -418.6
+    m_HBaseRangeMax: 418.6
     m_VBaseRangeMin: -215
     m_VBaseRangeMax: 215
     m_HAllowExceedBaseRangeMin: 1
@@ -901,7 +1692,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -910,29 +1701,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 826
+      width: 837.2
       height: 430
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 413, y: 215}
+    m_Translation: {x: 418.6, y: 215}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -413
+      x: -418.6
       y: -215
-      width: 826
+      width: 837.2
       height: 430
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1032.5, y: 563.75}
+  m_LastWindowPixelSize: {x: 1046.5, y: 563.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -954,7 +1745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 545.60004
-    width: 1096.6
+    width: 1105.4
     height: 237.79999
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -977,7 +1768,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Tests/EditMode
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -985,16 +1776,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Tests/EditMode
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 60}
-    m_SelectedIDs: 98900000
-    m_LastClickedID: 37016
-    m_ExpandedIDs: 000000007c9000009a90000000ca9a3b
+    scrollPos: {x: 0, y: 174.20001}
+    m_SelectedIDs: 06780000
+    m_LastClickedID: 30726
+    m_ExpandedIDs: 00000000d4770000d6770000d877000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1022,7 +1813,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c900000
+    m_ExpandedIDs: 00000000d4770000d6770000d8770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1049,7 +1840,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000a0a00000226300005265000086660000de630000ae780000de760000ea760000c276000042760000c4750000327500001c8d00002c900000589f00005c9f0000fe4b0100008600007c8600008c860000008c00000000000068870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1078,7 +1869,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 209
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1098,9 +1889,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1097.6
+    x: 1106.4
     y: 73.6
-    width: 437.40002
+    width: 428.59998
     height: 709.8
   m_SerializedDataModeController:
     m_DataMode: 0

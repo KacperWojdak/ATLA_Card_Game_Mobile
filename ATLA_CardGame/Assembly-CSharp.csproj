@@ -59,58 +59,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Scripts\LeanPool.cs" />
-    <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenController.cs" />
-    <Compile Include="Assets\Scripts\Game\PlayButton.cs" />
-    <Compile Include="Assets\Scripts\Deck\DeckDisplay.cs" />
-    <Compile Include="Assets\Scripts\Game\AIController.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingDescr.cs" />
-    <Compile Include="Assets\Scripts\Cards\SceneScriptManager.cs" />
-    <Compile Include="Assets\Scripts\Game\InteractiveCard.cs" />
-    <Compile Include="Assets\Scripts\LoadingScreen\LoadingScreenOut.cs" />
-    <Compile Include="Assets\Scripts\Controllers\TitleScreenControler.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing240.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing248.cs" />
-    <Compile Include="Assets\Scripts\Cards\Card.cs" />
-    <Compile Include="Assets\Scripts\Game\EnemyDropArea.cs" />
-    <Compile Include="Assets\Scripts\API\APIController.cs" />
-    <Compile Include="Assets\Scripts\Game\BackgroundController.cs" />
-    <Compile Include="Assets\Scripts\Game\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Deck\DeckPrefab.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing243.cs" />
-    <Compile Include="Assets\Scripts\Game\RoundManager.cs" />
-    <Compile Include="Assets\Scripts\Game\PlayerDropArea.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\Testing246.cs" />
-    <Compile Include="Assets\Scripts\Game\ChiManager.cs" />
-    <Compile Include="Assets\Scripts\Controllers\DeckSelectionController.cs" />
-    <Compile Include="Assets\Scripts\Deck\Deck.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingColorTweening.cs" />
-    <Compile Include="Assets\Scripts\Cards\ScriptableObjects\AttackCardData.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingIssue2.cs" />
-    <Compile Include="Assets\Scripts\Controllers\DeckController.cs" />
-    <Compile Include="Assets\Scripts\Cards\ScriptableObjects\DefenseCardData.cs" />
-    <Compile Include="Assets\Scripts\Controllers\AuthManager.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\FollowingTests.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingOptionalCancel.cs" />
-    <Compile Include="Assets\Scripts\Cards\CardDisplay.cs" />
-    <Compile Include="Assets\Scripts\Cards\ScriptableObjects\HeroCardData.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\PerformanceTests.cs" />
-    <Compile Include="Assets\Scripts\Cards\CardZoom.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanAudio.cs" />
-    <Compile Include="Assets\Scripts\Controllers\MainMenu.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingSequencer.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Testing\TestingMaxTweens.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LeanSmooth.cs" />
-    <Compile Include="Assets\Scripts\Game\HandManager.cs" />
     <Compile Include="Assets\Prefabs\LeanTween\Framework\LTDescr.cs" />
-    <Compile Include="Assets\Scripts\Cards\HeroStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -977,6 +948,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Scripts.csproj">
+      <Project>{277C6699-6EC3-3DBF-1FD6-5D57645DE0DC}</Project>
+      <Name>Scripts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
