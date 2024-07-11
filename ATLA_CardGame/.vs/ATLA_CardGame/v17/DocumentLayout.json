@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{277C6699-6EC3-3DBF-1FD6-5D57645DE0DC}|Scripts.csproj|c:\\users\\kacpe\\desktop\\atla_card_game_mobile\\atla_cardgame\\assets\\scripts\\loadingscreen\\loadingscreencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C6699-6EC3-3DBF-1FD6-5D57645DE0DC}|Scripts.csproj|solutionrelative:assets\\scripts\\loadingscreen\\loadingscreencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{277C6699-6EC3-3DBF-1FD6-5D57645DE0DC}|Scripts.csproj|C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\assets\\scripts\\controllers\\titlescreencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{277C6699-6EC3-3DBF-1FD6-5D57645DE0DC}|Scripts.csproj|solutionrelative:assets\\scripts\\controllers\\titlescreencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoadingScreenController.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\LoadingScreen\\LoadingScreenController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LoadingScreen\\LoadingScreenController.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\LoadingScreen\\LoadingScreenController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LoadingScreen\\LoadingScreenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T19:06:23.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TitleScreenControler.cs",
+              "DocumentMoniker": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Controllers\\TitleScreenControler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controllers\\TitleScreenControler.cs",
+              "ToolTip": "C:\\Users\\kacpe\\Desktop\\ATLA_Card_Game_Mobile\\ATLA_CardGame\\Assets\\Scripts\\Controllers\\TitleScreenControler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controllers\\TitleScreenControler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T18:55:12.785Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class LoadingScreenController : MonoBehaviour
 {
@@ -45,7 +45,6 @@ public class LoadingScreenController : MonoBehaviour
     public IEnumerator FadeLoadingScreen(float targetAlpha, bool blockRaycasts)
     {
         if (blockRaycasts) loadingScreenCanvasGroup.blocksRaycasts = true;
-
 
         float startAlpha = loadingScreenCanvasGroup.alpha;
         for (float t = 0; t < 1; t += Time.deltaTime / fadeDuration)

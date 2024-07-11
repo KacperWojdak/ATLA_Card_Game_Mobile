@@ -60,7 +60,6 @@
   <ItemGroup>
     <Compile Include="Assets\Tests\EditMode\BackgroundControllerTests.cs" />
     <Compile Include="Assets\Tests\EditMode\DeckTests.cs" />
-    <Compile Include="Assets\Tests\EditMode\APIControllerTest.cs" />
     <Compile Include="Assets\Tests\EditMode\ChiManagerTests.cs" />
     <Compile Include="Assets\Tests\EditMode\DeckDisplayTests.cs" />
     <Compile Include="Assets\Tests\EditMode\HeroStatsTest.cs" />

@@ -12,7 +12,7 @@ public class TitleScreenController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI cardGameText;
     [SerializeField] private TextMeshProUGUI clickToBeginText;
 
-    [SerializeField] private GameObject menuPanel;
+    [SerializeField] private GameObject playButton;
     [SerializeField] private GameObject avatarMainScreenBlack;
     [SerializeField] private GameObject avatarMainScreenWhite;
     [SerializeField] private GameObject toggleBackground;
@@ -41,7 +41,7 @@ public class TitleScreenController : MonoBehaviour
     private void InitiateUI()
     {
         backgroundImage.color = Color.black;
-        menuPanel.SetActive(false);
+        playButton.SetActive(false);
         isClickable = false;
         avatarMainScreenBlack.SetActive(false);
         avatarLogoRect = avatarLogo.GetComponent<RectTransform>();
@@ -95,12 +95,12 @@ public class TitleScreenController : MonoBehaviour
     {
         if (!menuAnimated)
         {
-            menuPanel.SetActive(true);
-            CanvasGroup canvasGroup = menuPanel.GetComponent<CanvasGroup>();
+            playButton.SetActive(true);
+            CanvasGroup canvasGroup = playButton.GetComponent<CanvasGroup>();
 
             if (canvasGroup == null)
             {
-                canvasGroup = menuPanel.AddComponent<CanvasGroup>();
+                canvasGroup = playButton.AddComponent<CanvasGroup>();
             }
 
             canvasGroup.alpha = 0;

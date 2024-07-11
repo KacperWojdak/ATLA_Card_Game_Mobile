@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\Controllers\TitleScreenControler.cs" />
     <Compile Include="Assets\Scripts\Cards\Card.cs" />
     <Compile Include="Assets\Scripts\Game\EnemyDropArea.cs" />
-    <Compile Include="Assets\Scripts\API\APIController.cs" />
     <Compile Include="Assets\Scripts\Game\BackgroundController.cs" />
     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
     <Compile Include="Assets\Scripts\Deck\DeckPrefab.cs" />
@@ -80,7 +79,6 @@
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\AttackCardData.cs" />
     <Compile Include="Assets\Scripts\Controllers\DeckController.cs" />
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\DefenseCardData.cs" />
-    <Compile Include="Assets\Scripts\Controllers\AuthManager.cs" />
     <Compile Include="Assets\Scripts\Cards\CardDisplay.cs" />
     <Compile Include="Assets\Scripts\Cards\ScriptableObjects\HeroCardData.cs" />
     <Compile Include="Assets\Scripts\Cards\CardZoom.cs" />

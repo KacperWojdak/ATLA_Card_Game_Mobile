@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 39
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 429.59998
     height: 730.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -440,7 +440,7 @@ MonoBehaviour:
       Object reference not set to an instance of an object'
     m_ResultStacktrace: 'DeckSelectionController.Start () (at Assets/Scripts/Controllers/DeckSelectionController.cs:18)
 
-      
+
 
 '
     m_TestListState:
@@ -1140,7 +1140,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 100fffff9419ffffd619ffff081affffe41bffffc01dfffff21dffff5a1fffff9c23ffffce23ffff7625ffffc42fffff0a32fffff833ffff4036fffff03bffff183effff5442ffffd044ffff0245ffffca46ffffcc4afffffe4afffff24cffff324dffff644dffff584fffff5450ffff8650ffffde52ffffcc58fffff65dffff9e5fffff0a60ffffea60ffffa662ffffd862ffff6264ffff8466ffff726cffff506effff606fffff986ffffff8a7ffff80dfffff98e0ffff3ee4ffff14e6ffff6ae9ffff36edfffff6eeffff8cefffff18f1ffffe2f1ffff84f3ffffa4f6fffff6faffff
+      m_ExpandedIDs: 0afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1546,9 +1546,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 517.82574, y: 263.65637, z: -181.73569}
+    m_Target: {x: 547.0012, y: 247.57375, z: -182.68365}
     speed: 2
-    m_Value: {x: 517.82574, y: 263.65637, z: -181.73569}
+    m_Value: {x: 547.0012, y: 247.57375, z: -182.68365}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1598,9 +1598,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 336.80984
+    m_Target: 390.4138
     speed: 2
-    m_Value: 336.80984
+    m_Value: 390.4138
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1768,7 +1768,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests/EditMode
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1776,16 +1776,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Tests/EditMode
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kacpe\Desktop\ATLA_Card_Game_Mobile\ATLA_CardGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 174.20001}
-    m_SelectedIDs: 06780000
-    m_LastClickedID: 30726
-    m_ExpandedIDs: 00000000d4770000d6770000d877000000ca9a3b
+    scrollPos: {x: 0, y: 143}
+    m_SelectedIDs: e8760000
+    m_LastClickedID: 30440
+    m_ExpandedIDs: 00000000c8760000ca760000cc76000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1813,7 +1813,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4770000d6770000d8770000
+    m_ExpandedIDs: 00000000c8760000ca760000cc760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1840,7 +1840,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000a0a00000226300005265000086660000de630000ae780000de760000ea760000c276000042760000c4750000327500001c8d00002c900000589f00005c9f0000fe4b0100008600007c8600008c860000008c00000000000068870000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
