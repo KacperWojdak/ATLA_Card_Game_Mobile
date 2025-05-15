@@ -1,49 +1,51 @@
-🃏 ATLA Card Game Mobile
-🇬🇧 English
-A mobile card game inspired by Avatar: The Last Airbender.
+# 🃏 ATLA Card Game Mobile
 
-📱 Platform
-Android (built with Unity)
+## 🇬🇧 English
 
-🎮 Gameplay
-Play cards featuring characters and elements from the ATLA universe.
-Turn-based very simple mechanics with strategic depth.
-Single-player mode.
+A mobile card game inspired by *Avatar: The Last Airbender*.
 
-🛠️ Tech Stack
-Unity (C#)
-Custom game logic and UI
+### 📱 Platform
+- Android (built with Unity)
 
-🚧 Status
-Simple diagram and application structure
-Core mechanics in place.
+### 🎮 Gameplay
+- Play cards featuring characters and elements from the ATLA universe.
+- Turn-based very simple mechanics with strategic depth.
+- Single-player mode.
 
-📂 Project Structure
-ATLA_CardGame/ – Main game source
-Builds/ – Compiled builds
+### 🛠️ Tech Stack
+- Unity (C#)
+- Custom game logic and UI
 
-🇵🇱 Polski
-Mobilna gra karciana inspirowana Avatarem: Legendą Aanga.
+### 🚧 Status
+- Simple diagram and application structure
+- Core mechanics in place.
 
-📱 Platforma
-Android (stworzona w Unity)
+### 📂 Project Structure
+- ATLA_CardGame/ – Main game source
+- Builds/ – Compiled builds
 
-🎮 Rozgrywka
-Graj kartami z postaciami i żywiołami ze świata ATLA.
-Turowa, prosta mechanika oparta na strategii.
-Tryb jednoosobowy.
+## 🇵🇱 Polski
+Mobilna gra karciana inspirowana *Avatarem: Legendą Aanga*
 
-🛠️ Technologie
-Unity (C#)
-Własna logika gry i interfejs
+### 📱 Platforma
+- Android (stworzona w Unity)
 
-🚧 Status
-Prosty diagram i struktura aplikacji
-Podstawowe mechaniki już działają.
+### 🎮 Rozgrywka
+- Graj kartami z postaciami i żywiołami ze świata ATLA.
+- Turowa, prosta mechanika oparta na strategii.
+- Tryb jednoosobowy.
 
-📂 Struktura projektu
-ATLA_CardGame/ – Główne źródło gry
-Builds/ – Gotowe buildy 
+### 🛠️ Technologie
+- Unity (C#)
+- Własna logika gry i interfejs
 
-📜 Licencja
-Licencja MIT – szczegóły w pliku LICENSE.
+### 🚧 Status
+- Prosty diagram i struktura aplikacji
+- Podstawowe mechaniki już działają.
+
+### 📂 Struktura projektu
+- ATLA_CardGame/ – Główne źródło gry
+- Builds/ – Gotowe buildy 
+
+### 📜 Licencja
+- Licencja MIT – szczegóły w pliku LICENSE.
